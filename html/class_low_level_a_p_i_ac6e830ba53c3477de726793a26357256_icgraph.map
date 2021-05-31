@@ -1,8 +1,8 @@
 <map id="LowLevelAPI::send0" name="LowLevelAPI::send0">
-<area shape="rect" id="node1" title="抽象封装底层发送信息接口" alt="" coords="560,31,699,57"/>
-<area shape="rect" id="node2" href="$class_contact.html#a2ee908dfb12d424a0fb593983315b560" title="发送miraicode" alt="" coords="349,5,512,32"/>
-<area shape="rect" id="node3" href="$class_contact.html#add20ce222b32ccc66925f7cb6e2e6abe" title="发送纯文本信息" alt="" coords="365,56,496,83"/>
-<area shape="rect" id="node4" href="$_procession_8cpp.html#a2f5a0b296fa851091b92244aa5da103a" title=" " alt="" coords="240,31,287,57"/>
-<area shape="rect" id="node5" href="$_procession_8cpp.html#af6b40412027c7beb9eb51bbfed51aff6" title=" " alt="" coords="225,81,301,108"/>
-<area shape="rect" id="node6" href="$pch_8cpp.html#a86032e8c2d72757b8da2e5b19ca5756b" title=" " alt="" coords="5,74,177,115"/>
+<area shape="rect" id="node1" title="抽象封装底层发送信息接口" alt="" coords="655,31,793,57"/>
+<area shape="rect" id="node2" href="$class_contact.html#a2ee908dfb12d424a0fb593983315b560" title="发送miraicode" alt="" coords="444,5,607,32"/>
+<area shape="rect" id="node3" href="$class_contact.html#add20ce222b32ccc66925f7cb6e2e6abe" title="发送纯文本信息" alt="" coords="460,56,591,83"/>
+<area shape="rect" id="node4" href="$_procession_8cpp.html#a2f5a0b296fa851091b92244aa5da103a" title=" " alt="" coords="349,31,396,57"/>
+<area shape="rect" id="node5" href="$_procession_8cpp.html#af6b40412027c7beb9eb51bbfed51aff6" title=" " alt="" coords="225,56,301,83"/>
+<area shape="rect" id="node6" href="$pch_8cpp.html#a86032e8c2d72757b8da2e5b19ca5756b" title=" " alt="" coords="5,49,177,90"/>
 </map>
