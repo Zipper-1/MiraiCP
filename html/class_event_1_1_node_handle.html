@@ -31,7 +31,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MiraiCP
-   &#160;<span id="projectnumber">v2.6.3-RC</span>
+   &#160;<span id="projectnumber">v2.6.3</span>
    </div>
    <div id="projectbrief">MiraiCP API文档</div>
   </td>
@@ -102,6 +102,9 @@ $(document).ready(function(){initNavTree('class_event_1_1_node_handle.html','');
 </div><!--header-->
 <div class="contents">
 
+<p>事件监听操控, 可用于stop停止监听和resume继续监听  
+ <a href="class_event_1_1_node_handle.html#details">更多...</a></p>
+
 <p><code>#include &lt;<a class="el" href="tools_8h_source.html">tools.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -110,8 +113,8 @@ Public 成员函数</h2></td></tr>
 <tr class="separator:adb9d3b16afc698f81ef8e4b32491c9de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae038c558c5da4aaa60e4bf5abf8dd572"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_event_1_1_node_handle.html#ae038c558c5da4aaa60e4bf5abf8dd572">stop</a> () const</td></tr>
 <tr class="separator:ae038c558c5da4aaa60e4bf5abf8dd572"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55d697d77653489b4a576de3008753a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_event_1_1_node_handle.html#a55d697d77653489b4a576de3008753a1">consume</a> () const</td></tr>
-<tr class="separator:a55d697d77653489b4a576de3008753a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6c3c77f6846ecd62b17f27b0003d598"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_event_1_1_node_handle.html#aa6c3c77f6846ecd62b17f27b0003d598">resume</a> () const</td></tr>
+<tr class="separator:aa6c3c77f6846ecd62b17f27b0003d598"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private 属性</h2></td></tr>
@@ -119,8 +122,9 @@ Private 属性</h2></td></tr>
 <tr class="separator:a23a685d6e4b2d7a57f91328ab163f338"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
-<div class="textblock">
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01888">1888</a> 行定义.</p>
+<div class="textblock"><p>事件监听操控, 可用于stop停止监听和resume继续监听 </p>
+
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01899">1899</a> 行定义.</p>
 </div><h2 class="groupheader">构造及析构函数说明</h2>
 <a id="adb9d3b16afc698f81ef8e4b32491c9de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb9d3b16afc698f81ef8e4b32491c9de">&#9670;&nbsp;</a></span>NodeHandle()</h2>
@@ -146,17 +150,17 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01892">1892</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01892"></a><span class="lineno"> 1892</span>&#160;                            {</div>
-<div class="line"><a name="l01893"></a><span class="lineno"> 1893</span>&#160;            this-&gt;<a class="code" href="class_event_1_1_node_handle.html#a23a685d6e4b2d7a57f91328ab163f338">enable</a> = a;</div>
-<div class="line"><a name="l01894"></a><span class="lineno"> 1894</span>&#160;        }</div>
-<div class="ttc" id="aclass_event_1_1_node_handle_html_a23a685d6e4b2d7a57f91328ab163f338"><div class="ttname"><a href="class_event_1_1_node_handle.html#a23a685d6e4b2d7a57f91328ab163f338">Event::NodeHandle::enable</a></div><div class="ttdeci">bool * enable</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01890">tools.h:1890</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01903">1903</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01903"></a><span class="lineno"> 1903</span>&#160;                            {</div>
+<div class="line"><a name="l01904"></a><span class="lineno"> 1904</span>&#160;            this-&gt;<a class="code" href="class_event_1_1_node_handle.html#a23a685d6e4b2d7a57f91328ab163f338">enable</a> = a;</div>
+<div class="line"><a name="l01905"></a><span class="lineno"> 1905</span>&#160;        }</div>
+<div class="ttc" id="aclass_event_1_1_node_handle_html_a23a685d6e4b2d7a57f91328ab163f338"><div class="ttname"><a href="class_event_1_1_node_handle.html#a23a685d6e4b2d7a57f91328ab163f338">Event::NodeHandle::enable</a></div><div class="ttdeci">bool * enable</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01901">tools.h:1901</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">成员函数说明</h2>
-<a id="a55d697d77653489b4a576de3008753a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55d697d77653489b4a576de3008753a1">&#9670;&nbsp;</a></span>consume()</h2>
+<a id="aa6c3c77f6846ecd62b17f27b0003d598"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6c3c77f6846ecd62b17f27b0003d598">&#9670;&nbsp;</a></span>resume()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -165,7 +169,7 @@ Private 属性</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Event::NodeHandle::consume </td>
+          <td class="memname">void Event::NodeHandle::resume </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -178,10 +182,10 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01900">1900</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01900"></a><span class="lineno"> 1900</span>&#160;                             {</div>
-<div class="line"><a name="l01901"></a><span class="lineno"> 1901</span>&#160;            *<a class="code" href="class_event_1_1_node_handle.html#a23a685d6e4b2d7a57f91328ab163f338">enable</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01902"></a><span class="lineno"> 1902</span>&#160;        }</div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01911">1911</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01911"></a><span class="lineno"> 1911</span>&#160;                            {</div>
+<div class="line"><a name="l01912"></a><span class="lineno"> 1912</span>&#160;            *<a class="code" href="class_event_1_1_node_handle.html#a23a685d6e4b2d7a57f91328ab163f338">enable</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01913"></a><span class="lineno"> 1913</span>&#160;        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -208,10 +212,10 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01896">1896</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01896"></a><span class="lineno"> 1896</span>&#160;                          {</div>
-<div class="line"><a name="l01897"></a><span class="lineno"> 1897</span>&#160;            *<a class="code" href="class_event_1_1_node_handle.html#a23a685d6e4b2d7a57f91328ab163f338">enable</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01898"></a><span class="lineno"> 1898</span>&#160;        }</div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01907">1907</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01907"></a><span class="lineno"> 1907</span>&#160;                          {</div>
+<div class="line"><a name="l01908"></a><span class="lineno"> 1908</span>&#160;            *<a class="code" href="class_event_1_1_node_handle.html#a23a685d6e4b2d7a57f91328ab163f338">enable</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01909"></a><span class="lineno"> 1909</span>&#160;        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -236,7 +240,7 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01890">1890</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01901">1901</a> 行定义.</p>
 
 </div>
 </div>

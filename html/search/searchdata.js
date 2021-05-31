@@ -5,7 +5,7 @@ var indexSectionsWithContent =
   2: "cdfpt",
   3: "abcdefghijklmnopqrstuvw~",
   4: "_abcdefgijklmnopqrstu",
-  5: "abgjmnprs",
+  5: "ajs",
   6: "w",
   7: "l新群需"
 };

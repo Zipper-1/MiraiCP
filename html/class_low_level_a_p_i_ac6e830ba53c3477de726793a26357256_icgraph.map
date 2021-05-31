@@ -1,12 +1,8 @@
 <map id="LowLevelAPI::send0" name="LowLevelAPI::send0">
-<area shape="rect" id="node1" title="抽象封装底层发送信息接口" alt="" coords="563,132,701,159"/>
-<area shape="rect" id="node2" href="$class_friend.html#a2f376e17df7c86cb0366d94abf932a3d" title="发送miraicode" alt="" coords="355,5,509,32"/>
-<area shape="rect" id="node3" href="$class_member.html#af9970405f6e4f3861ca8d03bf45846e7" title="发送miraicode" alt="" coords="349,56,515,83"/>
-<area shape="rect" id="node4" href="$class_group.html#a7322d8f63002ef4939d3a71c3f9d0f97" title="发送MiraiCode信息" alt="" coords="355,107,509,133"/>
-<area shape="rect" id="node5" href="$class_friend.html#a0f32b2c4784f164847c69c6908d5ffc7" title="发送纯文本信息" alt="" coords="371,157,493,184"/>
-<area shape="rect" id="node9" href="$class_member.html#a20b2f9a17d4e2e4f07dbb707f95177e3" title="发送文本信息，不进行miraicode解析" alt="" coords="366,208,498,235"/>
-<area shape="rect" id="node10" href="$class_group.html#a32ec58c091a30f8113ca941e800882f3" title="发送信息" alt="" coords="372,259,492,285"/>
-<area shape="rect" id="node6" href="$_procession_8cpp.html#a2f5a0b296fa851091b92244aa5da103a" title=" " alt="" coords="240,157,287,184"/>
-<area shape="rect" id="node7" href="$_procession_8cpp.html#af6b40412027c7beb9eb51bbfed51aff6" title=" " alt="" coords="225,233,301,260"/>
-<area shape="rect" id="node8" href="$pch_8cpp.html#a86032e8c2d72757b8da2e5b19ca5756b" title=" " alt="" coords="5,226,177,267"/>
+<area shape="rect" id="node1" title="抽象封装底层发送信息接口" alt="" coords="560,31,699,57"/>
+<area shape="rect" id="node2" href="$class_contact.html#a2ee908dfb12d424a0fb593983315b560" title="发送miraicode" alt="" coords="349,5,512,32"/>
+<area shape="rect" id="node3" href="$class_contact.html#add20ce222b32ccc66925f7cb6e2e6abe" title="发送纯文本信息" alt="" coords="365,56,496,83"/>
+<area shape="rect" id="node4" href="$_procession_8cpp.html#a2f5a0b296fa851091b92244aa5da103a" title=" " alt="" coords="240,31,287,57"/>
+<area shape="rect" id="node5" href="$_procession_8cpp.html#af6b40412027c7beb9eb51bbfed51aff6" title=" " alt="" coords="225,81,301,108"/>
+<area shape="rect" id="node6" href="$pch_8cpp.html#a86032e8c2d72757b8da2e5b19ca5756b" title=" " alt="" coords="5,74,177,115"/>
 </map>

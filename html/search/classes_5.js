@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['finfo_316',['finfo',['../structfinfo.html',1,'']]],
-  ['forwardmessage_317',['ForwardMessage',['../class_forward_message.html',1,'']]],
-  ['forwardnode_318',['ForwardNode',['../class_forward_node.html',1,'']]],
-  ['friend_319',['Friend',['../class_friend.html',1,'']]],
-  ['friendexception_320',['FriendException',['../class_friend_exception.html',1,'']]]
+  ['finfo_309',['finfo',['../structfinfo.html',1,'']]],
+  ['forwardmessage_310',['ForwardMessage',['../class_forward_message.html',1,'']]],
+  ['forwardnode_311',['ForwardNode',['../class_forward_node.html',1,'']]],
+  ['friend_312',['Friend',['../class_friend.html',1,'']]],
+  ['friendexception_313',['FriendException',['../class_friend_exception.html',1,'']]]
 ];

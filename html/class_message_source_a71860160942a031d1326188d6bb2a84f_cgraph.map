@@ -1,0 +1,11 @@
+<map id="MessageSource::quoteAndSendMsg" name="MessageSource::quoteAndSendMsg">
+<area shape="rect" id="node1" title="回复(引用并发送)" alt="" coords="5,132,240,159"/>
+<area shape="rect" id="node2" href="$class_message_source.html#a593939fc75a52d99f210da0482a85443" title="从json字符串反序列化到MessageSource对象" alt="" coords="288,41,475,82"/>
+<area shape="rect" id="node5" href="$class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="956,107,1075,133"/>
+<area shape="rect" id="node8" href="$tools_8h.html#a61154c4c7d833d7a60350095b9b30b49" title=" " alt="" coords="336,157,427,184"/>
+<area shape="rect" id="node9" href="$class_tools.html#aabf8a80dcd00513cb7516e8251109313" title=" " alt="" coords="789,195,908,221"/>
+<area shape="rect" id="node3" href="$class_logger.html#abb690146dbd2c6fb7e603caf123096dd" title="发送错误(error级日志)" alt="" coords="583,5,681,32"/>
+<area shape="rect" id="node7" href="$class_message_source.html#a19d28a14e61cc59cf8c4ff874d9cf6de" title=" " alt="" coords="523,56,741,83"/>
+<area shape="rect" id="node4" href="$class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="802,56,895,83"/>
+<area shape="rect" id="node6" href="$class_logger.html#aefc80c70d2253aed0119c468d7999ff1" title="发送警告(warning级日志)" alt="" coords="1123,107,1240,133"/>
+</map>

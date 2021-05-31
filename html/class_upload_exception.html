@@ -31,7 +31,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MiraiCP
-   &#160;<span id="projectnumber">v2.6.3-RC</span>
+   &#160;<span id="projectnumber">v2.6.3</span>
    </div>
    <div id="projectbrief">MiraiCP API文档</div>
   </td>
@@ -147,7 +147,7 @@ Private 属性</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>文件读取异常. </p><dl class="section see"><dt>参见</dt><dd><a class="el" href="class_mirai_c_p_exception.html" title="总异常抽象类">MiraiCPException</a> </dd></dl>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00282">282</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00287">287</a> 行定义.</p>
 </div><h2 class="groupheader">构造及析构函数说明</h2>
 <a id="a30511802b558b865bac3a7a118a44193"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30511802b558b865bac3a7a118a44193">&#9670;&nbsp;</a></span>UploadException()</h2>
@@ -173,11 +173,11 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00284">284</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                                    {</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        this-&gt;<a class="code" href="class_upload_exception.html#a7b4a5c0a2e2984c37e1c9e788f55063f">description</a> = <span class="stringliteral">&quot;上传(图片/文件)异常&quot;</span> + text;</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    }</div>
-<div class="ttc" id="aclass_upload_exception_html_a7b4a5c0a2e2984c37e1c9e788f55063f"><div class="ttname"><a href="class_upload_exception.html#a7b4a5c0a2e2984c37e1c9e788f55063f">UploadException::description</a></div><div class="ttdeci">std::string description</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00299">tools.h:299</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00289">289</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                                    {</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        this-&gt;<a class="code" href="class_upload_exception.html#a7b4a5c0a2e2984c37e1c9e788f55063f">description</a> = <span class="stringliteral">&quot;上传(图片/文件)异常&quot;</span> + text;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    }</div>
+<div class="ttc" id="aclass_upload_exception_html_a7b4a5c0a2e2984c37e1c9e788f55063f"><div class="ttname"><a href="class_upload_exception.html#a7b4a5c0a2e2984c37e1c9e788f55063f">UploadException::description</a></div><div class="ttdeci">std::string description</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00304">tools.h:304</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -209,12 +209,12 @@ Private 属性</h2></td></tr>
 
 <p>实现了 <a class="el" href="class_mirai_c_p_exception.html#a6bf4207dc82e7410e136e352176a5ec9">MiraiCPException</a>.</p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00293">293</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                 {</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        <a class="code" href="tools_8h.html#a0009c186c3629201f6c24eded36605f4">logger</a>-&gt;<a class="code" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd">Error</a>(this-&gt;<a class="code" href="class_upload_exception.html#a7b4a5c0a2e2984c37e1c9e788f55063f">description</a>);</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        <span class="comment">//manager-&gt;getEnv()-&gt;ThrowNew(config-&gt;initexception, (this-&gt;description).c_str());</span></div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    }</div>
-<div class="ttc" id="aclass_logger_html_abb690146dbd2c6fb7e603caf123096dd"><div class="ttname"><a href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd">Logger::Error</a></div><div class="ttdeci">void Error(const std::string &amp;, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdoc">发送错误(error级日志)</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00096">tools.cpp:96</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00298">298</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                 {</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        <a class="code" href="tools_8h.html#a0009c186c3629201f6c24eded36605f4">logger</a>-&gt;<a class="code" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd">Error</a>(this-&gt;<a class="code" href="class_upload_exception.html#a7b4a5c0a2e2984c37e1c9e788f55063f">description</a>);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        <span class="comment">//manager-&gt;getEnv()-&gt;ThrowNew(config-&gt;initexception, (this-&gt;description).c_str());</span></div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    }</div>
+<div class="ttc" id="aclass_logger_html_abb690146dbd2c6fb7e603caf123096dd"><div class="ttname"><a href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd">Logger::Error</a></div><div class="ttdeci">void Error(const std::string &amp;, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdoc">发送错误(error级日志)</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00098">tools.cpp:98</a></div></div>
 <div class="ttc" id="atools_8h_html_a0009c186c3629201f6c24eded36605f4"><div class="ttname"><a href="tools_8h.html#a0009c186c3629201f6c24eded36605f4">logger</a></div><div class="ttdeci">Logger * logger</div><div class="ttdoc">声明全局日志对象</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00010">pch.cpp:10</a></div></div>
 </div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
@@ -260,10 +260,10 @@ Private 属性</h2></td></tr>
 
 <p>实现了 <a class="el" href="class_mirai_c_p_exception.html#a5b0e3cd0989dd814bba45db073c2f513">MiraiCPException</a>.</p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00289">289</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                     {</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        <span class="keywordflow">return</span> this-&gt;<a class="code" href="class_upload_exception.html#a7b4a5c0a2e2984c37e1c9e788f55063f">description</a>;</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    }</div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00294">294</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                     {</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        <span class="keywordflow">return</span> this-&gt;<a class="code" href="class_upload_exception.html#a7b4a5c0a2e2984c37e1c9e788f55063f">description</a>;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -288,7 +288,7 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00299">299</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00304">304</a> 行定义.</p>
 
 </div>
 </div>

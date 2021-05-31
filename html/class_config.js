@@ -23,5 +23,6 @@ var class_config =
     [ "KSchedule", "class_config.html#a722889565f844a0f533eb1eb7bfe74bf", null ],
     [ "KSend", "class_config.html#a79ec5659e47627677e41247b860d76ee", null ],
     [ "KSendFile", "class_config.html#ab4c7c1fa8e2f5788e71ae05cd8e095f9", null ],
+    [ "KSendWithQuote", "class_config.html#afa92457c64e2eb896b813d3c79f744b7", null ],
     [ "KUploadImg", "class_config.html#a0697469c6fcaac6dde444e8780b437c5", null ]
 ];
