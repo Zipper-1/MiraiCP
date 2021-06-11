@@ -6,7 +6,7 @@ var files_dup =
     [ "pch.cpp", "pch_8cpp.html", "pch_8cpp" ],
     [ "pch.h", "pch_8h.html", null ],
     [ "Procession.cpp", "_procession_8cpp.html", "_procession_8cpp" ],
-    [ "tech_eritquearcus_miraicp_CPP_lib.h", "tech__eritquearcus__miraicp___c_p_p__lib_8h.html", "tech__eritquearcus__miraicp___c_p_p__lib_8h" ],
+    [ "tech_eritquearcus_miraicp_shared_CPP_lib.h", "tech__eritquearcus__miraicp__shared___c_p_p__lib_8h.html", "tech__eritquearcus__miraicp__shared___c_p_p__lib_8h" ],
     [ "tools.cpp", "tools_8cpp.html", "tools_8cpp" ],
     [ "tools.h", "tools_8h.html", "tools_8h" ]
 ];

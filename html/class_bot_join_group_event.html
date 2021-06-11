@@ -31,7 +31,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MiraiCP
-   &#160;<span id="projectnumber">v2.6.3</span>
+   &#160;<span id="projectnumber">v2.6.4</span>
    </div>
    <div id="projectbrief">MiraiCP API文档</div>
   </td>
@@ -128,7 +128,8 @@ $(document).ready(function(){initNavTree('class_bot_join_group_event.html',''); 
 <area shape="rect" href="class_bot_event.html" title="所以事件处理timeoutevent都是机器人事件，指都有机器人实例" alt="" coords="5,95,80,121"/>
 <area shape="rect" href="class_bot.html" title="当前bot账号信息" alt="" coords="21,5,64,32"/>
 <area shape="rect" href="class_group.html" title="群聊类声明" alt="" coords="105,95,162,121"/>
-<area shape="rect" href="class_contact.html" title="group, friend, member的父类" alt="" coords="100,5,167,32"/>
+<area shape="rect" href="class_contact.html" title="group, friend, member的父类" alt="" coords="93,5,160,32"/>
+<area shape="rect" href="struct_group_1_1_group_setting.html" title="群设置" alt="" coords="184,5,325,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
 <table class="memberdecls">
@@ -159,7 +160,7 @@ Public 属性</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>机器人进入某群 </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01682">1682</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01808">1808</a> 行定义.</p>
 </div><h2 class="groupheader">构造及析构函数说明</h2>
 <a id="a152067b678802d1c2124ffc31d8a523d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a152067b678802d1c2124ffc31d8a523d">&#9670;&nbsp;</a></span>BotJoinGroupEvent()</h2>
@@ -218,12 +219,12 @@ Public 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01698">1698</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01700"></a><span class="lineno"> 1700</span>&#160;        : <a class="code" href="class_bot_event.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent</a>(botid), <a class="code" href="class_bot_join_group_event.html#a93fb1138fcd5634ee8ac84ce49a25c68">type</a>(<a class="code" href="class_bot_join_group_event.html#a93fb1138fcd5634ee8ac84ce49a25c68">type</a>), <a class="code" href="class_bot_join_group_event.html#aebfd8af45c5114db549d2782b982396b">group</a>(<a class="code" href="class_bot_join_group_event.html#aebfd8af45c5114db549d2782b982396b">group</a>), <a class="code" href="class_bot_join_group_event.html#a9a1e07c65f1e4f0cc7055ad82e252f3b">inviterid</a>(<a class="code" href="class_bot_join_group_event.html#a9a1e07c65f1e4f0cc7055ad82e252f3b">inviterid</a>) {}</div>
-<div class="ttc" id="aclass_bot_event_html_ac26c3d59fa5a3546f269549ccbe994a4"><div class="ttname"><a href="class_bot_event.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent::BotEvent</a></div><div class="ttdeci">BotEvent(unsigned long long botid)</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01421">tools.h:1421</a></div></div>
-<div class="ttc" id="aclass_bot_join_group_event_html_a93fb1138fcd5634ee8ac84ce49a25c68"><div class="ttname"><a href="class_bot_join_group_event.html#a93fb1138fcd5634ee8ac84ce49a25c68">BotJoinGroupEvent::type</a></div><div class="ttdeci">const int type</div><div class="ttdoc">1-主动加入,2-被邀请加入,3-提供恢复群主身份加入</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01685">tools.h:1685</a></div></div>
-<div class="ttc" id="aclass_bot_join_group_event_html_a9a1e07c65f1e4f0cc7055ad82e252f3b"><div class="ttname"><a href="class_bot_join_group_event.html#a9a1e07c65f1e4f0cc7055ad82e252f3b">BotJoinGroupEvent::inviterid</a></div><div class="ttdeci">const unsigned long long inviterid</div><div class="ttdoc">当type=2时存在，为邀请人，否则为空，调用可能会报错</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01689">tools.h:1689</a></div></div>
-<div class="ttc" id="aclass_bot_join_group_event_html_aebfd8af45c5114db549d2782b982396b"><div class="ttname"><a href="class_bot_join_group_event.html#aebfd8af45c5114db549d2782b982396b">BotJoinGroupEvent::group</a></div><div class="ttdeci">Group group</div><div class="ttdoc">进入的群</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01687">tools.h:1687</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01824">1824</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01826"></a><span class="lineno"> 1826</span>&#160;        : <a class="code" href="class_bot_event.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent</a>(botid), <a class="code" href="class_bot_join_group_event.html#a93fb1138fcd5634ee8ac84ce49a25c68">type</a>(<a class="code" href="class_bot_join_group_event.html#a93fb1138fcd5634ee8ac84ce49a25c68">type</a>), <a class="code" href="class_bot_join_group_event.html#aebfd8af45c5114db549d2782b982396b">group</a>(<a class="code" href="class_bot_join_group_event.html#aebfd8af45c5114db549d2782b982396b">group</a>), <a class="code" href="class_bot_join_group_event.html#a9a1e07c65f1e4f0cc7055ad82e252f3b">inviterid</a>(<a class="code" href="class_bot_join_group_event.html#a9a1e07c65f1e4f0cc7055ad82e252f3b">inviterid</a>) {}</div>
+<div class="ttc" id="aclass_bot_event_html_ac26c3d59fa5a3546f269549ccbe994a4"><div class="ttname"><a href="class_bot_event.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent::BotEvent</a></div><div class="ttdeci">BotEvent(unsigned long long botid)</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01531">tools.h:1531</a></div></div>
+<div class="ttc" id="aclass_bot_join_group_event_html_a93fb1138fcd5634ee8ac84ce49a25c68"><div class="ttname"><a href="class_bot_join_group_event.html#a93fb1138fcd5634ee8ac84ce49a25c68">BotJoinGroupEvent::type</a></div><div class="ttdeci">const int type</div><div class="ttdoc">1-主动加入,2-被邀请加入,3-提供恢复群主身份加入</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01811">tools.h:1811</a></div></div>
+<div class="ttc" id="aclass_bot_join_group_event_html_a9a1e07c65f1e4f0cc7055ad82e252f3b"><div class="ttname"><a href="class_bot_join_group_event.html#a9a1e07c65f1e4f0cc7055ad82e252f3b">BotJoinGroupEvent::inviterid</a></div><div class="ttdeci">const unsigned long long inviterid</div><div class="ttdoc">当type=2时存在，为邀请人，否则为空，调用可能会报错</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01815">tools.h:1815</a></div></div>
+<div class="ttc" id="aclass_bot_join_group_event_html_aebfd8af45c5114db549d2782b982396b"><div class="ttname"><a href="class_bot_join_group_event.html#aebfd8af45c5114db549d2782b982396b">BotJoinGroupEvent::group</a></div><div class="ttdeci">Group group</div><div class="ttdoc">进入的群</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01813">tools.h:1813</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -242,7 +243,7 @@ Public 属性</h2></td></tr>
 
 <p>进入的群 </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01687">1687</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01813">1813</a> 行定义.</p>
 
 </div>
 </div>
@@ -260,7 +261,7 @@ Public 属性</h2></td></tr>
 
 <p>当type=2时存在，为邀请人，否则为空，调用可能会报错 </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01689">1689</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01815">1815</a> 行定义.</p>
 
 </div>
 </div>
@@ -278,7 +279,7 @@ Public 属性</h2></td></tr>
 
 <p>1-主动加入,2-被邀请加入,3-提供恢复群主身份加入 </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01685">1685</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01811">1811</a> 行定义.</p>
 
 </div>
 </div>

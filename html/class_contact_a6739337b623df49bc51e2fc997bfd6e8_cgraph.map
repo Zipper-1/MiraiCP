@@ -1,5 +1,5 @@
 <map id="Contact::serialization" name="Contact::serialization">
-<area shape="rect" id="node1" title=" " alt="" coords="5,107,149,133"/>
+<area shape="rect" id="node1" title="序列化到json对象" alt="" coords="5,107,149,133"/>
 <area shape="rect" id="node2" href="$class_contact.html#a869c10fc8e1abeedc10d805576b1450a" title="所属bot" alt="" coords="233,5,336,32"/>
 <area shape="rect" id="node3" href="$class_contact.html#a07e7ddca539bf8e5ac2d2ad00d8b7ba4" title="当type为3的时候存在，否则为0，可以看作补充id" alt="" coords="226,56,343,83"/>
 <area shape="rect" id="node4" href="$class_contact.html#a220e55b907d54958cd2afb95e65da5a1" title="id在全部情况存在" alt="" coords="242,107,327,133"/>

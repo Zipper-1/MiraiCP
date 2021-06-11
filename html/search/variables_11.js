@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['reject_609',['REJECT',['../group___xE9_x9C_x80_xE8_xA6_x81_xE8_xA1_xA8_xE6_x80_x81_xE7_x9A_x84_xE5_x80_xBC.html#gafaa5d4fb7ed9a5d201bb87e77e835b4b',1,'constants.h']]],
-  ['rhead_610',['RHead',['../class_event.html#a50fa05015b58856cc28677f9c629be89',1,'Event']]],
-  ['rtail_611',['RTail',['../class_event.html#a7700149cb994cb7a73ccbee28b7c8a81',1,'Event']]]
+  ['sender_591',['sender',['../class_group_message_event.html#af42c8d253640cbe965406843367bb0f3',1,'GroupMessageEvent::sender()'],['../class_private_message_event.html#a62b26ff1072eb68c418b12a87a26cd31',1,'PrivateMessageEvent::sender()'],['../class_group_temp_message_event.html#a0bedfdfd01cd0f70b3ab0ada73e9d8a8',1,'GroupTempMessageEvent::sender()']]],
+  ['sendmsg_592',['sendmsg',['../class_forward_message.html#a74e7747e30d8ec7ce87fd25c56c2bf5b',1,'ForwardMessage']]],
+  ['setting_593',['setting',['../class_group.html#a0bac0da7d8f7a8172b7397c86c026384',1,'Group']]],
+  ['sha1_594',['sha1',['../structdinfo.html#aa13ebef9ac586704f4913eeb7dae1a7c',1,'dinfo']]],
+  ['size_595',['size',['../structfinfo.html#a94de667500b2c0dba038f7e654ba90f2',1,'finfo::size()'],['../class_remote_file.html#a4669b902794a33fbc60fa99c809a22e5',1,'RemoteFile::size()']]],
+  ['source_596',['source',['../class_message_source.html#ad20429a51dd52cb069e8b48cfd696486',1,'MessageSource::source()'],['../class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870',1,'GroupInviteEvent::source()'],['../class_new_friend_request_event.html#afa0c9b11cedce50f30e5cdec6b527168',1,'NewFriendRequestEvent::source()']]]
 ];

@@ -1,6 +1,7 @@
 <map id="MiraiCode::toString" name="MiraiCode::toString">
-<area shape="rect" id="node1" title="输出当前内容" alt="" coords="263,71,396,98"/>
-<area shape="rect" id="node2" href="$class_message_source.html#a158264e0d0eb4c6ef516b67eb89b6269" title=" " alt="" coords="5,5,215,47"/>
-<area shape="rect" id="node3" href="$class_contact.html#affbcebe4ff35f928524459185be5e439" title="发送miraicode" alt="" coords="29,71,191,98"/>
-<area shape="rect" id="node4" href="$class_mirai_code.html#a9279ff512d981c04de4117c8b7737818" title="和toString作用一样" alt="" coords="31,122,189,149"/>
+<area shape="rect" id="node1" title="输出当前内容, 会自动转码" alt="" coords="184,81,317,108"/>
+<area shape="rect" id="node2" href="$class_logger.html#ae77e0a539951df103ec0c94ae4681e4d" title="发送错误(error级日志)" alt="" coords="22,5,119,32"/>
+<area shape="rect" id="node3" href="$class_logger.html#af938e0ebaeb0e5ec4f893d8bb3a50ac1" title="发送普通(info级日志)" alt="" coords="26,56,115,83"/>
+<area shape="rect" id="node4" href="$class_contact.html#a9604569a056bd3bbd6dc8f0609ddc96f" title="发送纯文本信息" alt="" coords="5,107,136,133"/>
+<area shape="rect" id="node5" href="$class_logger.html#a9f4a1252699b687e8cdb7413e83fb9d5" title="发送警告(warning级日志)" alt="" coords="12,157,129,184"/>
 </map>

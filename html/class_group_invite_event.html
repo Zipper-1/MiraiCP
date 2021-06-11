@@ -31,7 +31,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MiraiCP
-   &#160;<span id="projectnumber">v2.6.3</span>
+   &#160;<span id="projectnumber">v2.6.4</span>
    </div>
    <div id="projectbrief">MiraiCP API文档</div>
   </td>
@@ -148,10 +148,10 @@ Public 成员函数</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 静态 Public 成员函数</h2></td></tr>
-<tr class="memitem:af85780c24f7212c9cc50b9d83ef55594"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_invite_event.html#af85780c24f7212c9cc50b9d83ef55594">reject</a> (<a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> <a class="el" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>)</td></tr>
-<tr class="separator:af85780c24f7212c9cc50b9d83ef55594"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8baf6dc678651bd959477dcd87b86df2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_invite_event.html#a8baf6dc678651bd959477dcd87b86df2">accept</a> (<a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> <a class="el" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>)</td></tr>
-<tr class="separator:a8baf6dc678651bd959477dcd87b86df2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39cea04927a266122157fcd72716df18"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_invite_event.html#a39cea04927a266122157fcd72716df18">reject</a> (<a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> <a class="el" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>, JNIEnv *env=<a class="el" href="tools_8h.html#a4b4a306a9aed3f0d9ac6f2009f941c9f">manager</a>-&gt;getEnv())</td></tr>
+<tr class="separator:a39cea04927a266122157fcd72716df18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af06a8c1fc6a4d0b7777b82fd2ce42842"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_invite_event.html#af06a8c1fc6a4d0b7777b82fd2ce42842">accept</a> (<a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> <a class="el" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>, JNIEnv *env=<a class="el" href="tools_8h.html#a4b4a306a9aed3f0d9ac6f2009f941c9f">manager</a>-&gt;getEnv())</td></tr>
+<tr class="separator:af06a8c1fc6a4d0b7777b82fd2ce42842"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public 属性</h2></td></tr>
@@ -177,7 +177,7 @@ Public 属性</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>群聊邀请事件类声明 </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01467">1467</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01577">1577</a> 行定义.</p>
 </div><h2 class="groupheader">构造及析构函数说明</h2>
 <a id="a459cf6aaf1060070a5a7b9670f76a51e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a459cf6aaf1060070a5a7b9670f76a51e">&#9670;&nbsp;</a></span>GroupInviteEvent()</h2>
@@ -250,15 +250,15 @@ Public 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01519">1519</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01521"></a><span class="lineno"> 1521</span>&#160;        : <a class="code" href="class_bot_event.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent</a>(botid), <a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>(<a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>), <a class="code" href="class_group_invite_event.html#a52981f0279e776c480bba2a3412b08ce">inviterNick</a>(<a class="code" href="class_group_invite_event.html#a52981f0279e776c480bba2a3412b08ce">inviterNick</a>), <a class="code" href="class_group_invite_event.html#a1fd38f381c6fff45ab83467618291fe0">inviterid</a>(<a class="code" href="class_group_invite_event.html#a1fd38f381c6fff45ab83467618291fe0">inviterid</a>), <a class="code" href="class_group_invite_event.html#af5a94c1169cd372073c1f7a1bf731828">groupName</a>(<a class="code" href="class_group_invite_event.html#af5a94c1169cd372073c1f7a1bf731828">groupName</a>),</div>
-<div class="line"><a name="l01522"></a><span class="lineno"> 1522</span>&#160;        <a class="code" href="class_group_invite_event.html#a5c218ea77c17ce8aa7cd1bfa56765ee4">groupid</a>(<a class="code" href="class_group_invite_event.html#a5c218ea77c17ce8aa7cd1bfa56765ee4">groupid</a>) {}</div>
-<div class="ttc" id="aclass_bot_event_html_ac26c3d59fa5a3546f269549ccbe994a4"><div class="ttname"><a href="class_bot_event.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent::BotEvent</a></div><div class="ttdeci">BotEvent(unsigned long long botid)</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01421">tools.h:1421</a></div></div>
-<div class="ttc" id="aclass_group_invite_event_html_a1fd38f381c6fff45ab83467618291fe0"><div class="ttname"><a href="class_group_invite_event.html#a1fd38f381c6fff45ab83467618291fe0">GroupInviteEvent::inviterid</a></div><div class="ttdeci">const unsigned long long inviterid</div><div class="ttdoc">发起人id</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01474">tools.h:1474</a></div></div>
-<div class="ttc" id="aclass_group_invite_event_html_a52981f0279e776c480bba2a3412b08ce"><div class="ttname"><a href="class_group_invite_event.html#a52981f0279e776c480bba2a3412b08ce">GroupInviteEvent::inviterNick</a></div><div class="ttdeci">const std::string inviterNick</div><div class="ttdoc">发起人昵称</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01472">tools.h:1472</a></div></div>
-<div class="ttc" id="aclass_group_invite_event_html_a5c218ea77c17ce8aa7cd1bfa56765ee4"><div class="ttname"><a href="class_group_invite_event.html#a5c218ea77c17ce8aa7cd1bfa56765ee4">GroupInviteEvent::groupid</a></div><div class="ttdeci">const unsigned long long groupid</div><div class="ttdoc">群号</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01478">tools.h:1478</a></div></div>
-<div class="ttc" id="aclass_group_invite_event_html_a6f69065d6970e5984dfa29c37bda9870"><div class="ttname"><a href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">GroupInviteEvent::source</a></div><div class="ttdeci">const std::string source</div><div class="ttdoc">事件序列化文本</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01470">tools.h:1470</a></div></div>
-<div class="ttc" id="aclass_group_invite_event_html_af5a94c1169cd372073c1f7a1bf731828"><div class="ttname"><a href="class_group_invite_event.html#af5a94c1169cd372073c1f7a1bf731828">GroupInviteEvent::groupName</a></div><div class="ttdeci">const std::string groupName</div><div class="ttdoc">被邀请进的组</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01476">tools.h:1476</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01637">1637</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01639"></a><span class="lineno"> 1639</span>&#160;        : <a class="code" href="class_bot_event.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent</a>(botid), <a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>(<a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>), <a class="code" href="class_group_invite_event.html#a52981f0279e776c480bba2a3412b08ce">inviterNick</a>(<a class="code" href="class_group_invite_event.html#a52981f0279e776c480bba2a3412b08ce">inviterNick</a>), <a class="code" href="class_group_invite_event.html#a1fd38f381c6fff45ab83467618291fe0">inviterid</a>(<a class="code" href="class_group_invite_event.html#a1fd38f381c6fff45ab83467618291fe0">inviterid</a>), <a class="code" href="class_group_invite_event.html#af5a94c1169cd372073c1f7a1bf731828">groupName</a>(<a class="code" href="class_group_invite_event.html#af5a94c1169cd372073c1f7a1bf731828">groupName</a>),</div>
+<div class="line"><a name="l01640"></a><span class="lineno"> 1640</span>&#160;        <a class="code" href="class_group_invite_event.html#a5c218ea77c17ce8aa7cd1bfa56765ee4">groupid</a>(<a class="code" href="class_group_invite_event.html#a5c218ea77c17ce8aa7cd1bfa56765ee4">groupid</a>) {}</div>
+<div class="ttc" id="aclass_bot_event_html_ac26c3d59fa5a3546f269549ccbe994a4"><div class="ttname"><a href="class_bot_event.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent::BotEvent</a></div><div class="ttdeci">BotEvent(unsigned long long botid)</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01531">tools.h:1531</a></div></div>
+<div class="ttc" id="aclass_group_invite_event_html_a1fd38f381c6fff45ab83467618291fe0"><div class="ttname"><a href="class_group_invite_event.html#a1fd38f381c6fff45ab83467618291fe0">GroupInviteEvent::inviterid</a></div><div class="ttdeci">const unsigned long long inviterid</div><div class="ttdoc">发起人id</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01584">tools.h:1584</a></div></div>
+<div class="ttc" id="aclass_group_invite_event_html_a52981f0279e776c480bba2a3412b08ce"><div class="ttname"><a href="class_group_invite_event.html#a52981f0279e776c480bba2a3412b08ce">GroupInviteEvent::inviterNick</a></div><div class="ttdeci">const std::string inviterNick</div><div class="ttdoc">发起人昵称</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01582">tools.h:1582</a></div></div>
+<div class="ttc" id="aclass_group_invite_event_html_a5c218ea77c17ce8aa7cd1bfa56765ee4"><div class="ttname"><a href="class_group_invite_event.html#a5c218ea77c17ce8aa7cd1bfa56765ee4">GroupInviteEvent::groupid</a></div><div class="ttdeci">const unsigned long long groupid</div><div class="ttdoc">群号</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01588">tools.h:1588</a></div></div>
+<div class="ttc" id="aclass_group_invite_event_html_a6f69065d6970e5984dfa29c37bda9870"><div class="ttname"><a href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">GroupInviteEvent::source</a></div><div class="ttdeci">const std::string source</div><div class="ttdoc">事件序列化文本</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01580">tools.h:1580</a></div></div>
+<div class="ttc" id="aclass_group_invite_event_html_af5a94c1169cd372073c1f7a1bf731828"><div class="ttname"><a href="class_group_invite_event.html#af5a94c1169cd372073c1f7a1bf731828">GroupInviteEvent::groupName</a></div><div class="ttdeci">const std::string groupName</div><div class="ttdoc">被邀请进的组</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01586">tools.h:1586</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -286,16 +286,16 @@ Public 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01506">1506</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01506"></a><span class="lineno"> 1506</span>&#160;                  {</div>
-<div class="line"><a name="l01507"></a><span class="lineno"> 1507</span>&#160;        this-&gt;<a class="code" href="class_group_invite_event.html#a7eca11d2982d510111a733665013e1d7">accept</a>(this-&gt;<a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>);</div>
-<div class="line"><a name="l01508"></a><span class="lineno"> 1508</span>&#160;    }</div>
-<div class="ttc" id="aclass_group_invite_event_html_a7eca11d2982d510111a733665013e1d7"><div class="ttname"><a href="class_group_invite_event.html#a7eca11d2982d510111a733665013e1d7">GroupInviteEvent::accept</a></div><div class="ttdeci">void accept()</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01506">tools.h:1506</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01624">1624</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01624"></a><span class="lineno"> 1624</span>&#160;                  {</div>
+<div class="line"><a name="l01625"></a><span class="lineno"> 1625</span>&#160;        this-&gt;<a class="code" href="class_group_invite_event.html#a7eca11d2982d510111a733665013e1d7">accept</a>(this-&gt;<a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>);</div>
+<div class="line"><a name="l01626"></a><span class="lineno"> 1626</span>&#160;    }</div>
+<div class="ttc" id="aclass_group_invite_event_html_a7eca11d2982d510111a733665013e1d7"><div class="ttname"><a href="class_group_invite_event.html#a7eca11d2982d510111a733665013e1d7">GroupInviteEvent::accept</a></div><div class="ttdeci">void accept()</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01624">tools.h:1624</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a8baf6dc678651bd959477dcd87b86df2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8baf6dc678651bd959477dcd87b86df2">&#9670;&nbsp;</a></span>accept() <span class="overload">[2/2]</span></h2>
+<a id="af06a8c1fc6a4d0b7777b82fd2ce42842"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af06a8c1fc6a4d0b7777b82fd2ce42842">&#9670;&nbsp;</a></span>accept() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,8 +307,18 @@ Public 属性</h2></td></tr>
           <td class="memname">static void GroupInviteEvent::accept </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a>&#160;</td>
-          <td class="paramname"><em>source</em></td><td>)</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">JNIEnv *&#160;</td>
+          <td class="paramname"><em>env</em> = <code><a class="el" href="tools_8h.html#a4b4a306a9aed3f0d9ac6f2009f941c9f">manager</a>-&gt;getEnv()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -318,43 +328,39 @@ Public 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01497">1497</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01497"></a><span class="lineno"> 1497</span>&#160;                                         {</div>
-<div class="line"><a name="l01498"></a><span class="lineno"> 1498</span>&#160;        <a class="code" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> re = <a class="code" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313">Tools::jstring2str</a>(</div>
-<div class="line"><a name="l01499"></a><span class="lineno"> 1499</span>&#160;            (jstring)<a class="code" href="tools_8h.html#a4b4a306a9aed3f0d9ac6f2009f941c9f">manager</a>-&gt;<a class="code" href="classthread_manager.html#a75639792816fe3f8af8a5a3fde89e4af">getEnv</a>()-&gt;CallStaticObjectMethod(<a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a4527012e3db22223852e754ae2241e9c">CPP_lib</a>, <a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a9ba4760b8ea690b6e69faff11d6b1ef5">KGioperation</a>,</div>
-<div class="line"><a name="l01500"></a><span class="lineno"> 1500</span>&#160;                <a class="code" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc">Tools::str2jstring</a>(<a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>.c_str()),</div>
-<div class="line"><a name="l01501"></a><span class="lineno"> 1501</span>&#160;                (jboolean)<span class="keyword">true</span>));</div>
-<div class="line"><a name="l01502"></a><span class="lineno"> 1502</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;Y&quot;</span>) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l01503"></a><span class="lineno"> 1503</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;E&quot;</span>)<a class="code" href="tools_8h.html#a0009c186c3629201f6c24eded36605f4">logger</a>-&gt;<a class="code" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd">Error</a>(<span class="stringliteral">&quot;群聊邀请事件同意失败(可能因为重复处理),id:&quot;</span> + <a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>);</div>
-<div class="line"><a name="l01504"></a><span class="lineno"> 1504</span>&#160;    }</div>
-<div class="ttc" id="aclass_config_html_a4527012e3db22223852e754ae2241e9c"><div class="ttname"><a href="class_config.html#a4527012e3db22223852e754ae2241e9c">Config::CPP_lib</a></div><div class="ttdeci">jclass CPP_lib</div><div class="ttdoc">kt中JNI接口类</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00135">tools.h:135</a></div></div>
-<div class="ttc" id="aclass_config_html_a9ba4760b8ea690b6e69faff11d6b1ef5"><div class="ttname"><a href="class_config.html#a9ba4760b8ea690b6e69faff11d6b1ef5">Config::KGioperation</a></div><div class="ttdeci">jmethodID KGioperation</div><div class="ttdoc">群聊邀请事件</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00175">tools.h:175</a></div></div>
-<div class="ttc" id="aclass_logger_html_abb690146dbd2c6fb7e603caf123096dd"><div class="ttname"><a href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd">Logger::Error</a></div><div class="ttdeci">void Error(const std::string &amp;, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdoc">发送错误(error级日志)</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00098">tools.cpp:98</a></div></div>
-<div class="ttc" id="aclass_tools_html_aabf8a80dcd00513cb7516e8251109313"><div class="ttname"><a href="class_tools.html#aabf8a80dcd00513cb7516e8251109313">Tools::jstring2str</a></div><div class="ttdeci">static std::string jstring2str(jstring jstr, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00624">tools.cpp:624</a></div></div>
-<div class="ttc" id="aclass_tools_html_ae0606aeddaa91c91435ec3a4e3a0d0dc"><div class="ttname"><a href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc">Tools::str2jstring</a></div><div class="ttdeci">static jstring str2jstring(const char *pat, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00643">tools.cpp:643</a></div></div>
-<div class="ttc" id="aclassthread_manager_html_a75639792816fe3f8af8a5a3fde89e4af"><div class="ttname"><a href="classthread_manager.html#a75639792816fe3f8af8a5a3fde89e4af">threadManager::getEnv</a></div><div class="ttdeci">JNIEnv * getEnv()</div><div class="ttdoc">取env,如果不存在重新获取</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00058">tools.cpp:58</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01611">1611</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01611"></a><span class="lineno"> 1611</span>&#160;                                                                          {</div>
+<div class="line"><a name="l01612"></a><span class="lineno"> 1612</span>&#160;        <a class="code" href="pch_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> j;</div>
+<div class="line"><a name="l01613"></a><span class="lineno"> 1613</span>&#160;        j[<span class="stringliteral">&quot;text&quot;</span>] = <a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>;</div>
+<div class="line"><a name="l01614"></a><span class="lineno"> 1614</span>&#160;        j[<span class="stringliteral">&quot;sign&quot;</span>] = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01615"></a><span class="lineno"> 1615</span>&#160;        <a class="code" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> re = <a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#afb8424eb037cadc329d3c47df377748a">koperation</a>(<a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a61d90b56109900c1008e143a5918c254afa2fd9803c7578138fdc95a77d7860b8">Gioperation</a>, j, env);</div>
+<div class="line"><a name="l01616"></a><span class="lineno"> 1616</span>&#160;<span class="comment">//              Tools::jstring2str(</span></div>
+<div class="line"><a name="l01617"></a><span class="lineno"> 1617</span>&#160;<span class="comment">//          (jstring)manager-&gt;getEnv()-&gt;CallStaticObjectMethod(config-&gt;CPP_lib, config-&gt;KGioperation,</span></div>
+<div class="line"><a name="l01618"></a><span class="lineno"> 1618</span>&#160;<span class="comment">//              Tools::str2jstring(source.c_str()),</span></div>
+<div class="line"><a name="l01619"></a><span class="lineno"> 1619</span>&#160;<span class="comment">//              (jboolean)true));</span></div>
+<div class="line"><a name="l01620"></a><span class="lineno"> 1620</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;Y&quot;</span>) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l01621"></a><span class="lineno"> 1621</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;E&quot;</span>)<a class="code" href="tools_8h.html#a0009c186c3629201f6c24eded36605f4">logger</a>-&gt;<a class="code" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd">Error</a>(<span class="stringliteral">&quot;群聊邀请事件同意失败(可能因为重复处理),id:&quot;</span> + <a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>);</div>
+<div class="line"><a name="l01622"></a><span class="lineno"> 1622</span>&#160;    }</div>
+<div class="ttc" id="aclass_config_html_a61d90b56109900c1008e143a5918c254afa2fd9803c7578138fdc95a77d7860b8"><div class="ttname"><a href="class_config.html#a61d90b56109900c1008e143a5918c254afa2fd9803c7578138fdc95a77d7860b8">Config::Gioperation</a></div><div class="ttdeci">@ Gioperation</div><div class="ttdoc">群聊邀请事件</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00170">tools.h:170</a></div></div>
+<div class="ttc" id="aclass_config_html_afb8424eb037cadc329d3c47df377748a"><div class="ttname"><a href="class_config.html#afb8424eb037cadc329d3c47df377748a">Config::koperation</a></div><div class="ttdeci">std::string koperation(int code, const nlohmann::json &amp;json, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdoc">调用mirai操作</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00119">tools.cpp:119</a></div></div>
+<div class="ttc" id="aclass_logger_html_abb690146dbd2c6fb7e603caf123096dd"><div class="ttname"><a href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd">Logger::Error</a></div><div class="ttdeci">void Error(const std::string &amp;, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdoc">发送错误(error级日志)</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00094">tools.cpp:94</a></div></div>
+<div class="ttc" id="apch_8cpp_html_ab701e3ac61a85b337ec5c1abaad6742d"><div class="ttname"><a href="pch_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00002">pch.cpp:2</a></div></div>
 <div class="ttc" id="apch_8cpp_html_aca454f84dd198a937af6499dd758aa3d"><div class="ttname"><a href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">string</a></div><div class="ttdeci">std::string string</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00003">pch.cpp:3</a></div></div>
 <div class="ttc" id="atools_8h_html_a0009c186c3629201f6c24eded36605f4"><div class="ttname"><a href="tools_8h.html#a0009c186c3629201f6c24eded36605f4">logger</a></div><div class="ttdeci">Logger * logger</div><div class="ttdoc">声明全局日志对象</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00010">pch.cpp:10</a></div></div>
-<div class="ttc" id="atools_8h_html_a4b4a306a9aed3f0d9ac6f2009f941c9f"><div class="ttname"><a href="tools_8h.html#a4b4a306a9aed3f0d9ac6f2009f941c9f">manager</a></div><div class="ttdeci">threadManager * manager</div><div class="ttdoc">线程管理实例</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00015">pch.cpp:15</a></div></div>
-<div class="ttc" id="atools_8h_html_a6a44a77efe9d36d03240f900d00dad80"><div class="ttname"><a href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a></div><div class="ttdeci">Config * config</div><div class="ttdoc">全局配置指针</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00014">pch.cpp:14</a></div></div>
+<div class="ttc" id="atools_8h_html_a6a44a77efe9d36d03240f900d00dad80"><div class="ttname"><a href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a></div><div class="ttdeci">Config * config</div><div class="ttdoc">全局Config对象</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00014">pch.cpp:14</a></div></div>
 </div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="class_group_invite_event_a8baf6dc678651bd959477dcd87b86df2_cgraph.png" border="0" usemap="#aclass_group_invite_event_a8baf6dc678651bd959477dcd87b86df2_cgraph" alt=""/></div>
-<map name="aclass_group_invite_event_a8baf6dc678651bd959477dcd87b86df2_cgraph" id="aclass_group_invite_event_a8baf6dc678651bd959477dcd87b86df2_cgraph">
-<area shape="rect" title=" " alt="" coords="5,68,171,95"/>
-<area shape="rect" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd" title="发送错误(error级日志)" alt="" coords="455,43,552,69"/>
-<area shape="rect" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="1031,20,1149,47"/>
-<area shape="rect" href="classthread_manager.html#a75639792816fe3f8af8a5a3fde89e4af" title="取env,如果不存在重新获取" alt="" coords="219,119,373,145"/>
-<area shape="rect" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313" title=" " alt="" coords="864,235,983,261"/>
-<area shape="rect" href="class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="877,52,970,79"/>
-<area shape="rect" href="class_logger.html#aefc80c70d2253aed0119c468d7999ff1" title="发送警告(warning级日志)" alt="" coords="1197,71,1315,97"/>
-<area shape="rect" href="classthread_manager.html#a3401a8976c99d293ef1b8b8c7a1db9d1" title="获取线程id." alt="" coords="633,105,816,132"/>
-<area shape="rect" href="classthread_manager.html#a648b29dc90c990d1915ca1a92eb210e6" title="判断该线程id是否包含在线程池里" alt="" coords="421,144,585,171"/>
-<area shape="rect" href="classthread_manager.html#a8210ba94ee5c9bfe1318319500576c85" title=" " alt="" coords="423,195,583,221"/>
-<area shape="rect" href="class_logger.html#a13e1837413a7cdecd8ea11909f1842be" title="发送普通(info级日志)" alt="" coords="680,181,769,208"/>
+<div class="center"><img src="class_group_invite_event_af06a8c1fc6a4d0b7777b82fd2ce42842_cgraph.png" border="0" usemap="#aclass_group_invite_event_af06a8c1fc6a4d0b7777b82fd2ce42842_cgraph" alt=""/></div>
+<map name="aclass_group_invite_event_af06a8c1fc6a4d0b7777b82fd2ce42842_cgraph" id="aclass_group_invite_event_af06a8c1fc6a4d0b7777b82fd2ce42842_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,171,57"/>
+<area shape="rect" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd" title="发送错误(error级日志)" alt="" coords="560,31,657,57"/>
+<area shape="rect" href="class_config.html#afb8424eb037cadc329d3c47df377748a" title="调用mirai操作" alt="" coords="219,56,345,83"/>
+<area shape="rect" href="class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="705,5,799,32"/>
+<area shape="rect" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="847,56,965,83"/>
+<area shape="rect" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313" title=" " alt="" coords="393,56,512,83"/>
 </map>
 </div>
 
@@ -383,10 +389,10 @@ Public 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01493">1493</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01493"></a><span class="lineno"> 1493</span>&#160;                          {</div>
-<div class="line"><a name="l01494"></a><span class="lineno"> 1494</span>&#160;        <span class="keywordflow">return</span> this-&gt;<a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>;</div>
-<div class="line"><a name="l01495"></a><span class="lineno"> 1495</span>&#160;    }</div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01607">1607</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01607"></a><span class="lineno"> 1607</span>&#160;                          {</div>
+<div class="line"><a name="l01608"></a><span class="lineno"> 1608</span>&#160;        <span class="keywordflow">return</span> this-&gt;<a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>;</div>
+<div class="line"><a name="l01609"></a><span class="lineno"> 1609</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -413,16 +419,16 @@ Public 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01489">1489</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01489"></a><span class="lineno"> 1489</span>&#160;                  {</div>
-<div class="line"><a name="l01490"></a><span class="lineno"> 1490</span>&#160;        this-&gt;<a class="code" href="class_group_invite_event.html#a37bc0ddb350abb31cbebc6126ea9b5d9">reject</a>(this-&gt;<a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>);</div>
-<div class="line"><a name="l01491"></a><span class="lineno"> 1491</span>&#160;    }</div>
-<div class="ttc" id="aclass_group_invite_event_html_a37bc0ddb350abb31cbebc6126ea9b5d9"><div class="ttname"><a href="class_group_invite_event.html#a37bc0ddb350abb31cbebc6126ea9b5d9">GroupInviteEvent::reject</a></div><div class="ttdeci">void reject()</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01489">tools.h:1489</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01603">1603</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01603"></a><span class="lineno"> 1603</span>&#160;                  {</div>
+<div class="line"><a name="l01604"></a><span class="lineno"> 1604</span>&#160;        this-&gt;<a class="code" href="class_group_invite_event.html#a37bc0ddb350abb31cbebc6126ea9b5d9">reject</a>(this-&gt;<a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>);</div>
+<div class="line"><a name="l01605"></a><span class="lineno"> 1605</span>&#160;    }</div>
+<div class="ttc" id="aclass_group_invite_event_html_a37bc0ddb350abb31cbebc6126ea9b5d9"><div class="ttname"><a href="class_group_invite_event.html#a37bc0ddb350abb31cbebc6126ea9b5d9">GroupInviteEvent::reject</a></div><div class="ttdeci">void reject()</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01603">tools.h:1603</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="af85780c24f7212c9cc50b9d83ef55594"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af85780c24f7212c9cc50b9d83ef55594">&#9670;&nbsp;</a></span>reject() <span class="overload">[2/2]</span></h2>
+<a id="a39cea04927a266122157fcd72716df18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39cea04927a266122157fcd72716df18">&#9670;&nbsp;</a></span>reject() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -434,8 +440,18 @@ Public 属性</h2></td></tr>
           <td class="memname">static void GroupInviteEvent::reject </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a>&#160;</td>
-          <td class="paramname"><em>source</em></td><td>)</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">JNIEnv *&#160;</td>
+          <td class="paramname"><em>env</em> = <code><a class="el" href="tools_8h.html#a4b4a306a9aed3f0d9ac6f2009f941c9f">manager</a>-&gt;getEnv()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -445,33 +461,32 @@ Public 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01480">1480</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01480"></a><span class="lineno"> 1480</span>&#160;                                         {</div>
-<div class="line"><a name="l01481"></a><span class="lineno"> 1481</span>&#160;        <a class="code" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> re = <a class="code" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313">Tools::jstring2str</a>(</div>
-<div class="line"><a name="l01482"></a><span class="lineno"> 1482</span>&#160;            (jstring)<a class="code" href="tools_8h.html#a4b4a306a9aed3f0d9ac6f2009f941c9f">manager</a>-&gt;<a class="code" href="classthread_manager.html#a75639792816fe3f8af8a5a3fde89e4af">getEnv</a>()-&gt;CallStaticObjectMethod(<a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a4527012e3db22223852e754ae2241e9c">CPP_lib</a>, <a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a9ba4760b8ea690b6e69faff11d6b1ef5">KGioperation</a>,</div>
-<div class="line"><a name="l01483"></a><span class="lineno"> 1483</span>&#160;                <a class="code" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc">Tools::str2jstring</a>(<a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>.c_str()),</div>
-<div class="line"><a name="l01484"></a><span class="lineno"> 1484</span>&#160;                (jboolean)<span class="keyword">false</span>));</div>
-<div class="line"><a name="l01485"></a><span class="lineno"> 1485</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;Y&quot;</span>) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l01486"></a><span class="lineno"> 1486</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;E&quot;</span>)<a class="code" href="tools_8h.html#a0009c186c3629201f6c24eded36605f4">logger</a>-&gt;<a class="code" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd">Error</a>(<span class="stringliteral">&quot;群聊邀请事件同意失败(可能因为重复处理),id:&quot;</span> + <a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>);</div>
-<div class="line"><a name="l01487"></a><span class="lineno"> 1487</span>&#160;    }</div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01590">1590</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01590"></a><span class="lineno"> 1590</span>&#160;                                                                          {</div>
+<div class="line"><a name="l01591"></a><span class="lineno"> 1591</span>&#160;        <a class="code" href="pch_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> j;</div>
+<div class="line"><a name="l01592"></a><span class="lineno"> 1592</span>&#160;        j[<span class="stringliteral">&quot;text&quot;</span>] = <a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>;</div>
+<div class="line"><a name="l01593"></a><span class="lineno"> 1593</span>&#160;        j[<span class="stringliteral">&quot;sign&quot;</span>] = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01594"></a><span class="lineno"> 1594</span>&#160;        <a class="code" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> re = <a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#afb8424eb037cadc329d3c47df377748a">koperation</a>(<a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a61d90b56109900c1008e143a5918c254afa2fd9803c7578138fdc95a77d7860b8">Gioperation</a>, j, env);</div>
+<div class="line"><a name="l01595"></a><span class="lineno"> 1595</span>&#160;<span class="comment">//              Tools::jstring2str(</span></div>
+<div class="line"><a name="l01596"></a><span class="lineno"> 1596</span>&#160;<span class="comment">//          (jstring)manager-&gt;getEnv()-&gt;CallStaticObjectMethod(config-&gt;CPP_lib, config-&gt;KGioperation,</span></div>
+<div class="line"><a name="l01597"></a><span class="lineno"> 1597</span>&#160;<span class="comment">//              Tools::str2jstring(source.c_str()),</span></div>
+<div class="line"><a name="l01598"></a><span class="lineno"> 1598</span>&#160;<span class="comment">//              (jboolean)true));</span></div>
+<div class="line"><a name="l01599"></a><span class="lineno"> 1599</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;Y&quot;</span>) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l01600"></a><span class="lineno"> 1600</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;E&quot;</span>)<a class="code" href="tools_8h.html#a0009c186c3629201f6c24eded36605f4">logger</a>-&gt;<a class="code" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd">Error</a>(<span class="stringliteral">&quot;群聊邀请事件同意失败(可能因为重复处理),id:&quot;</span> + <a class="code" href="class_group_invite_event.html#a6f69065d6970e5984dfa29c37bda9870">source</a>);</div>
+<div class="line"><a name="l01601"></a><span class="lineno"> 1601</span>&#160;    }</div>
 </div><!-- fragment --><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="class_group_invite_event_af85780c24f7212c9cc50b9d83ef55594_cgraph.png" border="0" usemap="#aclass_group_invite_event_af85780c24f7212c9cc50b9d83ef55594_cgraph" alt=""/></div>
-<map name="aclass_group_invite_event_af85780c24f7212c9cc50b9d83ef55594_cgraph" id="aclass_group_invite_event_af85780c24f7212c9cc50b9d83ef55594_cgraph">
-<area shape="rect" title=" " alt="" coords="5,68,164,95"/>
-<area shape="rect" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd" title="发送错误(error级日志)" alt="" coords="448,43,545,69"/>
-<area shape="rect" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="1024,20,1143,47"/>
-<area shape="rect" href="classthread_manager.html#a75639792816fe3f8af8a5a3fde89e4af" title="取env,如果不存在重新获取" alt="" coords="212,119,367,145"/>
-<area shape="rect" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313" title=" " alt="" coords="857,235,976,261"/>
-<area shape="rect" href="class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="870,52,963,79"/>
-<area shape="rect" href="class_logger.html#aefc80c70d2253aed0119c468d7999ff1" title="发送警告(warning级日志)" alt="" coords="1191,71,1308,97"/>
-<area shape="rect" href="classthread_manager.html#a3401a8976c99d293ef1b8b8c7a1db9d1" title="获取线程id." alt="" coords="627,105,809,132"/>
-<area shape="rect" href="classthread_manager.html#a648b29dc90c990d1915ca1a92eb210e6" title="判断该线程id是否包含在线程池里" alt="" coords="415,144,579,171"/>
-<area shape="rect" href="classthread_manager.html#a8210ba94ee5c9bfe1318319500576c85" title=" " alt="" coords="417,195,577,221"/>
-<area shape="rect" href="class_logger.html#a13e1837413a7cdecd8ea11909f1842be" title="发送普通(info级日志)" alt="" coords="673,181,763,208"/>
+<div class="center"><img src="class_group_invite_event_a39cea04927a266122157fcd72716df18_cgraph.png" border="0" usemap="#aclass_group_invite_event_a39cea04927a266122157fcd72716df18_cgraph" alt=""/></div>
+<map name="aclass_group_invite_event_a39cea04927a266122157fcd72716df18_cgraph" id="aclass_group_invite_event_a39cea04927a266122157fcd72716df18_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,164,57"/>
+<area shape="rect" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd" title="发送错误(error级日志)" alt="" coords="553,31,651,57"/>
+<area shape="rect" href="class_config.html#afb8424eb037cadc329d3c47df377748a" title="调用mirai操作" alt="" coords="212,56,339,83"/>
+<area shape="rect" href="class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="699,5,792,32"/>
+<area shape="rect" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="840,56,959,83"/>
+<area shape="rect" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313" title=" " alt="" coords="387,56,505,83"/>
 </map>
 </div>
 
@@ -492,7 +507,7 @@ Public 属性</h2></td></tr>
 
 <p>群号 </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01478">1478</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01588">1588</a> 行定义.</p>
 
 </div>
 </div>
@@ -510,7 +525,7 @@ Public 属性</h2></td></tr>
 
 <p>被邀请进的组 </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01476">1476</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01586">1586</a> 行定义.</p>
 
 </div>
 </div>
@@ -528,7 +543,7 @@ Public 属性</h2></td></tr>
 
 <p>发起人id </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01474">1474</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01584">1584</a> 行定义.</p>
 
 </div>
 </div>
@@ -546,7 +561,7 @@ Public 属性</h2></td></tr>
 
 <p>发起人昵称 </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01472">1472</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01582">1582</a> 行定义.</p>
 
 </div>
 </div>
@@ -564,7 +579,7 @@ Public 属性</h2></td></tr>
 
 <p>事件序列化文本 </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01470">1470</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01580">1580</a> 行定义.</p>
 
 </div>
 </div>

@@ -6,5 +6,5 @@
 <area shape="rect" id="node5" href="$class_logger.html#a13e1837413a7cdecd8ea11909f1842be" title="发送普通(info级日志)" alt="" coords="467,81,556,108"/>
 <area shape="rect" id="node6" href="$class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="651,81,744,108"/>
 <area shape="rect" id="node7" href="$class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="792,56,911,83"/>
-<area shape="rect" id="node8" href="$class_logger.html#aefc80c70d2253aed0119c468d7999ff1" title="发送警告(warning级日志)" alt="" coords="959,81,1076,108"/>
+<area shape="rect" id="node8" href="$class_logger.html#abb690146dbd2c6fb7e603caf123096dd" title="发送错误(error级日志)" alt="" coords="959,81,1056,108"/>
 </map>

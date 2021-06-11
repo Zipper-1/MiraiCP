@@ -1,3 +1,14 @@
 <map id="类继承关系图" name="类继承关系图">
-<area shape="rect" id="node1" href="$class_scheduling_event.html" title="定时任务执行" alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,233,109,260"/>
+<area shape="rect" id="node2" href="$class_mirai_c_p_exception.html" title="总异常抽象类" alt="" coords="157,233,284,260"/>
+<area shape="rect" id="node3" href="$class_a_p_i_exception.html" title=" " alt="" coords="366,5,467,32"/>
+<area shape="rect" id="node4" href="$class_bot_exception.html" title=" " alt="" coords="367,56,467,83"/>
+<area shape="rect" id="node5" href="$class_friend_exception.html" title=" " alt="" coords="359,107,475,133"/>
+<area shape="rect" id="node6" href="$class_group_exception.html" title=" " alt="" coords="359,157,474,184"/>
+<area shape="rect" id="node7" href="$class_illegal_argument_exception.html" title="参数错误" alt="" coords="332,208,501,235"/>
+<area shape="rect" id="node8" href="$class_member_exception.html" title=" " alt="" coords="353,259,480,285"/>
+<area shape="rect" id="node9" href="$class_mute_exception.html" title=" " alt="" coords="362,309,471,336"/>
+<area shape="rect" id="node10" href="$class_recall_exception.html" title=" " alt="" coords="359,360,475,387"/>
+<area shape="rect" id="node11" href="$class_remote_asset_exception.html" title=" " alt="" coords="337,411,496,437"/>
+<area shape="rect" id="node12" href="$class_upload_exception.html" title=" " alt="" coords="357,461,477,488"/>
 </map>

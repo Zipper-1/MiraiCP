@@ -5,7 +5,7 @@ var searchData=
   ['memberjoinevent_437',['MemberJoinEvent',['../class_member_join_event.html#ad536c8db11e375d702476aa113a19cc1',1,'MemberJoinEvent']]],
   ['memberleaveevent_438',['MemberLeaveEvent',['../class_member_leave_event.html#ac714a3add4ac210728a26acd8bdf6f00',1,'MemberLeaveEvent']]],
   ['memberlisttostring_439',['MemberListToString',['../class_group.html#ac89491904da04e7ac2958d8a1ff05e5d',1,'Group']]],
-  ['messagesource_440',['MessageSource',['../class_message_source.html#a19d28a14e61cc59cf8c4ff874d9cf6de',1,'MessageSource::MessageSource()'],['../class_message_source.html#a86e7e6b62c0a58ae5889982faf314139',1,'MessageSource::MessageSource(const std::string &amp;ids, std::string internalids, const std::string &amp;source)']]],
+  ['messagesource_440',['MessageSource',['../class_message_source.html#a19d28a14e61cc59cf8c4ff874d9cf6de',1,'MessageSource::MessageSource()'],['../class_message_source.html#ae638bd34f881f998e231358b6032515c',1,'MessageSource::MessageSource(std::string ids, std::string internalids, const std::string &amp;source)']]],
   ['miraicode_441',['MiraiCode',['../class_mirai_code.html#a03a0bc66a6fa10cda5b195047e2496a7',1,'MiraiCode::MiraiCode(MiraiCodeable *a)'],['../class_mirai_code.html#a1947977cd8641057d61a7094263809a1',1,'MiraiCode::MiraiCode(std::string a)']]],
   ['mute_442',['Mute',['../class_member.html#a58a543e956ab5c1d77f29a2c15e675cb',1,'Member']]],
   ['muteexception_443',['MuteException',['../class_mute_exception.html#a03929d5b76e5a8f7055df6587844f66d',1,'MuteException']]]

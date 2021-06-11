@@ -1,4 +1,9 @@
 <map id="Tools::replace" name="Tools::replace">
-<area shape="rect" id="node1" title="替换全部在一个字符串中." alt="" coords="204,5,307,32"/>
-<area shape="rect" id="node2" href="$class_light_app.html#a2f294b6092bdac3a0602ca19fb937fcc" title=" " alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node1" title="替换全部在一个字符串中." alt="" coords="383,56,485,83"/>
+<area shape="rect" id="node2" href="$class_light_app.html#a2f294b6092bdac3a0602ca19fb937fcc" title=" " alt="" coords="184,31,335,57"/>
+<area shape="rect" id="node3" href="$class_mirai_code.html#a05f947c86d38440157efc9ce849cca20" title="输出当前内容, 会自动转码" alt="" coords="193,81,326,108"/>
+<area shape="rect" id="node4" href="$class_logger.html#ae77e0a539951df103ec0c94ae4681e4d" title="发送错误(error级日志)" alt="" coords="22,5,119,32"/>
+<area shape="rect" id="node5" href="$class_logger.html#af938e0ebaeb0e5ec4f893d8bb3a50ac1" title="发送普通(info级日志)" alt="" coords="26,56,115,83"/>
+<area shape="rect" id="node6" href="$class_contact.html#a9604569a056bd3bbd6dc8f0609ddc96f" title="发送纯文本信息" alt="" coords="5,107,136,133"/>
+<area shape="rect" id="node7" href="$class_logger.html#a9f4a1252699b687e8cdb7413e83fb9d5" title="发送警告(warning级日志)" alt="" coords="12,157,129,184"/>
 </map>

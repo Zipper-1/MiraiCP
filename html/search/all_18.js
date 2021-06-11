@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['_7econfig_293',['~Config',['../class_config.html#a543dce59b66475c5108088ee4ce1cdfc',1,'Config']]],
-  ['_7eevent_294',['~Event',['../class_event.html#a7704ec01ce91e673885792054214b3d2',1,'Event']]],
-  ['_7elogger_295',['~Logger',['../class_logger.html#acb668a9e186a25fbaad2e4af6d1ed00a',1,'Logger']]]
+  ['x_293',['x',['../class_config.html#a61d90b56109900c1008e143a5918c254adc9cfa18a828c0dd78af05acbcb22af8',1,'Config']]]
 ];

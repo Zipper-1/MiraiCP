@@ -16,6 +16,5 @@ var examples =
     [ "在事件中构建Group对象", "_xE5_x9C_xA8_xE4_xBA_x8B_xE4_xBB_xB6_xE4_xB8_xAD_xE6_x9E_x84_xE5_xBB_xBA_group_xE5_xAF_xB9_xE8_xB1_xA1-example.html", null ],
     [ "上传并发送远程", "_xE4_xB8_x8A_xE4_xBC_xA0_xE5_xB9_xB6_xE5_x8F_x91_xE9_x80_x81_xE8_xBF_x9C_xE7_xA8_x8B-example.html", null ],
     [ "取群文件信息", "_xE5_x8F_x96_xE7_xBE_xA4_xE6_x96_x87_xE4_xBB_xB6_xE4_xBF_xA1_xE6_x81_xAF-example.html", null ],
-    [ "取string格式群文件列表", "_xE5_x8F_x96string_xE6_xA0_xBC_xE5_xBC_x8F_xE7_xBE_xA4_xE6_x96_x87_xE4_xBB_xB6_xE5_x88_x97_xE8_xA1_xA8-example.html", null ],
-    [ "使用定时任务", "_xE4_xBD_xBF_xE7_x94_xA8_xE5_xAE_x9A_xE6_x97_xB6_xE4_xBB_xBB_xE5_x8A_xA1-example.html", null ]
+    [ "取string格式群文件列表", "_xE5_x8F_x96string_xE6_xA0_xBC_xE5_xBC_x8F_xE7_xBE_xA4_xE6_x96_x87_xE4_xBB_xB6_xE5_x88_x97_xE8_xA1_xA8-example.html", null ]
 ];

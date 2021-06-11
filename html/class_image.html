@@ -31,7 +31,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MiraiCP
-   &#160;<span id="projectnumber">v2.6.3</span>
+   &#160;<span id="projectnumber">v2.6.4</span>
    </div>
    <div id="projectbrief">MiraiCP API文档</div>
   </td>
@@ -144,11 +144,11 @@ Public 成员函数</h2></td></tr>
 静态 Public 成员函数</h2></td></tr>
 <tr class="memitem:a209162f6355c501f5fde9db40de39188"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image.html#a209162f6355c501f5fde9db40de39188">GetImgIdsFromMiraiCode</a> (<a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a>)</td></tr>
 <tr class="separator:a209162f6355c501f5fde9db40de39188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b8b32a4a36d6263f570b2c380079e6"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image.html#a54b8b32a4a36d6263f570b2c380079e6">GetImgIdsFromMiraiCode</a> (<a class="el" href="class_mirai_code.html">MiraiCode</a> msg)</td></tr>
+<tr class="separator:a54b8b32a4a36d6263f570b2c380079e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public 属性</h2></td></tr>
-<tr class="memitem:a3ea6a4068b935c46d2315f33d1279e6e"><td class="memItemLeft" align="right" valign="top">const jmethodID&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image.html#a3ea6a4068b935c46d2315f33d1279e6e">Query</a> = NULL</td></tr>
-<tr class="separator:a3ea6a4068b935c46d2315f33d1279e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb1514200b5ab807423e41061f2e2411"><td class="memItemLeft" align="right" valign="top"><a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_image.html#abb1514200b5ab807423e41061f2e2411">id</a> = &quot;&quot;</td></tr>
 <tr class="separator:abb1514200b5ab807423e41061f2e2411"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -157,7 +157,7 @@ Public 属性</h2></td></tr>
 <dl class="section examples"><dt>示例</dt><dd><a class="el" href="_xE5_x8F_x96_xE4_xB8_x80_xE4_xB8_xAAmiraicode_xE5_xAD_x97_xE7_xAC_xA6_xE4_xB8_xB2_xE4_xB8_xAD_xE7d6d2ca172d31075d6175c96ef949e2e.html#_a2">取一个miraicode字符串中全部的图片id</a>.</dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00694">694</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00712">712</a> 行定义.</p>
 </div><h2 class="groupheader">构造及析构函数说明</h2>
 <a id="aa574ff79b5b2d3a1bd46ff55cd9d9283"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa574ff79b5b2d3a1bd46ff55cd9d9283">&#9670;&nbsp;</a></span>Image()</h2>
@@ -175,19 +175,61 @@ Public 属性</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="tools_8cpp_source.html">tools.cpp</a> 第 <a class="el" href="tools_8cpp_source.html#l00304">304</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                              : <a class="code" href="class_image.html#a3ea6a4068b935c46d2315f33d1279e6e">Query</a>(<a class="code" href="pch_8cpp.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a7be31e17b33b721573e0855c1166d665">KQueryImgUrl</a>) {</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    this-&gt;<span class="keywordtype">id</span> = std::move(imageId);</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;}</div>
-<div class="ttc" id="aclass_config_html_a7be31e17b33b721573e0855c1166d665"><div class="ttname"><a href="class_config.html#a7be31e17b33b721573e0855c1166d665">Config::KQueryImgUrl</a></div><div class="ttdeci">jmethodID KQueryImgUrl</div><div class="ttdoc">查询图片下载地址</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00155">tools.h:155</a></div></div>
-<div class="ttc" id="aclass_image_html_a3ea6a4068b935c46d2315f33d1279e6e"><div class="ttname"><a href="class_image.html#a3ea6a4068b935c46d2315f33d1279e6e">Image::Query</a></div><div class="ttdeci">const jmethodID Query</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00696">tools.h:696</a></div></div>
-<div class="ttc" id="apch_8cpp_html_a6a44a77efe9d36d03240f900d00dad80"><div class="ttname"><a href="pch_8cpp.html#a6a44a77efe9d36d03240f900d00dad80">config</a></div><div class="ttdeci">Config * config</div><div class="ttdoc">全局配置指针</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00014">pch.cpp:14</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8cpp_source.html">tools.cpp</a> 第 <a class="el" href="tools_8cpp_source.html#l00260">260</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                              {</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    this-&gt;<span class="keywordtype">id</span> = std::move(imageId);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">成员函数说明</h2>
+<a id="a54b8b32a4a36d6263f570b2c380079e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54b8b32a4a36d6263f570b2c380079e6">&#9670;&nbsp;</a></span>GetImgIdsFromMiraiCode() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::vector&lt;<a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a>&gt; Image::GetImgIdsFromMiraiCode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_mirai_code.html">MiraiCode</a>&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00746">746</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_image.html#a209162f6355c501f5fde9db40de39188">GetImgIdsFromMiraiCode</a>(msg.<a class="code" href="class_mirai_code.html#a9279ff512d981c04de4117c8b7737818">toMiraiCode</a>());</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;    }</div>
+<div class="ttc" id="aclass_image_html_a209162f6355c501f5fde9db40de39188"><div class="ttname"><a href="class_image.html#a209162f6355c501f5fde9db40de39188">Image::GetImgIdsFromMiraiCode</a></div><div class="ttdeci">static std::vector&lt; std::string &gt; GetImgIdsFromMiraiCode(std::string)</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00273">tools.cpp:273</a></div></div>
+<div class="ttc" id="aclass_mirai_code_html_a9279ff512d981c04de4117c8b7737818"><div class="ttname"><a href="class_mirai_code.html#a9279ff512d981c04de4117c8b7737818">MiraiCode::toMiraiCode</a></div><div class="ttdeci">std::string toMiraiCode()</div><div class="ttdoc">和toString作用一样, 不过不会自动转码</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00221">tools.h:221</a></div></div>
+</div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="class_image_a54b8b32a4a36d6263f570b2c380079e6_cgraph.png" border="0" usemap="#aclass_image_a54b8b32a4a36d6263f570b2c380079e6_cgraph" alt=""/></div>
+<map name="aclass_image_a54b8b32a4a36d6263f570b2c380079e6_cgraph" id="aclass_image_a54b8b32a4a36d6263f570b2c380079e6_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,217,57"/>
+<area shape="rect" href="class_image.html#a209162f6355c501f5fde9db40de39188" title=" " alt="" coords="265,5,477,32"/>
+<area shape="rect" href="class_mirai_code.html#a9279ff512d981c04de4117c8b7737818" title="和toString作用一样, 不过不会自动转码" alt="" coords="293,56,450,83"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a209162f6355c501f5fde9db40de39188"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a209162f6355c501f5fde9db40de39188">&#9670;&nbsp;</a></span>GetImgIdsFromMiraiCode()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a209162f6355c501f5fde9db40de39188">&#9670;&nbsp;</a></span>GetImgIdsFromMiraiCode() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,30 +252,31 @@ Public 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="tools_8cpp_source.html">tools.cpp</a> 第 <a class="el" href="tools_8cpp_source.html#l00313">313</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                                                                      {</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    std::vector&lt;std::string&gt; result = std::vector&lt;std::string&gt;();</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    <a class="code" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> temp = std::move(<a class="code" href="class_mirai_code.html">MiraiCode</a>);</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    std::smatch m;</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    std::regex re(<span class="stringliteral">&quot;\\[mirai:image:(.*?)\\]&quot;</span>);</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <span class="keywordflow">while</span> (std::regex_search(temp, m, re)) {</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        result.push_back(m[1]);</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        temp = m.suffix().str();</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    }</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;}</div>
-<div class="ttc" id="aclass_mirai_code_html"><div class="ttname"><a href="class_mirai_code.html">MiraiCode</a></div><div class="ttdoc">miraicode字符串</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00516">tools.h:516</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8cpp_source.html">tools.cpp</a> 第 <a class="el" href="tools_8cpp_source.html#l00273">273</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    std::vector&lt;std::string&gt; result = std::vector&lt;std::string&gt;();</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <a class="code" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> temp = std::move(<a class="code" href="class_mirai_code.html">MiraiCode</a>);</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    std::smatch m;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    std::regex re(<span class="stringliteral">&quot;\\[mirai:image:(.*?)\\]&quot;</span>);</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="keywordflow">while</span> (std::regex_search(temp, m, re)) {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        result.push_back(m[1]);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        temp = m.suffix().str();</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    }</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;}</div>
+<div class="ttc" id="aclass_mirai_code_html"><div class="ttname"><a href="class_mirai_code.html">MiraiCode</a></div><div class="ttdoc">miraicode字符串</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00201">tools.h:201</a></div></div>
 <div class="ttc" id="apch_8cpp_html_aca454f84dd198a937af6499dd758aa3d"><div class="ttname"><a href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">string</a></div><div class="ttdeci">std::string string</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00003">pch.cpp:3</a></div></div>
-</div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 这是这个函数的调用关系图:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div><!-- fragment --><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> 这是这个函数的调用关系图:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_image_a209162f6355c501f5fde9db40de39188_icgraph.png" border="0" usemap="#aclass_image_a209162f6355c501f5fde9db40de39188_icgraph" alt=""/></div>
 <map name="aclass_image_a209162f6355c501f5fde9db40de39188_icgraph" id="aclass_image_a209162f6355c501f5fde9db40de39188_icgraph">
-<area shape="rect" title=" " alt="" coords="349,13,561,39"/>
-<area shape="rect" href="_procession_8cpp.html#af6b40412027c7beb9eb51bbfed51aff6" title=" " alt="" coords="225,13,301,39"/>
-<area shape="rect" href="pch_8cpp.html#a86032e8c2d72757b8da2e5b19ca5756b" title=" " alt="" coords="5,5,177,47"/>
+<area shape="rect" title=" " alt="" coords="492,31,704,57"/>
+<area shape="rect" href="class_image.html#a54b8b32a4a36d6263f570b2c380079e6" title=" " alt="" coords="232,5,444,32"/>
+<area shape="rect" href="_procession_8cpp.html#af6b40412027c7beb9eb51bbfed51aff6" title=" " alt="" coords="300,56,376,83"/>
+<area shape="rect" href="pch_8cpp.html#aef48c35044131053dbb51ec07a0070af" title=" " alt="" coords="5,41,184,97"/>
 </map>
 </div>
 
@@ -257,26 +300,34 @@ Public 属性</h2></td></tr>
 <dl class="section examples"><dt>示例</dt><dd><a class="el" href="_xE5_x8F_x96_xE4_xB8_x80_xE4_xB8_xAAmiraicode_xE5_xAD_x97_xE7_xAC_xA6_xE4_xB8_xB2_xE4_xB8_xAD_xE7d6d2ca172d31075d6175c96ef949e2e.html#a3">取一个miraicode字符串中全部的图片id</a>.</dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="tools_8cpp_source.html">tools.cpp</a> 第 <a class="el" href="tools_8cpp_source.html#l00308">308</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                                           {</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313">Tools::jstring2str</a>(</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        (jstring)env-&gt;CallStaticObjectMethod(<a class="code" href="pch_8cpp.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a4527012e3db22223852e754ae2241e9c">CPP_lib</a>, this-&gt;Query, <a class="code" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc">Tools::str2jstring</a>(this-&gt;id.c_str())));</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;}</div>
-<div class="ttc" id="aclass_config_html_a4527012e3db22223852e754ae2241e9c"><div class="ttname"><a href="class_config.html#a4527012e3db22223852e754ae2241e9c">Config::CPP_lib</a></div><div class="ttdeci">jclass CPP_lib</div><div class="ttdoc">kt中JNI接口类</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00135">tools.h:135</a></div></div>
-<div class="ttc" id="aclass_tools_html_aabf8a80dcd00513cb7516e8251109313"><div class="ttname"><a href="class_tools.html#aabf8a80dcd00513cb7516e8251109313">Tools::jstring2str</a></div><div class="ttdeci">static std::string jstring2str(jstring jstr, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00624">tools.cpp:624</a></div></div>
-<div class="ttc" id="aclass_tools_html_ae0606aeddaa91c91435ec3a4e3a0d0dc"><div class="ttname"><a href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc">Tools::str2jstring</a></div><div class="ttdeci">static jstring str2jstring(const char *pat, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00643">tools.cpp:643</a></div></div>
-</div><!-- fragment --><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p class="definition">在文件 <a class="el" href="tools_8cpp_source.html">tools.cpp</a> 第 <a class="el" href="tools_8cpp_source.html#l00264">264</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                                           {</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <a class="code" href="pch_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> j;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    j[<span class="stringliteral">&quot;id&quot;</span>] = this-&gt;<a class="code" href="class_image.html#abb1514200b5ab807423e41061f2e2411">id</a>;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <a class="code" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> re = <a class="code" href="pch_8cpp.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#afb8424eb037cadc329d3c47df377748a">koperation</a>(<a class="code" href="pch_8cpp.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a61d90b56109900c1008e143a5918c254aea52495b8455041b6d71426592654733">QueryImgUrl</a>, j, env);</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordflow">if</span>(re == <span class="stringliteral">&quot;E1&quot;</span>)</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        <span class="keywordflow">throw</span> <a class="code" href="class_remote_asset_exception.html">RemoteAssetException</a>(<span class="stringliteral">&quot;图片id格式错误&quot;</span>);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">return</span> re;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;}</div>
+<div class="ttc" id="aclass_config_html_a61d90b56109900c1008e143a5918c254aea52495b8455041b6d71426592654733"><div class="ttname"><a href="class_config.html#a61d90b56109900c1008e143a5918c254aea52495b8455041b6d71426592654733">Config::QueryImgUrl</a></div><div class="ttdeci">@ QueryImgUrl</div><div class="ttdoc">查询图片下载地址</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00151">tools.h:151</a></div></div>
+<div class="ttc" id="aclass_config_html_afb8424eb037cadc329d3c47df377748a"><div class="ttname"><a href="class_config.html#afb8424eb037cadc329d3c47df377748a">Config::koperation</a></div><div class="ttdeci">std::string koperation(int code, const nlohmann::json &amp;json, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdoc">调用mirai操作</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00119">tools.cpp:119</a></div></div>
+<div class="ttc" id="aclass_image_html_abb1514200b5ab807423e41061f2e2411"><div class="ttname"><a href="class_image.html#abb1514200b5ab807423e41061f2e2411">Image::id</a></div><div class="ttdeci">std::string id</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00715">tools.h:715</a></div></div>
+<div class="ttc" id="aclass_remote_asset_exception_html"><div class="ttname"><a href="class_remote_asset_exception.html">RemoteAssetException</a></div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00548">tools.h:548</a></div></div>
+<div class="ttc" id="apch_8cpp_html_a6a44a77efe9d36d03240f900d00dad80"><div class="ttname"><a href="pch_8cpp.html#a6a44a77efe9d36d03240f900d00dad80">config</a></div><div class="ttdeci">Config * config</div><div class="ttdoc">全局配置指针</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00014">pch.cpp:14</a></div></div>
+<div class="ttc" id="apch_8cpp_html_ab701e3ac61a85b337ec5c1abaad6742d"><div class="ttname"><a href="pch_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00002">pch.cpp:2</a></div></div>
+</div><!-- fragment --><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_image_a33f8850fcab39bb5ca332a04400c8d50_cgraph.png" border="0" usemap="#aclass_image_a33f8850fcab39bb5ca332a04400c8d50_cgraph" alt=""/></div>
 <map name="aclass_image_a33f8850fcab39bb5ca332a04400c8d50_cgraph" id="aclass_image_a33f8850fcab39bb5ca332a04400c8d50_cgraph">
 <area shape="rect" title=" " alt="" coords="5,81,128,108"/>
-<area shape="rect" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313" title=" " alt="" coords="176,56,295,83"/>
-<area shape="rect" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="649,56,768,83"/>
-<area shape="rect" href="class_logger.html#aefc80c70d2253aed0119c468d7999ff1" title="发送警告(warning级日志)" alt="" coords="343,56,460,83"/>
-<area shape="rect" href="class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="508,5,601,32"/>
+<area shape="rect" href="class_config.html#afb8424eb037cadc329d3c47df377748a" title="调用mirai操作" alt="" coords="176,81,303,108"/>
+<area shape="rect" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313" title=" " alt="" coords="351,56,469,83"/>
+<area shape="rect" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="804,56,923,83"/>
+<area shape="rect" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd" title="发送错误(error级日志)" alt="" coords="517,56,615,83"/>
+<area shape="rect" href="class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="663,5,756,32"/>
 </map>
 </div>
 
@@ -309,20 +360,20 @@ Public 属性</h2></td></tr>
 
 <p>实现了 <a class="el" href="class_mirai_codeable.html#a5067f9067fd47eb8413c28881084d044">MiraiCodeable</a>.</p>
 
-<p class="definition">在文件 <a class="el" href="tools_8cpp_source.html">tools.cpp</a> 第 <a class="el" href="tools_8cpp_source.html#l00325">325</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;                             {</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;[mirai:image:&quot;</span> + this-&gt;<span class="keywordtype">id</span> + <span class="stringliteral">&quot;]&quot;</span>;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;}</div>
-</div><!-- fragment --><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> 这是这个函数的调用关系图:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p class="definition">在文件 <a class="el" href="tools_8cpp_source.html">tools.cpp</a> 第 <a class="el" href="tools_8cpp_source.html#l00285">285</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                             {</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;[mirai:image:&quot;</span> + this-&gt;<span class="keywordtype">id</span> + <span class="stringliteral">&quot;]&quot;</span>;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;}</div>
+</div><!-- fragment --><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> 这是这个函数的调用关系图:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_image_a1f23cd8327ee4b8814ad8574b6a35e82_icgraph.png" border="0" usemap="#aclass_image_a1f23cd8327ee4b8814ad8574b6a35e82_icgraph" alt=""/></div>
 <map name="aclass_image_a1f23cd8327ee4b8814ad8574b6a35e82_icgraph" id="aclass_image_a1f23cd8327ee4b8814ad8574b6a35e82_icgraph">
-<area shape="rect" title="取图片Mirai码" alt="" coords="349,13,484,39"/>
-<area shape="rect" href="_procession_8cpp.html#af6b40412027c7beb9eb51bbfed51aff6" title=" " alt="" coords="225,13,301,39"/>
-<area shape="rect" href="pch_8cpp.html#a86032e8c2d72757b8da2e5b19ca5756b" title=" " alt="" coords="5,5,177,47"/>
+<area shape="rect" title="取图片Mirai码" alt="" coords="356,20,491,47"/>
+<area shape="rect" href="_procession_8cpp.html#af6b40412027c7beb9eb51bbfed51aff6" title=" " alt="" coords="232,20,308,47"/>
+<area shape="rect" href="pch_8cpp.html#aef48c35044131053dbb51ec07a0070af" title=" " alt="" coords="5,5,184,61"/>
 </map>
 </div>
 
@@ -341,23 +392,7 @@ Public 属性</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00698">698</a> 行定义.</p>
-
-</div>
-</div>
-<a id="a3ea6a4068b935c46d2315f33d1279e6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ea6a4068b935c46d2315f33d1279e6e">&#9670;&nbsp;</a></span>Query</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const jmethodID Image::Query = NULL</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00696">696</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l00715">715</a> 行定义.</p>
 
 </div>
 </div>

@@ -31,7 +31,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MiraiCP
-   &#160;<span id="projectnumber">v2.6.3</span>
+   &#160;<span id="projectnumber">v2.6.4</span>
    </div>
    <div id="projectbrief">MiraiCP API文档</div>
   </td>
@@ -124,19 +124,21 @@ $(document).ready(function(){initNavTree('class_group_temp_message_event.html','
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_group_temp_message_event__coll__graph.png" border="0" usemap="#a_group_temp_message_event_coll__map" alt="Collaboration graph"/></div>
 <map name="a_group_temp_message_event_coll__map" id="a_group_temp_message_event_coll__map">
-<area shape="rect" title="群临时会话" alt="" coords="94,184,269,211"/>
+<area shape="rect" title="群临时会话" alt="" coords="139,184,314,211"/>
 <area shape="rect" href="class_bot_event.html" title="所以事件处理timeoutevent都是机器人事件，指都有机器人实例" alt="" coords="5,95,80,121"/>
 <area shape="rect" href="class_bot.html" title="当前bot账号信息" alt="" coords="21,5,64,32"/>
 <area shape="rect" href="class_member.html" title="群成员类声明" alt="" coords="104,95,173,121"/>
-<area shape="rect" href="class_contact.html" title="group, friend, member的父类" alt="" coords="149,5,216,32"/>
+<area shape="rect" href="class_contact.html" title="group, friend, member的父类" alt="" coords="105,5,172,32"/>
 <area shape="rect" href="class_group.html" title="群聊类声明" alt="" coords="198,95,255,121"/>
 <area shape="rect" href="class_message_source.html" title="消息源声明" alt="" coords="279,95,395,121"/>
+<area shape="rect" href="struct_group_1_1_group_setting.html" title="群设置" alt="" coords="196,5,337,32"/>
+<area shape="rect" href="class_mirai_code.html" title="miraicode字符串" alt="" coords="423,95,503,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public 成员函数</h2></td></tr>
-<tr class="memitem:a059fbdbd7154e0cad307533335daa72c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_temp_message_event.html#a059fbdbd7154e0cad307533335daa72c">GroupTempMessageEvent</a> (unsigned long long int botid, const <a class="el" href="class_group.html">Group</a> &amp;<a class="el" href="class_group_temp_message_event.html#a6d14c27401f0a2fe06b6ae251ba9c910">group</a>, const <a class="el" href="class_member.html">Member</a> &amp;<a class="el" href="class_group_temp_message_event.html#a0bedfdfd01cd0f70b3ab0ada73e9d8a8">sender</a>, const <a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> &amp;<a class="el" href="class_group_temp_message_event.html#a1b1d75c4db2f0ebd6e44fc09d8d42fe6">message</a>, const <a class="el" href="class_message_source.html">MessageSource</a> &amp;<a class="el" href="class_group_temp_message_event.html#a956411be5e59ea35d42269098dd2fd47">messageSource</a>)</td></tr>
+<tr class="memitem:a059fbdbd7154e0cad307533335daa72c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_temp_message_event.html#a059fbdbd7154e0cad307533335daa72c">GroupTempMessageEvent</a> (unsigned long long int botid, const <a class="el" href="class_group.html">Group</a> &amp;<a class="el" href="class_group_temp_message_event.html#a6d14c27401f0a2fe06b6ae251ba9c910">group</a>, const <a class="el" href="class_member.html">Member</a> &amp;<a class="el" href="class_group_temp_message_event.html#a0bedfdfd01cd0f70b3ab0ada73e9d8a8">sender</a>, const <a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> &amp;<a class="el" href="class_group_temp_message_event.html#a2f1a32fc66f7f1914180fbf171f45402">message</a>, const <a class="el" href="class_message_source.html">MessageSource</a> &amp;<a class="el" href="class_group_temp_message_event.html#a956411be5e59ea35d42269098dd2fd47">messageSource</a>)</td></tr>
 <tr class="memdesc:a059fbdbd7154e0cad307533335daa72c"><td class="mdescLeft">&#160;</td><td class="mdescRight">群临时会话消息事件  <a href="class_group_temp_message_event.html#a059fbdbd7154e0cad307533335daa72c">更多...</a><br /></td></tr>
 <tr class="separator:a059fbdbd7154e0cad307533335daa72c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_bot_event"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_bot_event')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="class_bot_event.html">BotEvent</a></td></tr>
@@ -151,9 +153,9 @@ Public 属性</h2></td></tr>
 <tr class="memitem:a0bedfdfd01cd0f70b3ab0ada73e9d8a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_member.html">Member</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_temp_message_event.html#a0bedfdfd01cd0f70b3ab0ada73e9d8a8">sender</a></td></tr>
 <tr class="memdesc:a0bedfdfd01cd0f70b3ab0ada73e9d8a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">发送人  <a href="class_group_temp_message_event.html#a0bedfdfd01cd0f70b3ab0ada73e9d8a8">更多...</a><br /></td></tr>
 <tr class="separator:a0bedfdfd01cd0f70b3ab0ada73e9d8a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b1d75c4db2f0ebd6e44fc09d8d42fe6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_temp_message_event.html#a1b1d75c4db2f0ebd6e44fc09d8d42fe6">message</a></td></tr>
-<tr class="memdesc:a1b1d75c4db2f0ebd6e44fc09d8d42fe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">信息本体  <a href="class_group_temp_message_event.html#a1b1d75c4db2f0ebd6e44fc09d8d42fe6">更多...</a><br /></td></tr>
-<tr class="separator:a1b1d75c4db2f0ebd6e44fc09d8d42fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f1a32fc66f7f1914180fbf171f45402"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_mirai_code.html">MiraiCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_temp_message_event.html#a2f1a32fc66f7f1914180fbf171f45402">message</a></td></tr>
+<tr class="memdesc:a2f1a32fc66f7f1914180fbf171f45402"><td class="mdescLeft">&#160;</td><td class="mdescRight">信息本体  <a href="class_group_temp_message_event.html#a2f1a32fc66f7f1914180fbf171f45402">更多...</a><br /></td></tr>
+<tr class="separator:a2f1a32fc66f7f1914180fbf171f45402"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a956411be5e59ea35d42269098dd2fd47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_message_source.html">MessageSource</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_group_temp_message_event.html#a956411be5e59ea35d42269098dd2fd47">messageSource</a></td></tr>
 <tr class="memdesc:a956411be5e59ea35d42269098dd2fd47"><td class="mdescLeft">&#160;</td><td class="mdescRight">消息源  <a href="class_group_temp_message_event.html#a956411be5e59ea35d42269098dd2fd47">更多...</a><br /></td></tr>
 <tr class="separator:a956411be5e59ea35d42269098dd2fd47"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,7 +166,7 @@ Public 属性</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>群临时会话 </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01704">1704</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01830">1830</a> 行定义.</p>
 </div><h2 class="groupheader">构造及析构函数说明</h2>
 <a id="a059fbdbd7154e0cad307533335daa72c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a059fbdbd7154e0cad307533335daa72c">&#9670;&nbsp;</a></span>GroupTempMessageEvent()</h2>
@@ -230,18 +232,18 @@ Public 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01723">1723</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01724"></a><span class="lineno"> 1724</span>&#160;                                                                      : <a class="code" href="class_bot_event.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent</a>(botid),</div>
-<div class="line"><a name="l01725"></a><span class="lineno"> 1725</span>&#160;        <a class="code" href="class_group_temp_message_event.html#a6d14c27401f0a2fe06b6ae251ba9c910">group</a>(<a class="code" href="class_group_temp_message_event.html#a6d14c27401f0a2fe06b6ae251ba9c910">group</a>),</div>
-<div class="line"><a name="l01726"></a><span class="lineno"> 1726</span>&#160;        <a class="code" href="class_group_temp_message_event.html#a0bedfdfd01cd0f70b3ab0ada73e9d8a8">sender</a>(<a class="code" href="class_group_temp_message_event.html#a0bedfdfd01cd0f70b3ab0ada73e9d8a8">sender</a>),</div>
-<div class="line"><a name="l01727"></a><span class="lineno"> 1727</span>&#160;        <a class="code" href="class_group_temp_message_event.html#a1b1d75c4db2f0ebd6e44fc09d8d42fe6">message</a>(<a class="code" href="class_group_temp_message_event.html#a1b1d75c4db2f0ebd6e44fc09d8d42fe6">message</a>),</div>
-<div class="line"><a name="l01728"></a><span class="lineno"> 1728</span>&#160;        <a class="code" href="class_group_temp_message_event.html#a956411be5e59ea35d42269098dd2fd47">messageSource</a>(</div>
-<div class="line"><a name="l01729"></a><span class="lineno"> 1729</span>&#160;            <a class="code" href="class_group_temp_message_event.html#a956411be5e59ea35d42269098dd2fd47">messageSource</a>) {}</div>
-<div class="ttc" id="aclass_bot_event_html_ac26c3d59fa5a3546f269549ccbe994a4"><div class="ttname"><a href="class_bot_event.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent::BotEvent</a></div><div class="ttdeci">BotEvent(unsigned long long botid)</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01421">tools.h:1421</a></div></div>
-<div class="ttc" id="aclass_group_temp_message_event_html_a0bedfdfd01cd0f70b3ab0ada73e9d8a8"><div class="ttname"><a href="class_group_temp_message_event.html#a0bedfdfd01cd0f70b3ab0ada73e9d8a8">GroupTempMessageEvent::sender</a></div><div class="ttdeci">Member sender</div><div class="ttdoc">发送人</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01709">tools.h:1709</a></div></div>
-<div class="ttc" id="aclass_group_temp_message_event_html_a1b1d75c4db2f0ebd6e44fc09d8d42fe6"><div class="ttname"><a href="class_group_temp_message_event.html#a1b1d75c4db2f0ebd6e44fc09d8d42fe6">GroupTempMessageEvent::message</a></div><div class="ttdeci">const std::string message</div><div class="ttdoc">信息本体</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01711">tools.h:1711</a></div></div>
-<div class="ttc" id="aclass_group_temp_message_event_html_a6d14c27401f0a2fe06b6ae251ba9c910"><div class="ttname"><a href="class_group_temp_message_event.html#a6d14c27401f0a2fe06b6ae251ba9c910">GroupTempMessageEvent::group</a></div><div class="ttdeci">Group group</div><div class="ttdoc">来源群</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01707">tools.h:1707</a></div></div>
-<div class="ttc" id="aclass_group_temp_message_event_html_a956411be5e59ea35d42269098dd2fd47"><div class="ttname"><a href="class_group_temp_message_event.html#a956411be5e59ea35d42269098dd2fd47">GroupTempMessageEvent::messageSource</a></div><div class="ttdeci">MessageSource messageSource</div><div class="ttdoc">消息源</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01713">tools.h:1713</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01849">1849</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01850"></a><span class="lineno"> 1850</span>&#160;                                                                      : <a class="code" href="class_bot_event.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent</a>(botid),</div>
+<div class="line"><a name="l01851"></a><span class="lineno"> 1851</span>&#160;        <a class="code" href="class_group_temp_message_event.html#a6d14c27401f0a2fe06b6ae251ba9c910">group</a>(<a class="code" href="class_group_temp_message_event.html#a6d14c27401f0a2fe06b6ae251ba9c910">group</a>),</div>
+<div class="line"><a name="l01852"></a><span class="lineno"> 1852</span>&#160;        <a class="code" href="class_group_temp_message_event.html#a0bedfdfd01cd0f70b3ab0ada73e9d8a8">sender</a>(<a class="code" href="class_group_temp_message_event.html#a0bedfdfd01cd0f70b3ab0ada73e9d8a8">sender</a>),</div>
+<div class="line"><a name="l01853"></a><span class="lineno"> 1853</span>&#160;        <a class="code" href="class_group_temp_message_event.html#a2f1a32fc66f7f1914180fbf171f45402">message</a>(<a class="code" href="class_group_temp_message_event.html#a2f1a32fc66f7f1914180fbf171f45402">message</a>),</div>
+<div class="line"><a name="l01854"></a><span class="lineno"> 1854</span>&#160;        <a class="code" href="class_group_temp_message_event.html#a956411be5e59ea35d42269098dd2fd47">messageSource</a>(</div>
+<div class="line"><a name="l01855"></a><span class="lineno"> 1855</span>&#160;            <a class="code" href="class_group_temp_message_event.html#a956411be5e59ea35d42269098dd2fd47">messageSource</a>) {}</div>
+<div class="ttc" id="aclass_bot_event_html_ac26c3d59fa5a3546f269549ccbe994a4"><div class="ttname"><a href="class_bot_event.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent::BotEvent</a></div><div class="ttdeci">BotEvent(unsigned long long botid)</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01531">tools.h:1531</a></div></div>
+<div class="ttc" id="aclass_group_temp_message_event_html_a0bedfdfd01cd0f70b3ab0ada73e9d8a8"><div class="ttname"><a href="class_group_temp_message_event.html#a0bedfdfd01cd0f70b3ab0ada73e9d8a8">GroupTempMessageEvent::sender</a></div><div class="ttdeci">Member sender</div><div class="ttdoc">发送人</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01835">tools.h:1835</a></div></div>
+<div class="ttc" id="aclass_group_temp_message_event_html_a2f1a32fc66f7f1914180fbf171f45402"><div class="ttname"><a href="class_group_temp_message_event.html#a2f1a32fc66f7f1914180fbf171f45402">GroupTempMessageEvent::message</a></div><div class="ttdeci">const MiraiCode message</div><div class="ttdoc">信息本体</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01837">tools.h:1837</a></div></div>
+<div class="ttc" id="aclass_group_temp_message_event_html_a6d14c27401f0a2fe06b6ae251ba9c910"><div class="ttname"><a href="class_group_temp_message_event.html#a6d14c27401f0a2fe06b6ae251ba9c910">GroupTempMessageEvent::group</a></div><div class="ttdeci">Group group</div><div class="ttdoc">来源群</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01833">tools.h:1833</a></div></div>
+<div class="ttc" id="aclass_group_temp_message_event_html_a956411be5e59ea35d42269098dd2fd47"><div class="ttname"><a href="class_group_temp_message_event.html#a956411be5e59ea35d42269098dd2fd47">GroupTempMessageEvent::messageSource</a></div><div class="ttdeci">MessageSource messageSource</div><div class="ttdoc">消息源</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l01839">tools.h:1839</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -260,25 +262,25 @@ Public 属性</h2></td></tr>
 
 <p>来源群 </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01707">1707</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01833">1833</a> 行定义.</p>
 
 </div>
 </div>
-<a id="a1b1d75c4db2f0ebd6e44fc09d8d42fe6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b1d75c4db2f0ebd6e44fc09d8d42fe6">&#9670;&nbsp;</a></span>message</h2>
+<a id="a2f1a32fc66f7f1914180fbf171f45402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f1a32fc66f7f1914180fbf171f45402">&#9670;&nbsp;</a></span>message</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="pch_8cpp.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> GroupTempMessageEvent::message</td>
+          <td class="memname">const <a class="el" href="class_mirai_code.html">MiraiCode</a> GroupTempMessageEvent::message</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>信息本体 </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01711">1711</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01837">1837</a> 行定义.</p>
 
 </div>
 </div>
@@ -296,7 +298,7 @@ Public 属性</h2></td></tr>
 
 <p>消息源 </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01713">1713</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01839">1839</a> 行定义.</p>
 
 </div>
 </div>
@@ -314,7 +316,7 @@ Public 属性</h2></td></tr>
 
 <p>发送人 </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01709">1709</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01835">1835</a> 行定义.</p>
 
 </div>
 </div>

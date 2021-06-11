@@ -31,7 +31,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MiraiCP
-   &#160;<span id="projectnumber">v2.6.3</span>
+   &#160;<span id="projectnumber">v2.6.4</span>
    </div>
    <div id="projectbrief">MiraiCP API文档</div>
   </td>
@@ -101,17 +101,18 @@ $(document).ready(function(){initNavTree('class_logger.html',''); initResizable(
 <p>成员的完整列表，这些成员属于 <a class="el" href="class_logger.html">Logger</a>,包括所有继承而来的类成员</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="class_logger.html#a3cc655404f5a2d454085b9047ee21cd0">action</a> typedef</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_logger.html#a5f68a7e9a17aaead273e0f03a83e496d">CPP_lib</a></td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd">Error</a>(const std::string &amp;, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd">Error</a>(const std::string &amp;, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_logger.html#ae77e0a539951df103ec0c94ae4681e4d">Error</a>(MiraiCode msg, JNIEnv *env=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_logger.html#a13e1837413a7cdecd8ea11909f1842be">Info</a>(const std::string &amp;, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_logger.html#a4b9d5f4a3eaf23db64c6d0eabc8c3b31">init</a>(JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_logger.html#a8907a995703a09fb87e181fb84be6a2d">log</a></td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2">log0</a>(const std::string &amp;, JNIEnv *, int)</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_logger.html#ad57356ecf8edbf450c996b50622cc85d">loggerhandler</a></td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_logger.html#aae91535858f620e4f5f1938683d601d5">registerHandle</a>(action action)</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="class_logger.html#ae5ec9c28bca82dcb1b0a48b8160e5653">setHandleState</a>(bool state)</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_logger.html#aefc80c70d2253aed0119c468d7999ff1">Warning</a>(const std::string &amp;, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="class_logger.html#acb668a9e186a25fbaad2e4af6d1ed00a">~Logger</a>()</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_logger.html#af938e0ebaeb0e5ec4f893d8bb3a50ac1">Info</a>(MiraiCode msg, JNIEnv *env=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_logger.html#a4b9d5f4a3eaf23db64c6d0eabc8c3b31">init</a>(JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_logger.html#a8907a995703a09fb87e181fb84be6a2d">log</a></td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2">log0</a>(const std::string &amp;, JNIEnv *, int)</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_logger.html#ad57356ecf8edbf450c996b50622cc85d">loggerhandler</a></td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="class_logger.html#aae91535858f620e4f5f1938683d601d5">registerHandle</a>(action action)</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_logger.html#ae5ec9c28bca82dcb1b0a48b8160e5653">setHandleState</a>(bool state)</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="class_logger.html#aefc80c70d2253aed0119c468d7999ff1">Warning</a>(const std::string &amp;, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_logger.html#a9f4a1252699b687e8cdb7413e83fb9d5">Warning</a>(MiraiCode msg, JNIEnv *env=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="class_logger.html">Logger</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

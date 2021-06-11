@@ -25,7 +25,5 @@ var class_event =
     [ "PMHead", "class_event.html#abd9caecf40147b9f45365eedd46061f0", null ],
     [ "PMTail", "class_event.html#aa5cd5165996661c12c6f9f31a29bebda", null ],
     [ "RHead", "class_event.html#a50fa05015b58856cc28677f9c629be89", null ],
-    [ "RTail", "class_event.html#a7700149cb994cb7a73ccbee28b7c8a81", null ],
-    [ "SHead", "class_event.html#a411a627fcf0c53c535bf6b0e98e937d0", null ],
-    [ "STail", "class_event.html#a41b9a7add6e39411af404a7481d47171", null ]
+    [ "RTail", "class_event.html#a7700149cb994cb7a73ccbee28b7c8a81", null ]
 ];

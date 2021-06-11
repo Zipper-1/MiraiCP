@@ -31,7 +31,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MiraiCP
-   &#160;<span id="projectnumber">v2.6.3</span>
+   &#160;<span id="projectnumber">v2.6.4</span>
    </div>
    <div id="projectbrief">MiraiCP API文档</div>
   </td>
@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('class_low_level_a_p_i.html',''); initR
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>较底层api </p>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01021">1021</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01047">1047</a> 行定义.</p>
 </div><h2 class="groupheader">成员函数说明</h2>
 <a id="ad285de08b2fb584b482db3e0144c1196"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad285de08b2fb584b482db3e0144c1196">&#9670;&nbsp;</a></span>getInfoSource()</h2>
@@ -175,18 +175,20 @@ $(document).ready(function(){initNavTree('class_low_level_a_p_i.html',''); initR
 </dl>
 <dl class="section return"><dt>返回</dt><dd>json格式字符串，待解析 </dd></dl>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01041">1041</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01041"></a><span class="lineno"> 1041</span>&#160;                                                                                       {</div>
-<div class="line"><a name="l01042"></a><span class="lineno"> 1042</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313">Tools::jstring2str</a>((jstring)env-&gt;CallObjectMethod(<a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a4527012e3db22223852e754ae2241e9c">CPP_lib</a>, <a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a941c92e01cef6da2301b11422f29afd4">KRefreshInfo</a>,</div>
-<div class="line"><a name="l01043"></a><span class="lineno"> 1043</span>&#160;            <a class="code" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc">Tools::str2jstring</a>(c-&gt;<a class="code" href="class_contact.html#a190dd1c2ecfccf67edc3d2b1cff87835">serializationToString</a>().c_str(),</div>
-<div class="line"><a name="l01044"></a><span class="lineno"> 1044</span>&#160;                env)));</div>
-<div class="line"><a name="l01045"></a><span class="lineno"> 1045</span>&#160;    }</div>
-<div class="ttc" id="aclass_config_html_a4527012e3db22223852e754ae2241e9c"><div class="ttname"><a href="class_config.html#a4527012e3db22223852e754ae2241e9c">Config::CPP_lib</a></div><div class="ttdeci">jclass CPP_lib</div><div class="ttdoc">kt中JNI接口类</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00135">tools.h:135</a></div></div>
-<div class="ttc" id="aclass_config_html_a941c92e01cef6da2301b11422f29afd4"><div class="ttname"><a href="class_config.html#a941c92e01cef6da2301b11422f29afd4">Config::KRefreshInfo</a></div><div class="ttdeci">jmethodID KRefreshInfo</div><div class="ttdoc">查询信息接口</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00143">tools.h:143</a></div></div>
-<div class="ttc" id="aclass_contact_html_a190dd1c2ecfccf67edc3d2b1cff87835"><div class="ttname"><a href="class_contact.html#a190dd1c2ecfccf67edc3d2b1cff87835">Contact::serializationToString</a></div><div class="ttdeci">std::string serializationToString()</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00905">tools.h:905</a></div></div>
-<div class="ttc" id="aclass_tools_html_aabf8a80dcd00513cb7516e8251109313"><div class="ttname"><a href="class_tools.html#aabf8a80dcd00513cb7516e8251109313">Tools::jstring2str</a></div><div class="ttdeci">static std::string jstring2str(jstring jstr, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00624">tools.cpp:624</a></div></div>
-<div class="ttc" id="aclass_tools_html_ae0606aeddaa91c91435ec3a4e3a0d0dc"><div class="ttname"><a href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc">Tools::str2jstring</a></div><div class="ttdeci">static jstring str2jstring(const char *pat, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00643">tools.cpp:643</a></div></div>
-<div class="ttc" id="atools_8h_html_a6a44a77efe9d36d03240f900d00dad80"><div class="ttname"><a href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a></div><div class="ttdeci">Config * config</div><div class="ttdoc">全局配置指针</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00014">pch.cpp:14</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01071">1071</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01071"></a><span class="lineno"> 1071</span>&#160;                                                                                       {</div>
+<div class="line"><a name="l01072"></a><span class="lineno"> 1072</span>&#160;        <a class="code" href="pch_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> j;</div>
+<div class="line"><a name="l01073"></a><span class="lineno"> 1073</span>&#160;        j[<span class="stringliteral">&quot;source&quot;</span>] = c-&gt;<a class="code" href="class_contact.html#a190dd1c2ecfccf67edc3d2b1cff87835">serializationToString</a>();</div>
+<div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#afb8424eb037cadc329d3c47df377748a">koperation</a>(<a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a61d90b56109900c1008e143a5918c254aab2d402ea8d79513e761f3b2e3fdfaa9">RefreshInfo</a>, j, env);</div>
+<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;<span class="comment">//      Tools::jstring2str((jstring)env-&gt;CallObjectMethod(config-&gt;CPP_lib, config-&gt;KRefreshInfo,</span></div>
+<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;<span class="comment">//          Tools::str2jstring(c-&gt;serializationToString().c_str(),</span></div>
+<div class="line"><a name="l01077"></a><span class="lineno"> 1077</span>&#160;<span class="comment">//              env)));</span></div>
+<div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;    }</div>
+<div class="ttc" id="aclass_config_html_a61d90b56109900c1008e143a5918c254aab2d402ea8d79513e761f3b2e3fdfaa9"><div class="ttname"><a href="class_config.html#a61d90b56109900c1008e143a5918c254aab2d402ea8d79513e761f3b2e3fdfaa9">Config::RefreshInfo</a></div><div class="ttdeci">@ RefreshInfo</div><div class="ttdoc">查询信息接口</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00139">tools.h:139</a></div></div>
+<div class="ttc" id="aclass_config_html_afb8424eb037cadc329d3c47df377748a"><div class="ttname"><a href="class_config.html#afb8424eb037cadc329d3c47df377748a">Config::koperation</a></div><div class="ttdeci">std::string koperation(int code, const nlohmann::json &amp;json, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdoc">调用mirai操作</div><div class="ttdef"><b>Definition:</b> <a href="tools_8cpp_source.html#l00119">tools.cpp:119</a></div></div>
+<div class="ttc" id="aclass_contact_html_a190dd1c2ecfccf67edc3d2b1cff87835"><div class="ttname"><a href="class_contact.html#a190dd1c2ecfccf67edc3d2b1cff87835">Contact::serializationToString</a></div><div class="ttdeci">std::string serializationToString()</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00923">tools.h:923</a></div></div>
+<div class="ttc" id="apch_8cpp_html_ab701e3ac61a85b337ec5c1abaad6742d"><div class="ttname"><a href="pch_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00002">pch.cpp:2</a></div></div>
+<div class="ttc" id="atools_8h_html_a6a44a77efe9d36d03240f900d00dad80"><div class="ttname"><a href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a></div><div class="ttdeci">Config * config</div><div class="ttdoc">全局Config对象</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00014">pch.cpp:14</a></div></div>
 </div><!-- fragment --><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -194,13 +196,14 @@ $(document).ready(function(){initNavTree('class_low_level_a_p_i.html',''); initR
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_low_level_a_p_i_ad285de08b2fb584b482db3e0144c1196_cgraph.png" border="0" usemap="#aclass_low_level_a_p_i_ad285de08b2fb584b482db3e0144c1196_cgraph" alt=""/></div>
 <map name="aclass_low_level_a_p_i_ad285de08b2fb584b482db3e0144c1196_cgraph" id="aclass_low_level_a_p_i_ad285de08b2fb584b482db3e0144c1196_cgraph">
-<area shape="rect" title="取该联系人的一些信息" alt="" coords="5,107,188,133"/>
-<area shape="rect" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313" title=" " alt="" coords="256,56,375,83"/>
-<area shape="rect" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="857,56,976,83"/>
+<area shape="rect" title="取该联系人的一些信息" alt="" coords="5,183,188,209"/>
+<area shape="rect" href="class_config.html#afb8424eb037cadc329d3c47df377748a" title="调用mirai操作" alt="" coords="252,107,379,133"/>
 <area shape="rect" href="class_contact.html#a190dd1c2ecfccf67edc3d2b1cff87835" title=" " alt="" coords="236,205,395,246"/>
-<area shape="rect" href="class_logger.html#aefc80c70d2253aed0119c468d7999ff1" title="发送警告(warning级日志)" alt="" coords="456,56,573,83"/>
-<area shape="rect" href="class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="675,5,769,32"/>
-<area shape="rect" href="class_contact.html#a6739337b623df49bc51e2fc997bfd6e8" title=" " alt="" coords="443,236,587,263"/>
+<area shape="rect" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313" title=" " alt="" coords="455,56,574,83"/>
+<area shape="rect" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="999,56,1117,83"/>
+<area shape="rect" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd" title="发送错误(error级日志)" alt="" coords="673,56,771,83"/>
+<area shape="rect" href="class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="857,5,951,32"/>
+<area shape="rect" href="class_contact.html#a6739337b623df49bc51e2fc997bfd6e8" title="序列化到json对象" alt="" coords="443,236,587,263"/>
 <area shape="rect" href="class_contact.html#a869c10fc8e1abeedc10d805576b1450a" title="所属bot" alt="" coords="671,157,773,184"/>
 <area shape="rect" href="class_contact.html#a07e7ddca539bf8e5ac2d2ad00d8b7ba4" title="当type为3的时候存在，否则为0，可以看作补充id" alt="" coords="663,208,781,235"/>
 <area shape="rect" href="class_contact.html#a220e55b907d54958cd2afb95e65da5a1" title="id在全部情况存在" alt="" coords="679,259,765,285"/>
@@ -215,10 +218,14 @@ $(document).ready(function(){initNavTree('class_low_level_a_p_i.html',''); initR
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_low_level_a_p_i_ad285de08b2fb584b482db3e0144c1196_icgraph.png" border="0" usemap="#aclass_low_level_a_p_i_ad285de08b2fb584b482db3e0144c1196_icgraph" alt=""/></div>
 <map name="aclass_low_level_a_p_i_ad285de08b2fb584b482db3e0144c1196_icgraph" id="aclass_low_level_a_p_i_ad285de08b2fb584b482db3e0144c1196_icgraph">
-<area shape="rect" title="取该联系人的一些信息" alt="" coords="177,56,360,83"/>
-<area shape="rect" href="class_friend.html#a24d5d1e22b735f5f78ac30da904bbc73" title="构建好友对象" alt="" coords="16,5,119,32"/>
-<area shape="rect" href="class_group.html#add4d15440d039be09abf8f8fc316dc8c" title=" " alt="" coords="17,56,117,83"/>
-<area shape="rect" href="class_member.html#a1313aa1274273237f2dbfaa053a9d23e" title=" " alt="" coords="5,107,129,133"/>
+<area shape="rect" title="取该联系人的一些信息" alt="" coords="383,56,565,83"/>
+<area shape="rect" href="class_friend.html#a9f8fce3fce96e79537c2860871ce8652" title="刷新当前对象信息" alt="" coords="204,5,329,32"/>
+<area shape="rect" href="class_member.html#a8934688d50f82adfeb931f573b1889c8" title="刷新当前对象信息" alt="" coords="199,56,335,83"/>
+<area shape="rect" href="class_group.html#a96745dba8b6f78c2f8dd04fbd241cef2" title="刷新当前对象信息" alt="" coords="205,107,329,133"/>
+<area shape="rect" href="class_friend.html#a24d5d1e22b735f5f78ac30da904bbc73" title="构建好友对象" alt="" coords="27,5,129,32"/>
+<area shape="rect" href="class_member.html#a1313aa1274273237f2dbfaa053a9d23e" title=" " alt="" coords="16,56,140,83"/>
+<area shape="rect" href="class_group.html#add4d15440d039be09abf8f8fc316dc8c" title=" " alt="" coords="28,107,128,133"/>
+<area shape="rect" href="class_group.html#a5201b9f4030729d9384b0e01603c0513" title="更新群设置, 即覆盖服务器上的群设置" alt="" coords="5,157,151,184"/>
 </map>
 </div>
 
@@ -249,15 +256,14 @@ $(document).ready(function(){initNavTree('class_low_level_a_p_i.html',''); initR
 </div><div class="memdoc">
 <p>获取每个对象必有信息 </p><dl class="section see"><dt>参见</dt><dd><a class="el" href="struct_low_level_a_p_i_1_1info.html" title="每个对象的必有信息">LowLevelAPI::info</a> </dd></dl>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01069">1069</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160;                                        {</div>
-<div class="line"><a name="l01070"></a><span class="lineno"> 1070</span>&#160;        info re;</div>
-<div class="line"><a name="l01071"></a><span class="lineno"> 1071</span>&#160;        <a class="code" href="pch_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> j = nlohmann::json::parse(source);</div>
-<div class="line"><a name="l01072"></a><span class="lineno"> 1072</span>&#160;        re.avatarUrl = j[<span class="stringliteral">&quot;avatarUrl&quot;</span>];</div>
-<div class="line"><a name="l01073"></a><span class="lineno"> 1073</span>&#160;        re.nickornamecard = j[<span class="stringliteral">&quot;nickornamecard&quot;</span>];</div>
-<div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;        <span class="keywordflow">return</span> re;</div>
-<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;    }</div>
-<div class="ttc" id="apch_8cpp_html_ab701e3ac61a85b337ec5c1abaad6742d"><div class="ttname"><a href="pch_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition:</b> <a href="pch_8cpp_source.html#l00002">pch.cpp:2</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01106">1106</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;                                        {</div>
+<div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;        info re;</div>
+<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;        <a class="code" href="pch_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> j = nlohmann::json::parse(source);</div>
+<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;        re.avatarUrl = j[<span class="stringliteral">&quot;avatarUrl&quot;</span>];</div>
+<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;        re.nickornamecard = j[<span class="stringliteral">&quot;nickornamecard&quot;</span>];</div>
+<div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160;        <span class="keywordflow">return</span> re;</div>
+<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;    }</div>
 </div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 这是这个函数的调用关系图:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -265,14 +271,18 @@ $(document).ready(function(){initNavTree('class_low_level_a_p_i.html',''); initR
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_low_level_a_p_i_a9bb2f0a4e7c0cb7eee2e100b791d38d7_icgraph.png" border="0" usemap="#aclass_low_level_a_p_i_a9bb2f0a4e7c0cb7eee2e100b791d38d7_icgraph" alt=""/></div>
 <map name="aclass_low_level_a_p_i_a9bb2f0a4e7c0cb7eee2e100b791d38d7_icgraph" id="aclass_low_level_a_p_i_a9bb2f0a4e7c0cb7eee2e100b791d38d7_icgraph">
-<area shape="rect" title=" " alt="" coords="459,81,589,108"/>
-<area shape="rect" href="class_friend.html#a24d5d1e22b735f5f78ac30da904bbc73" title="构建好友对象" alt="" coords="297,5,400,32"/>
-<area shape="rect" href="class_group.html#add4d15440d039be09abf8f8fc316dc8c" title=" " alt="" coords="299,56,399,83"/>
-<area shape="rect" href="class_member.html#a1313aa1274273237f2dbfaa053a9d23e" title=" " alt="" coords="287,107,411,133"/>
-<area shape="rect" href="class_bot.html#a3354dc4fbf569d19e11ac04ac8bf0b01" title="刷新bot信息" alt="" coords="294,157,403,184"/>
-<area shape="rect" href="class_bot.html#a0d6809b54d75c621eb3cc7022943fd3e" title=" " alt="" coords="153,157,239,184"/>
-<area shape="rect" href="class_bot.html#a94279cd991ebd5665e67246ff7563af0" title="头像下载链接" alt="" coords="5,132,105,159"/>
-<area shape="rect" href="class_bot.html#af1538b49ce58759e210c41c402ff6680" title="昵称" alt="" coords="18,183,93,209"/>
+<area shape="rect" title=" " alt="" coords="531,107,661,133"/>
+<area shape="rect" href="class_bot.html#a3354dc4fbf569d19e11ac04ac8bf0b01" title="刷新bot信息" alt="" coords="360,31,469,57"/>
+<area shape="rect" href="class_friend.html#a9f8fce3fce96e79537c2860871ce8652" title="刷新当前对象信息" alt="" coords="352,81,477,108"/>
+<area shape="rect" href="class_member.html#a8934688d50f82adfeb931f573b1889c8" title="刷新当前对象信息" alt="" coords="347,132,483,159"/>
+<area shape="rect" href="class_group.html#a96745dba8b6f78c2f8dd04fbd241cef2" title="刷新当前对象信息" alt="" coords="353,183,477,209"/>
+<area shape="rect" href="class_bot.html#a0d6809b54d75c621eb3cc7022943fd3e" title=" " alt="" coords="183,31,269,57"/>
+<area shape="rect" href="class_bot.html#a94279cd991ebd5665e67246ff7563af0" title="头像下载链接" alt="" coords="5,5,105,32"/>
+<area shape="rect" href="class_bot.html#af1538b49ce58759e210c41c402ff6680" title="昵称" alt="" coords="18,56,93,83"/>
+<area shape="rect" href="class_friend.html#a24d5d1e22b735f5f78ac30da904bbc73" title="构建好友对象" alt="" coords="175,81,277,108"/>
+<area shape="rect" href="class_member.html#a1313aa1274273237f2dbfaa053a9d23e" title=" " alt="" coords="164,132,288,159"/>
+<area shape="rect" href="class_group.html#add4d15440d039be09abf8f8fc316dc8c" title=" " alt="" coords="176,183,276,209"/>
+<area shape="rect" href="class_group.html#a5201b9f4030729d9384b0e01603c0513" title="更新群设置, 即覆盖服务器上的群设置" alt="" coords="153,233,299,260"/>
 </map>
 </div>
 
@@ -336,17 +346,21 @@ $(document).ready(function(){initNavTree('class_low_level_a_p_i.html',''); initR
 </dl>
 <dl class="section return"><dt>返回</dt><dd></dd></dl>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01029">1029</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01029"></a><span class="lineno"> 1029</span>&#160;                                                                                       {</div>
-<div class="line"><a name="l01030"></a><span class="lineno"> 1030</span>&#160;        <a class="code" href="pch_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> j;</div>
-<div class="line"><a name="l01031"></a><span class="lineno"> 1031</span>&#160;        j[<span class="stringliteral">&quot;content&quot;</span>] = content;</div>
-<div class="line"><a name="l01032"></a><span class="lineno"> 1032</span>&#160;        j[<span class="stringliteral">&quot;contact&quot;</span>] = c-&gt;<a class="code" href="class_contact.html#a6739337b623df49bc51e2fc997bfd6e8">serialization</a>();</div>
-<div class="line"><a name="l01033"></a><span class="lineno"> 1033</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313">Tools::jstring2str</a>((jstring)env-&gt;CallObjectMethod(<a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a4527012e3db22223852e754ae2241e9c">CPP_lib</a>, <a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a79ec5659e47627677e41247b860d76ee">KSend</a>,</div>
-<div class="line"><a name="l01034"></a><span class="lineno"> 1034</span>&#160;            <a class="code" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc">Tools::str2jstring</a>(j.dump().c_str(), env),</div>
-<div class="line"><a name="l01035"></a><span class="lineno"> 1035</span>&#160;            (jboolean)miraicode), env);</div>
-<div class="line"><a name="l01036"></a><span class="lineno"> 1036</span>&#160;    }</div>
-<div class="ttc" id="aclass_config_html_a79ec5659e47627677e41247b860d76ee"><div class="ttname"><a href="class_config.html#a79ec5659e47627677e41247b860d76ee">Config::KSend</a></div><div class="ttdeci">jmethodID KSend</div><div class="ttdoc">发送信息</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00141">tools.h:141</a></div></div>
-<div class="ttc" id="aclass_contact_html_a6739337b623df49bc51e2fc997bfd6e8"><div class="ttname"><a href="class_contact.html#a6739337b623df49bc51e2fc997bfd6e8">Contact::serialization</a></div><div class="ttdeci">nlohmann::json serialization()</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00893">tools.h:893</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01055">1055</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160;                                                                                       {</div>
+<div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160;        <a class="code" href="pch_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> j;</div>
+<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;        <a class="code" href="pch_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> tmp;</div>
+<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;        tmp[<span class="stringliteral">&quot;content&quot;</span>] = content;</div>
+<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;        tmp[<span class="stringliteral">&quot;contact&quot;</span>] = c-&gt;<a class="code" href="class_contact.html#a6739337b623df49bc51e2fc997bfd6e8">serialization</a>();</div>
+<div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;        j[<span class="stringliteral">&quot;source&quot;</span>] = tmp.dump();</div>
+<div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;        j[<span class="stringliteral">&quot;miraiCode&quot;</span>] = miraicode;</div>
+<div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#afb8424eb037cadc329d3c47df377748a">koperation</a>(<a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a61d90b56109900c1008e143a5918c254a3fa8f4dc31f4d08841ac62db1912c09d">Send</a>, j, env);</div>
+<div class="line"><a name="l01063"></a><span class="lineno"> 1063</span>&#160;<span class="comment">//      Tools::jstring2str((jstring)env-&gt;CallObjectMethod(config-&gt;CPP_lib, config-&gt;KSend,</span></div>
+<div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160;<span class="comment">//          Tools::str2jstring(j.dump().c_str(), env),</span></div>
+<div class="line"><a name="l01065"></a><span class="lineno"> 1065</span>&#160;<span class="comment">//          (jboolean)miraicode), env);</span></div>
+<div class="line"><a name="l01066"></a><span class="lineno"> 1066</span>&#160;    }</div>
+<div class="ttc" id="aclass_config_html_a61d90b56109900c1008e143a5918c254a3fa8f4dc31f4d08841ac62db1912c09d"><div class="ttname"><a href="class_config.html#a61d90b56109900c1008e143a5918c254a3fa8f4dc31f4d08841ac62db1912c09d">Config::Send</a></div><div class="ttdeci">@ Send</div><div class="ttdoc">发送信息</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00137">tools.h:137</a></div></div>
+<div class="ttc" id="aclass_contact_html_a6739337b623df49bc51e2fc997bfd6e8"><div class="ttname"><a href="class_contact.html#a6739337b623df49bc51e2fc997bfd6e8">Contact::serialization</a></div><div class="ttdeci">nlohmann::json serialization()</div><div class="ttdoc">序列化到json对象</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00911">tools.h:911</a></div></div>
 </div><!-- fragment --><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -354,12 +368,13 @@ $(document).ready(function(){initNavTree('class_low_level_a_p_i.html',''); initR
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_low_level_a_p_i_ac6e830ba53c3477de726793a26357256_cgraph.png" border="0" usemap="#aclass_low_level_a_p_i_ac6e830ba53c3477de726793a26357256_cgraph" alt=""/></div>
 <map name="aclass_low_level_a_p_i_ac6e830ba53c3477de726793a26357256_cgraph" id="aclass_low_level_a_p_i_ac6e830ba53c3477de726793a26357256_cgraph">
-<area shape="rect" title="抽象封装底层发送信息接口" alt="" coords="5,107,144,133"/>
-<area shape="rect" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313" title=" " alt="" coords="205,56,323,83"/>
-<area shape="rect" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="748,56,867,83"/>
-<area shape="rect" href="class_contact.html#a6739337b623df49bc51e2fc997bfd6e8" title=" " alt="" coords="192,233,336,260"/>
-<area shape="rect" href="class_logger.html#aefc80c70d2253aed0119c468d7999ff1" title="发送警告(warning级日志)" alt="" coords="413,56,530,83"/>
-<area shape="rect" href="class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="607,5,700,32"/>
+<area shape="rect" title="抽象封装底层发送信息接口" alt="" coords="5,183,144,209"/>
+<area shape="rect" href="class_config.html#afb8424eb037cadc329d3c47df377748a" title="调用mirai操作" alt="" coords="201,107,327,133"/>
+<area shape="rect" href="class_contact.html#a6739337b623df49bc51e2fc997bfd6e8" title="序列化到json对象" alt="" coords="192,233,336,260"/>
+<area shape="rect" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313" title=" " alt="" coords="412,56,531,83"/>
+<area shape="rect" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="893,56,1012,83"/>
+<area shape="rect" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd" title="发送错误(error级日志)" alt="" coords="607,56,704,83"/>
+<area shape="rect" href="class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="752,5,845,32"/>
 <area shape="rect" href="class_contact.html#a869c10fc8e1abeedc10d805576b1450a" title="所属bot" alt="" coords="420,157,523,184"/>
 <area shape="rect" href="class_contact.html#a07e7ddca539bf8e5ac2d2ad00d8b7ba4" title="当type为3的时候存在，否则为0，可以看作补充id" alt="" coords="413,208,530,235"/>
 <area shape="rect" href="class_contact.html#a220e55b907d54958cd2afb95e65da5a1" title="id在全部情况存在" alt="" coords="429,259,514,285"/>
@@ -374,12 +389,13 @@ $(document).ready(function(){initNavTree('class_low_level_a_p_i.html',''); initR
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_low_level_a_p_i_ac6e830ba53c3477de726793a26357256_icgraph.png" border="0" usemap="#aclass_low_level_a_p_i_ac6e830ba53c3477de726793a26357256_icgraph" alt=""/></div>
 <map name="aclass_low_level_a_p_i_ac6e830ba53c3477de726793a26357256_icgraph" id="aclass_low_level_a_p_i_ac6e830ba53c3477de726793a26357256_icgraph">
-<area shape="rect" title="抽象封装底层发送信息接口" alt="" coords="655,31,793,57"/>
-<area shape="rect" href="class_contact.html#a2ee908dfb12d424a0fb593983315b560" title="发送miraicode" alt="" coords="444,5,607,32"/>
-<area shape="rect" href="class_contact.html#add20ce222b32ccc66925f7cb6e2e6abe" title="发送纯文本信息" alt="" coords="460,56,591,83"/>
-<area shape="rect" href="_procession_8cpp.html#a2f5a0b296fa851091b92244aa5da103a" title=" " alt="" coords="349,31,396,57"/>
-<area shape="rect" href="_procession_8cpp.html#af6b40412027c7beb9eb51bbfed51aff6" title=" " alt="" coords="225,56,301,83"/>
-<area shape="rect" href="pch_8cpp.html#a86032e8c2d72757b8da2e5b19ca5756b" title=" " alt="" coords="5,49,177,90"/>
+<area shape="rect" title="抽象封装底层发送信息接口" alt="" coords="745,31,884,57"/>
+<area shape="rect" href="class_contact.html#a2ee908dfb12d424a0fb593983315b560" title="发送miraicode" alt="" coords="535,5,697,32"/>
+<area shape="rect" href="class_contact.html#add20ce222b32ccc66925f7cb6e2e6abe" title="发送纯文本信息" alt="" coords="551,56,681,83"/>
+<area shape="rect" href="_procession_8cpp.html#a2f5a0b296fa851091b92244aa5da103a" title=" " alt="" coords="398,5,445,32"/>
+<area shape="rect" href="_procession_8cpp.html#af6b40412027c7beb9eb51bbfed51aff6" title=" " alt="" coords="232,31,308,57"/>
+<area shape="rect" href="class_contact.html#a9604569a056bd3bbd6dc8f0609ddc96f" title="发送纯文本信息" alt="" coords="356,107,487,133"/>
+<area shape="rect" href="pch_8cpp.html#aef48c35044131053dbb51ec07a0070af" title=" " alt="" coords="5,16,184,72"/>
 </map>
 </div>
 
@@ -436,14 +452,18 @@ $(document).ready(function(){initNavTree('class_low_level_a_p_i.html',''); initR
 </dl>
 <dl class="section return"><dt>返回</dt><dd>string 待解析json </dd></dl>
 
-<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01054">1054</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01054"></a><span class="lineno"> 1054</span>&#160;                                                                                                    {</div>
-<div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313">Tools::jstring2str</a>((jstring)env-&gt;CallObjectMethod(<a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a4527012e3db22223852e754ae2241e9c">CPP_lib</a>, <a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a0697469c6fcaac6dde444e8780b437c5">KUploadImg</a>,</div>
-<div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160;            <a class="code" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc">Tools::str2jstring</a>(path.c_str(), env),</div>
-<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;            <a class="code" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc">Tools::str2jstring</a>(c-&gt;<a class="code" href="class_contact.html#a190dd1c2ecfccf67edc3d2b1cff87835">serializationToString</a>().c_str(),</div>
-<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;                env)));</div>
-<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;    }</div>
-<div class="ttc" id="aclass_config_html_a0697469c6fcaac6dde444e8780b437c5"><div class="ttname"><a href="class_config.html#a0697469c6fcaac6dde444e8780b437c5">Config::KUploadImg</a></div><div class="ttdeci">jmethodID KUploadImg</div><div class="ttdoc">上传图片</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00145">tools.h:145</a></div></div>
+<p class="definition">在文件 <a class="el" href="tools_8h_source.html">tools.h</a> 第 <a class="el" href="tools_8h_source.html#l01087">1087</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;                                                                                                    {</div>
+<div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;        <a class="code" href="pch_8cpp.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> j;</div>
+<div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;        j[<span class="stringliteral">&quot;fileName&quot;</span>] = path;</div>
+<div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;        j[<span class="stringliteral">&quot;source&quot;</span>] = c-&gt;<a class="code" href="class_contact.html#a190dd1c2ecfccf67edc3d2b1cff87835">serializationToString</a>();</div>
+<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#afb8424eb037cadc329d3c47df377748a">koperation</a>(<a class="code" href="tools_8h.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="class_config.html#a61d90b56109900c1008e143a5918c254a32e9b3a01fcde5428ff532cf05d69544">UploadImg</a>, j, env);</div>
+<div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160;<span class="comment">//      Tools::jstring2str((jstring)env-&gt;CallObjectMethod(config-&gt;CPP_lib, config-&gt;KUploadImg,</span></div>
+<div class="line"><a name="l01093"></a><span class="lineno"> 1093</span>&#160;<span class="comment">//          Tools::str2jstring(path.c_str(), env),</span></div>
+<div class="line"><a name="l01094"></a><span class="lineno"> 1094</span>&#160;<span class="comment">//          Tools::str2jstring(c-&gt;serializationToString().c_str(),</span></div>
+<div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;<span class="comment">//              env)));</span></div>
+<div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;    }</div>
+<div class="ttc" id="aclass_config_html_a61d90b56109900c1008e143a5918c254a32e9b3a01fcde5428ff532cf05d69544"><div class="ttname"><a href="class_config.html#a61d90b56109900c1008e143a5918c254a32e9b3a01fcde5428ff532cf05d69544">Config::UploadImg</a></div><div class="ttdeci">@ UploadImg</div><div class="ttdoc">上传图片</div><div class="ttdef"><b>Definition:</b> <a href="tools_8h_source.html#l00141">tools.h:141</a></div></div>
 </div><!-- fragment --><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
@@ -451,13 +471,14 @@ $(document).ready(function(){initNavTree('class_low_level_a_p_i.html',''); initR
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_low_level_a_p_i_a34e8b356a0298a68876c21b64373d5af_cgraph.png" border="0" usemap="#aclass_low_level_a_p_i_a34e8b356a0298a68876c21b64373d5af_cgraph" alt=""/></div>
 <map name="aclass_low_level_a_p_i_a34e8b356a0298a68876c21b64373d5af_cgraph" id="aclass_low_level_a_p_i_a34e8b356a0298a68876c21b64373d5af_cgraph">
-<area shape="rect" title="上传图片" alt="" coords="5,107,175,133"/>
-<area shape="rect" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313" title=" " alt="" coords="243,56,361,83"/>
-<area shape="rect" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="844,56,963,83"/>
+<area shape="rect" title="上传图片" alt="" coords="5,183,175,209"/>
+<area shape="rect" href="class_config.html#afb8424eb037cadc329d3c47df377748a" title="调用mirai操作" alt="" coords="239,107,365,133"/>
 <area shape="rect" href="class_contact.html#a190dd1c2ecfccf67edc3d2b1cff87835" title=" " alt="" coords="223,205,381,246"/>
-<area shape="rect" href="class_logger.html#aefc80c70d2253aed0119c468d7999ff1" title="发送警告(warning级日志)" alt="" coords="443,56,560,83"/>
-<area shape="rect" href="class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="662,5,755,32"/>
-<area shape="rect" href="class_contact.html#a6739337b623df49bc51e2fc997bfd6e8" title=" " alt="" coords="429,236,573,263"/>
+<area shape="rect" href="class_tools.html#aabf8a80dcd00513cb7516e8251109313" title=" " alt="" coords="442,56,561,83"/>
+<area shape="rect" href="class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="985,56,1104,83"/>
+<area shape="rect" href="class_logger.html#abb690146dbd2c6fb7e603caf123096dd" title="发送错误(error级日志)" alt="" coords="660,56,757,83"/>
+<area shape="rect" href="class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="844,5,937,32"/>
+<area shape="rect" href="class_contact.html#a6739337b623df49bc51e2fc997bfd6e8" title="序列化到json对象" alt="" coords="429,236,573,263"/>
 <area shape="rect" href="class_contact.html#a869c10fc8e1abeedc10d805576b1450a" title="所属bot" alt="" coords="657,157,760,184"/>
 <area shape="rect" href="class_contact.html#a07e7ddca539bf8e5ac2d2ad00d8b7ba4" title="当type为3的时候存在，否则为0，可以看作补充id" alt="" coords="650,208,767,235"/>
 <area shape="rect" href="class_contact.html#a220e55b907d54958cd2afb95e65da5a1" title="id在全部情况存在" alt="" coords="666,259,751,285"/>
