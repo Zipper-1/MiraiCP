@@ -1,72 +1,72 @@
 var hierarchy =
 [
-    [ "Bot", "class_bot.html", null ],
-    [ "BotEvent", "class_bot_event.html", [
-      [ "BotJoinGroupEvent", "class_bot_join_group_event.html", null ],
-      [ "GroupInviteEvent", "class_group_invite_event.html", null ],
-      [ "GroupMessageEvent", "class_group_message_event.html", null ],
-      [ "GroupTempMessageEvent", "class_group_temp_message_event.html", null ],
-      [ "MemberJoinEvent", "class_member_join_event.html", null ],
-      [ "MemberLeaveEvent", "class_member_leave_event.html", null ],
-      [ "NewFriendRequestEvent", "class_new_friend_request_event.html", null ],
-      [ "PrivateMessageEvent", "class_private_message_event.html", null ],
-      [ "RecallEvent", "class_recall_event.html", null ]
+    [ "Bot", "a00170.html", null ],
+    [ "BotEvent", "a00194.html", [
+      [ "BotJoinGroupEvent", "a00226.html", null ],
+      [ "GroupInviteEvent", "a00206.html", null ],
+      [ "GroupMessageEvent", "a00198.html", null ],
+      [ "GroupTempMessageEvent", "a00230.html", null ],
+      [ "MemberJoinEvent", "a00214.html", null ],
+      [ "MemberLeaveEvent", "a00218.html", null ],
+      [ "NewFriendRequestEvent", "a00210.html", null ],
+      [ "PrivateMessageEvent", "a00202.html", null ],
+      [ "RecallEvent", "a00222.html", null ]
     ] ],
-    [ "Config", "class_config.html", null ],
-    [ "Contact", "class_contact.html", [
-      [ "Friend", "class_friend.html", null ],
-      [ "Group", "class_group.html", null ],
-      [ "Member", "class_member.html", null ]
+    [ "Config", "a00062.html", null ],
+    [ "Contact", "a00138.html", [
+      [ "Friend", "a00174.html", null ],
+      [ "Group", "a00182.html", null ],
+      [ "Member", "a00178.html", null ]
     ] ],
-    [ "dinfo", "structdinfo.html", null ],
-    [ "Event", "class_event.html", null ],
+    [ "dinfo", "a00142.html", null ],
+    [ "Event", "a00234.html", null ],
     [ "std::exception", null, [
-      [ "MiraiCPException", "class_mirai_c_p_exception.html", [
-        [ "APIException", "class_a_p_i_exception.html", null ],
-        [ "BotException", "class_bot_exception.html", null ],
-        [ "FriendException", "class_friend_exception.html", null ],
-        [ "GroupException", "class_group_exception.html", null ],
-        [ "IllegalArgumentException", "class_illegal_argument_exception.html", null ],
-        [ "MemberException", "class_member_exception.html", null ],
-        [ "MuteException", "class_mute_exception.html", null ],
-        [ "RecallException", "class_recall_exception.html", null ],
-        [ "RemoteAssetException", "class_remote_asset_exception.html", null ],
-        [ "UploadException", "class_upload_exception.html", null ]
+      [ "MiraiCPException", "a00082.html", [
+        [ "APIException", "a00090.html", null ],
+        [ "BotException", "a00094.html", null ],
+        [ "FriendException", "a00106.html", null ],
+        [ "GroupException", "a00110.html", null ],
+        [ "IllegalArgumentException", "a00122.html", null ],
+        [ "MemberException", "a00102.html", null ],
+        [ "MuteException", "a00098.html", null ],
+        [ "RecallException", "a00114.html", null ],
+        [ "RemoteAssetException", "a00118.html", null ],
+        [ "UploadException", "a00086.html", null ]
       ] ]
     ] ],
-    [ "finfo", "structfinfo.html", null ],
-    [ "ForwardMessage", "class_forward_message.html", null ],
-    [ "ForwardNode", "class_forward_node.html", null ],
-    [ "Group::GroupSetting", "struct_group_1_1_group_setting.html", null ],
-    [ "Logger::handler", "struct_logger_1_1handler.html", null ],
-    [ "LowLevelAPI::info", "struct_low_level_a_p_i_1_1info.html", null ],
-    [ "LightAppStyle1", "struct_light_app_style1.html", null ],
-    [ "LightAppStyle2", "struct_light_app_style2.html", null ],
-    [ "LightAppStyle3", "struct_light_app_style3.html", null ],
-    [ "Logger", "class_logger.html", null ],
-    [ "LowLevelAPI", "class_low_level_a_p_i.html", null ],
-    [ "MessageSource", "class_message_source.html", null ],
-    [ "MiraiCode", "class_mirai_code.html", null ],
-    [ "MiraiCodeable", "class_mirai_codeable.html", [
-      [ "Image", "class_image.html", null ],
-      [ "LightApp", "class_light_app.html", null ],
-      [ "RemoteFile", "class_remote_file.html", null ]
+    [ "finfo", "a00146.html", null ],
+    [ "ForwardMessage", "a00166.html", null ],
+    [ "ForwardNode", "a00162.html", null ],
+    [ "Group::GroupSetting", "a00186.html", null ],
+    [ "Logger::handler", "a00078.html", null ],
+    [ "LowLevelAPI::info", "a00158.html", null ],
+    [ "LightAppStyle1", "a00038.html", null ],
+    [ "LightAppStyle2", "a00042.html", null ],
+    [ "LightAppStyle3", "a00046.html", null ],
+    [ "Logger", "a00074.html", null ],
+    [ "LowLevelAPI", "a00154.html", null ],
+    [ "MessageSource", "a00134.html", null ],
+    [ "MiraiCode", "a00070.html", null ],
+    [ "MiraiCodeable", "a00066.html", [
+      [ "Image", "a00130.html", null ],
+      [ "LightApp", "a00126.html", null ],
+      [ "RemoteFile", "a00150.html", null ]
     ] ],
-    [ "Event::Node0", "class_event_1_1_node0.html", [
-      [ "Event::Node< MemberLeaveEvent >", "class_event_1_1_node.html", null ],
-      [ "Event::Node< PrivateMessageEvent >", "class_event_1_1_node.html", null ],
-      [ "Event::Node< RecallEvent >", "class_event_1_1_node.html", null ],
-      [ "Event::Node< GroupInviteEvent >", "class_event_1_1_node.html", null ],
-      [ "Event::Node< NewFriendRequestEvent >", "class_event_1_1_node.html", null ],
-      [ "Event::Node< MemberJoinEvent >", "class_event_1_1_node.html", null ],
-      [ "Event::Node< GroupTempMessageEvent >", "class_event_1_1_node.html", null ],
-      [ "Event::Node< GroupMessageEvent >", "class_event_1_1_node.html", null ],
-      [ "Event::Node< BotJoinGroupEvent >", "class_event_1_1_node.html", null ],
-      [ "Event::Node< T >", "class_event_1_1_node.html", null ]
+    [ "Event::Node0", "a00238.html", [
+      [ "Event::Node< MemberLeaveEvent >", "a00242.html", null ],
+      [ "Event::Node< PrivateMessageEvent >", "a00242.html", null ],
+      [ "Event::Node< RecallEvent >", "a00242.html", null ],
+      [ "Event::Node< GroupInviteEvent >", "a00242.html", null ],
+      [ "Event::Node< NewFriendRequestEvent >", "a00242.html", null ],
+      [ "Event::Node< MemberJoinEvent >", "a00242.html", null ],
+      [ "Event::Node< GroupTempMessageEvent >", "a00242.html", null ],
+      [ "Event::Node< GroupMessageEvent >", "a00242.html", null ],
+      [ "Event::Node< BotJoinGroupEvent >", "a00242.html", null ],
+      [ "Event::Node< T >", "a00242.html", null ]
     ] ],
-    [ "Event::NodeHandle", "class_event_1_1_node_handle.html", null ],
-    [ "Group::short_info", "struct_group_1_1short__info.html", null ],
-    [ "threadManager::t", "structthread_manager_1_1t.html", null ],
-    [ "threadManager", "classthread_manager.html", null ],
-    [ "Tools", "class_tools.html", null ]
+    [ "Event::NodeHandle", "a00246.html", null ],
+    [ "Group::short_info", "a00190.html", null ],
+    [ "threadManager::t", "a00054.html", null ],
+    [ "threadManager", "a00050.html", null ],
+    [ "Tools", "a00058.html", null ]
 ];

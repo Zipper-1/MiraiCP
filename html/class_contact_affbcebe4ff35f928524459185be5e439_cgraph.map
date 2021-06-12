@@ -1,6 +1,0 @@
-<map id="Contact::SendMiraiCode" name="Contact::SendMiraiCode">
-<area shape="rect" id="node1" title="发送miraicode" alt="" coords="5,31,168,57"/>
-<area shape="rect" id="node2" href="$class_contact.html#a95170f2bac2ddf1c3616bd4e1fe474dc" title="发送miraicode" alt="" coords="216,5,379,32"/>
-<area shape="rect" id="node4" href="$class_mirai_code.html#a9279ff512d981c04de4117c8b7737818" title="和toString作用一样, 不过不会自动转码" alt="" coords="219,56,376,83"/>
-<area shape="rect" id="node3" href="$class_mirai_codeable.html#a5067f9067fd47eb8413c28881084d044" title=" " alt="" coords="427,5,608,32"/>
-</map>

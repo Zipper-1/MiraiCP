@@ -1,0 +1,13 @@
+<map id="threadManager::getThreadId" name="threadManager::getThreadId">
+<area shape="rect" id="node1" title="获取线程id." alt="" coords="864,81,1047,108"/>
+<area shape="rect" id="node2" href="$a00050.html#a807b673ce4d4199cf0bfdfff5521d2c0" title=" " alt="" coords="659,5,813,32"/>
+<area shape="rect" id="node6" href="$a00050.html#a75639792816fe3f8af8a5a3fde89e4af" title="取env,如果不存在重新获取" alt="" coords="422,56,577,83"/>
+<area shape="rect" id="node8" href="$a00050.html#a8210ba94ee5c9bfe1318319500576c85" title=" " alt="" coords="656,107,816,133"/>
+<area shape="rect" id="node9" href="$a00050.html#af9c06705302ca26890977cd3a2054d3e" title="设置env给当前线程." alt="" coords="659,161,813,188"/>
+<area shape="rect" id="node3" href="$a00017.html#a2f5a0b296fa851091b92244aa5da103a" title=" " alt="" coords="476,5,523,32"/>
+<area shape="rect" id="node4" href="$a00017.html#af6b40412027c7beb9eb51bbfed51aff6" title=" " alt="" coords="249,5,325,32"/>
+<area shape="rect" id="node5" href="$a00011.html#aef48c35044131053dbb51ec07a0070af" title=" " alt="" coords="5,41,184,97"/>
+<area shape="rect" id="node7" href="$a00062.html#a543dce59b66475c5108088ee4ce1cdfc" title=" " alt="" coords="232,56,343,83"/>
+<area shape="rect" id="node10" href="$a00011.html#a1884ee856325a610b44241a7c10b446f" title=" " alt="" coords="391,158,608,199"/>
+<area shape="rect" id="node11" href="$a00011.html#a4d7d53c00c6128608f8a7dd84b3435b7" title=" " alt="" coords="410,224,589,280"/>
+</map>

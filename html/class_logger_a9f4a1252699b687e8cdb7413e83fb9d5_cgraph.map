@@ -1,9 +1,0 @@
-<map id="Logger::Warning" name="Logger::Warning">
-<area shape="rect" id="node1" title="发送警告(warning级日志)" alt="" coords="5,31,123,57"/>
-<area shape="rect" id="node2" href="$class_mirai_code.html#a05f947c86d38440157efc9ce849cca20" title="输出当前内容, 会自动转码" alt="" coords="171,5,304,32"/>
-<area shape="rect" id="node4" href="$class_logger.html#aefc80c70d2253aed0119c468d7999ff1" title="发送警告(warning级日志)" alt="" coords="179,56,296,83"/>
-<area shape="rect" id="node3" href="$class_tools.html#a73a5bbcbdd583d014bf3f8e5db3a89eb" title="替换全部在一个字符串中." alt="" coords="352,5,455,32"/>
-<area shape="rect" id="node5" href="$class_logger.html#a623dbe79c347ea0d063f5d6b900c5bc2" title="日志底层实现封装" alt="" coords="357,56,450,83"/>
-<area shape="rect" id="node6" href="$class_tools.html#ae0606aeddaa91c91435ec3a4e3a0d0dc" title=" " alt="" coords="503,31,621,57"/>
-<area shape="rect" id="node7" href="$class_logger.html#abb690146dbd2c6fb7e603caf123096dd" title="发送错误(error级日志)" alt="" coords="669,56,767,83"/>
-</map>

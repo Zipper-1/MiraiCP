@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['handler_320',['handler',['../struct_logger_1_1handler.html',1,'Logger']]]
+  ['handler_320',['handler',['../a00078.html',1,'Logger']]]
 ];

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['bot_301',['Bot',['../class_bot.html',1,'']]],
-  ['botevent_302',['BotEvent',['../class_bot_event.html',1,'']]],
-  ['botexception_303',['BotException',['../class_bot_exception.html',1,'']]],
-  ['botjoingroupevent_304',['BotJoinGroupEvent',['../class_bot_join_group_event.html',1,'']]]
+  ['bot_301',['Bot',['../a00170.html',1,'']]],
+  ['botevent_302',['BotEvent',['../a00194.html',1,'']]],
+  ['botexception_303',['BotException',['../a00094.html',1,'']]],
+  ['botjoingroupevent_304',['BotJoinGroupEvent',['../a00226.html',1,'']]]
 ];
