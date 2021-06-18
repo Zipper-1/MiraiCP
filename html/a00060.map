@@ -1,0 +1,5 @@
+<map id="Config" name="Config">
+<area shape="rect" id="node1" title="配置类声明, 主要存放各种jmethodid, MiraiCP内部使用, 不需要更改或其他操作" alt="" coords="5,145,211,325"/>
+<area shape="rect" id="node2" title=" " alt="" coords="15,5,95,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="135,5,191,83"/>
+</map>

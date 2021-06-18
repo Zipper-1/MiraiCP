@@ -1,4 +1,5 @@
 <map id="MiraiCode::toString" name="MiraiCode::toString">
 <area shape="rect" id="node1" title="输出当前内容, 会自动转码" alt="" coords="5,5,139,32"/>
-<area shape="rect" id="node2" href="$a00058.html#a73a5bbcbdd583d014bf3f8e5db3a89eb" title="替换全部在一个字符串中." alt="" coords="187,5,289,32"/>
+<area shape="rect" id="node2" href="$a00058.html#a5aae19c9953c69797c49a2540c99d540" title="从miraicode转义到正常" alt="" coords="187,5,377,32"/>
+<area shape="rect" id="node3" href="$a00058.html#a73a5bbcbdd583d014bf3f8e5db3a89eb" title="替换全部在一个字符串中." alt="" coords="425,5,528,32"/>
 </map>

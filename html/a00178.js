@@ -6,6 +6,5 @@ var a00178 =
     [ "Kick", "a00178.html#ae23c4a4ff625eb0c29f27a0c66a76aee", null ],
     [ "Mute", "a00178.html#a58a543e956ab5c1d77f29a2c15e675cb", null ],
     [ "refreshInfo", "a00178.html#a8934688d50f82adfeb931f573b1889c8", null ],
-    [ "uploadImg", "a00178.html#aba78f8099187033776154e6a3e60b881", null ],
     [ "permission", "a00178.html#a34070a5524ede3ecb35c6ea7dba21f9f", null ]
 ];

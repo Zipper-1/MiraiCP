@@ -13,7 +13,7 @@ var hierarchy =
       [ "RecallEvent", "a00222.html", null ]
     ] ],
     [ "Config", "a00062.html", null ],
-    [ "Contact", "a00138.html", [
+    [ "Contact", "a00134.html", [
       [ "Friend", "a00174.html", null ],
       [ "Group", "a00182.html", null ],
       [ "Member", "a00178.html", null ]
@@ -45,11 +45,11 @@ var hierarchy =
     [ "LightAppStyle3", "a00046.html", null ],
     [ "Logger", "a00074.html", null ],
     [ "LowLevelAPI", "a00154.html", null ],
-    [ "MessageSource", "a00134.html", null ],
+    [ "MessageSource", "a00126.html", null ],
     [ "MiraiCode", "a00070.html", null ],
     [ "MiraiCodeable", "a00066.html", [
       [ "Image", "a00130.html", null ],
-      [ "LightApp", "a00126.html", null ],
+      [ "LightApp", "a00138.html", null ],
       [ "RemoteFile", "a00150.html", null ]
     ] ],
     [ "Event::Node0", "a00238.html", [

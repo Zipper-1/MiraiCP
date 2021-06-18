@@ -1,5 +1,9 @@
 <map id="RecallEvent" name="RecallEvent">
-<area shape="rect" id="node1" title="撤回信息" alt="" coords="5,171,96,197"/>
-<area shape="rect" id="node2" href="$a00194.html" title="所以事件处理timeoutevent都是机器人事件，指都有机器人实例" alt="" coords="13,95,88,121"/>
-<area shape="rect" id="node3" href="$a00170.html" title="当前bot账号信息" alt="" coords="29,5,72,32"/>
+<area shape="rect" id="node1" title="撤回信息" alt="" coords="231,719,450,928"/>
+<area shape="rect" id="node2" href="$a00194.html" title="所以事件处理timeoutevent都是机器人事件，指都有机器人实例" alt="" coords="179,549,321,641"/>
+<area shape="rect" id="node3" href="$a00170.html" title="当前bot账号信息" alt="" coords="124,160,339,457"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,172,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="308,5,363,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="197,5,244,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="415,557,453,634"/>
 </map>

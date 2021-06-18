@@ -112,23 +112,24 @@ $(document).ready(function(){initNavTree('a00130.html',''); initResizable(); });
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00129.jpg" border="0" usemap="#a_image_inherit__map" alt="Inheritance graph"/></div>
+<div class="center"><img src="a00129.png" border="0" usemap="#a_image_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_image_inherit__map" id="a_image_inherit__map">
-<area shape="rect" title="图像类声明" alt="" coords="29,80,86,107"/>
-<area shape="rect" href="a00066.html" title="MiraiCode父类, 指可以被转换成miraicode的类型" alt="" coords="5,5,109,32"/>
+<area shape="rect" title="图像类声明" alt="" coords="5,145,203,369"/>
+<area shape="rect" href="a00066.html" title="MiraiCode父类, 指可以被转换成miraicode的类型" alt="" coords="39,5,169,97"/>
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
+</div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Image 的协作图:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00128.jpg" border="0" usemap="#a_image_coll__map" alt="Collaboration graph"/></div>
+<div class="center"><img src="a00128.png" border="0" usemap="#a_image_coll__map" alt="Collaboration graph"/></div>
 <map name="a_image_coll__map" id="a_image_coll__map">
-<area shape="rect" title="图像类声明" alt="" coords="29,80,86,107"/>
-<area shape="rect" href="a00066.html" title="MiraiCode父类, 指可以被转换成miraicode的类型" alt="" coords="5,5,109,32"/>
+<area shape="rect" title="图像类声明" alt="" coords="29,160,226,384"/>
+<area shape="rect" href="a00066.html" title="MiraiCode父类, 指可以被转换成miraicode的类型" alt="" coords="5,5,135,97"/>
+<area shape="rect" title=" " alt="" coords="159,13,213,90"/>
 </map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">图例</a>]</span></center></div>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public 成员函数</h2></td></tr>
@@ -157,7 +158,7 @@ Public 属性</h2></td></tr>
 <dl class="section examples"><dt>示例</dt><dd><a class="el" href="a00262.html#_a2">取一个miraicode字符串中全部的图片id</a>.</dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l00712">712</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l00675">675</a> 行定义.</p>
 </div><h2 class="groupheader">构造及析构函数说明</h2>
 <a id="aa574ff79b5b2d3a1bd46ff55cd9d9283"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa574ff79b5b2d3a1bd46ff55cd9d9283">&#9670;&nbsp;</a></span>Image()</h2>
@@ -175,10 +176,10 @@ Public 属性</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="a00023_source.html">tools.cpp</a> 第 <a class="el" href="a00023_source.html#l00260">260</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                              {</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    this-&gt;<span class="keywordtype">id</span> = std::move(imageId);</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;}</div>
+<p class="definition">在文件 <a class="el" href="a00023_source.html">tools.cpp</a> 第 <a class="el" href="a00023_source.html#l00262">262</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                              {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    this-&gt;<span class="keywordtype">id</span> = std::move(imageId);</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -207,18 +208,18 @@ Public 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l00746">746</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;                                                                     {</div>
-<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a00130.html#a209162f6355c501f5fde9db40de39188">GetImgIdsFromMiraiCode</a>(msg.<a class="code" href="a00070.html#a9279ff512d981c04de4117c8b7737818">toMiraiCode</a>());</div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;    }</div>
-<div class="ttc" id="aa00070_html_a9279ff512d981c04de4117c8b7737818"><div class="ttname"><a href="a00070.html#a9279ff512d981c04de4117c8b7737818">MiraiCode::toMiraiCode</a></div><div class="ttdeci">std::string toMiraiCode()</div><div class="ttdoc">和toString作用一样, 不过不会自动转码</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00221">tools.h:221</a></div></div>
-<div class="ttc" id="aa00130_html_a209162f6355c501f5fde9db40de39188"><div class="ttname"><a href="a00130.html#a209162f6355c501f5fde9db40de39188">Image::GetImgIdsFromMiraiCode</a></div><div class="ttdeci">static std::vector&lt; std::string &gt; GetImgIdsFromMiraiCode(std::string)</div><div class="ttdef"><b>Definition:</b> <a href="a00023_source.html#l00273">tools.cpp:273</a></div></div>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l00709">709</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a00130.html#a209162f6355c501f5fde9db40de39188">GetImgIdsFromMiraiCode</a>(msg.<a class="code" href="a00070.html#a9279ff512d981c04de4117c8b7737818">toMiraiCode</a>());</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;    }</div>
+<div class="ttc" id="aa00070_html_a9279ff512d981c04de4117c8b7737818"><div class="ttname"><a href="a00070.html#a9279ff512d981c04de4117c8b7737818">MiraiCode::toMiraiCode</a></div><div class="ttdeci">std::string toMiraiCode()</div><div class="ttdoc">和toString作用一样, 不过不会自动转码</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00220">tools.h:220</a></div></div>
+<div class="ttc" id="aa00130_html_a209162f6355c501f5fde9db40de39188"><div class="ttname"><a href="a00130.html#a209162f6355c501f5fde9db40de39188">Image::GetImgIdsFromMiraiCode</a></div><div class="ttdeci">static std::vector&lt; std::string &gt; GetImgIdsFromMiraiCode(std::string)</div><div class="ttdef"><b>Definition:</b> <a href="a00023_source.html#l00275">tools.cpp:275</a></div></div>
 </div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00130_a54b8b32a4a36d6263f570b2c380079e6_cgraph.jpg" border="0" usemap="#aa00130_a54b8b32a4a36d6263f570b2c380079e6_cgraph" alt=""/></div>
+<div class="center"><img src="a00130_a54b8b32a4a36d6263f570b2c380079e6_cgraph.png" border="0" usemap="#aa00130_a54b8b32a4a36d6263f570b2c380079e6_cgraph" alt=""/></div>
 <map name="aa00130_a54b8b32a4a36d6263f570b2c380079e6_cgraph" id="aa00130_a54b8b32a4a36d6263f570b2c380079e6_cgraph">
 <area shape="rect" title=" " alt="" coords="5,31,217,57"/>
 <area shape="rect" href="a00130.html#a209162f6355c501f5fde9db40de39188" title=" " alt="" coords="265,5,477,32"/>
@@ -252,26 +253,26 @@ Public 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="a00023_source.html">tools.cpp</a> 第 <a class="el" href="a00023_source.html#l00273">273</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                                                                      {</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    std::vector&lt;std::string&gt; result = std::vector&lt;std::string&gt;();</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <a class="code" href="a00011.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> temp = std::move(<a class="code" href="a00070.html">MiraiCode</a>);</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    std::smatch m;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    std::regex re(<span class="stringliteral">&quot;\\[mirai:image:(.*?)\\]&quot;</span>);</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="keywordflow">while</span> (std::regex_search(temp, m, re)) {</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        result.push_back(m[1]);</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        temp = m.suffix().str();</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    }</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;}</div>
+<p class="definition">在文件 <a class="el" href="a00023_source.html">tools.cpp</a> 第 <a class="el" href="a00023_source.html#l00275">275</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    std::vector&lt;std::string&gt; result = std::vector&lt;std::string&gt;();</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <a class="code" href="a00011.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> temp = std::move(<a class="code" href="a00070.html">MiraiCode</a>);</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    std::smatch m;</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    std::regex re(<span class="stringliteral">&quot;\\[mirai:image:(.*?)\\]&quot;</span>);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordflow">while</span> (std::regex_search(temp, m, re)) {</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        result.push_back(m[1]);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        temp = m.suffix().str();</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    }</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;}</div>
 <div class="ttc" id="aa00011_html_aca454f84dd198a937af6499dd758aa3d"><div class="ttname"><a href="a00011.html#aca454f84dd198a937af6499dd758aa3d">string</a></div><div class="ttdeci">std::string string</div><div class="ttdef"><b>Definition:</b> <a href="a00011_source.html#l00003">pch.cpp:3</a></div></div>
-<div class="ttc" id="aa00070_html"><div class="ttname"><a href="a00070.html">MiraiCode</a></div><div class="ttdoc">miraicode字符串</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00201">tools.h:201</a></div></div>
+<div class="ttc" id="aa00070_html"><div class="ttname"><a href="a00070.html">MiraiCode</a></div><div class="ttdoc">miraicode字符串</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00210">tools.h:210</a></div></div>
 </div><!-- fragment --><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> 这是这个函数的调用关系图:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00130_a209162f6355c501f5fde9db40de39188_icgraph.jpg" border="0" usemap="#aa00130_a209162f6355c501f5fde9db40de39188_icgraph" alt=""/></div>
+<div class="center"><img src="a00130_a209162f6355c501f5fde9db40de39188_icgraph.png" border="0" usemap="#aa00130_a209162f6355c501f5fde9db40de39188_icgraph" alt=""/></div>
 <map name="aa00130_a209162f6355c501f5fde9db40de39188_icgraph" id="aa00130_a209162f6355c501f5fde9db40de39188_icgraph">
 <area shape="rect" title=" " alt="" coords="492,31,704,57"/>
 <area shape="rect" href="a00130.html#a54b8b32a4a36d6263f570b2c380079e6" title=" " alt="" coords="232,5,444,32"/>
@@ -300,27 +301,27 @@ Public 属性</h2></td></tr>
 <dl class="section examples"><dt>示例</dt><dd><a class="el" href="a00262.html#a3">取一个miraicode字符串中全部的图片id</a>.</dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="a00023_source.html">tools.cpp</a> 第 <a class="el" href="a00023_source.html#l00264">264</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                                           {</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <a class="code" href="a00011.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> j;</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    j[<span class="stringliteral">&quot;id&quot;</span>] = this-&gt;<a class="code" href="a00130.html#abb1514200b5ab807423e41061f2e2411">id</a>;</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <a class="code" href="a00011.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> re = <a class="code" href="a00011.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="a00062.html#afb8424eb037cadc329d3c47df377748a">koperation</a>(<a class="code" href="a00011.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="a00062.html#a61d90b56109900c1008e143a5918c254aea52495b8455041b6d71426592654733">QueryImgUrl</a>, j, env);</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordflow">if</span>(re == <span class="stringliteral">&quot;E1&quot;</span>)</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        <span class="keywordflow">throw</span> <a class="code" href="a00118.html">RemoteAssetException</a>(<span class="stringliteral">&quot;图片id格式错误&quot;</span>);</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">return</span> re;</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;}</div>
+<p class="definition">在文件 <a class="el" href="a00023_source.html">tools.cpp</a> 第 <a class="el" href="a00023_source.html#l00266">266</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                                           {</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <a class="code" href="a00011.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> j;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    j[<span class="stringliteral">&quot;id&quot;</span>] = this-&gt;<a class="code" href="a00130.html#abb1514200b5ab807423e41061f2e2411">id</a>;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    <a class="code" href="a00011.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> re = <a class="code" href="a00011.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="a00062.html#afb8424eb037cadc329d3c47df377748a">koperation</a>(<a class="code" href="a00011.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="a00062.html#a61d90b56109900c1008e143a5918c254aea52495b8455041b6d71426592654733">QueryImgUrl</a>, j, env);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">if</span>(re == <span class="stringliteral">&quot;E1&quot;</span>)</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="keywordflow">throw</span> <a class="code" href="a00118.html">RemoteAssetException</a>(<span class="stringliteral">&quot;图片id格式错误&quot;</span>);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="keywordflow">return</span> re;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;}</div>
 <div class="ttc" id="aa00011_html_a6a44a77efe9d36d03240f900d00dad80"><div class="ttname"><a href="a00011.html#a6a44a77efe9d36d03240f900d00dad80">config</a></div><div class="ttdeci">Config * config</div><div class="ttdoc">全局配置指针</div><div class="ttdef"><b>Definition:</b> <a href="a00011_source.html#l00014">pch.cpp:14</a></div></div>
 <div class="ttc" id="aa00011_html_ab701e3ac61a85b337ec5c1abaad6742d"><div class="ttname"><a href="a00011.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition:</b> <a href="a00011_source.html#l00002">pch.cpp:2</a></div></div>
-<div class="ttc" id="aa00062_html_a61d90b56109900c1008e143a5918c254aea52495b8455041b6d71426592654733"><div class="ttname"><a href="a00062.html#a61d90b56109900c1008e143a5918c254aea52495b8455041b6d71426592654733">Config::QueryImgUrl</a></div><div class="ttdeci">@ QueryImgUrl</div><div class="ttdoc">查询图片下载地址</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00151">tools.h:151</a></div></div>
-<div class="ttc" id="aa00062_html_afb8424eb037cadc329d3c47df377748a"><div class="ttname"><a href="a00062.html#afb8424eb037cadc329d3c47df377748a">Config::koperation</a></div><div class="ttdeci">std::string koperation(int code, const nlohmann::json &amp;json, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdoc">调用mirai操作</div><div class="ttdef"><b>Definition:</b> <a href="a00023_source.html#l00119">tools.cpp:119</a></div></div>
-<div class="ttc" id="aa00118_html"><div class="ttname"><a href="a00118.html">RemoteAssetException</a></div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00548">tools.h:548</a></div></div>
-<div class="ttc" id="aa00130_html_abb1514200b5ab807423e41061f2e2411"><div class="ttname"><a href="a00130.html#abb1514200b5ab807423e41061f2e2411">Image::id</a></div><div class="ttdeci">std::string id</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00715">tools.h:715</a></div></div>
+<div class="ttc" id="aa00062_html_a61d90b56109900c1008e143a5918c254aea52495b8455041b6d71426592654733"><div class="ttname"><a href="a00062.html#a61d90b56109900c1008e143a5918c254aea52495b8455041b6d71426592654733">Config::QueryImgUrl</a></div><div class="ttdeci">@ QueryImgUrl</div><div class="ttdoc">查询图片下载地址</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00159">tools.h:159</a></div></div>
+<div class="ttc" id="aa00062_html_afb8424eb037cadc329d3c47df377748a"><div class="ttname"><a href="a00062.html#afb8424eb037cadc329d3c47df377748a">Config::koperation</a></div><div class="ttdeci">std::string koperation(int code, const nlohmann::json &amp;json, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdoc">调用mirai操作</div><div class="ttdef"><b>Definition:</b> <a href="a00023_source.html#l00121">tools.cpp:121</a></div></div>
+<div class="ttc" id="aa00118_html"><div class="ttname"><a href="a00118.html">RemoteAssetException</a></div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00547">tools.h:547</a></div></div>
+<div class="ttc" id="aa00130_html_abb1514200b5ab807423e41061f2e2411"><div class="ttname"><a href="a00130.html#abb1514200b5ab807423e41061f2e2411">Image::id</a></div><div class="ttdeci">std::string id</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00678">tools.h:678</a></div></div>
 </div><!-- fragment --><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00130_a33f8850fcab39bb5ca332a04400c8d50_cgraph.jpg" border="0" usemap="#aa00130_a33f8850fcab39bb5ca332a04400c8d50_cgraph" alt=""/></div>
+<div class="center"><img src="a00130_a33f8850fcab39bb5ca332a04400c8d50_cgraph.png" border="0" usemap="#aa00130_a33f8850fcab39bb5ca332a04400c8d50_cgraph" alt=""/></div>
 <map name="aa00130_a33f8850fcab39bb5ca332a04400c8d50_cgraph" id="aa00130_a33f8850fcab39bb5ca332a04400c8d50_cgraph">
 <area shape="rect" title=" " alt="" coords="5,81,128,108"/>
 <area shape="rect" href="a00062.html#afb8424eb037cadc329d3c47df377748a" title="调用mirai操作" alt="" coords="176,81,303,108"/>
@@ -360,16 +361,29 @@ Public 属性</h2></td></tr>
 
 <p>实现了 <a class="el" href="a00066.html#a5067f9067fd47eb8413c28881084d044">MiraiCodeable</a>.</p>
 
-<p class="definition">在文件 <a class="el" href="a00023_source.html">tools.cpp</a> 第 <a class="el" href="a00023_source.html#l00285">285</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                             {</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;[mirai:image:&quot;</span> + this-&gt;<span class="keywordtype">id</span> + <span class="stringliteral">&quot;]&quot;</span>;</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;}</div>
+<p class="definition">在文件 <a class="el" href="a00023_source.html">tools.cpp</a> 第 <a class="el" href="a00023_source.html#l00287">287</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                             {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;[mirai:image:&quot;</span> + <a class="code" href="a00058.html#abea12070fc52348e5c9a426c116f5629">Tools::escapeToMiraiCode</a>(this-&gt;<span class="keywordtype">id</span>) + <span class="stringliteral">&quot;]&quot;</span>;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;}</div>
+<div class="ttc" id="aa00058_html_abea12070fc52348e5c9a426c116f5629"><div class="ttname"><a href="a00058.html#abea12070fc52348e5c9a426c116f5629">Tools::escapeToMiraiCode</a></div><div class="ttdeci">static std::string escapeToMiraiCode(const std::string &amp;s)</div><div class="ttdoc">转义miraicode格式</div><div class="ttdef"><b>Definition:</b> <a href="a00023_source.html#l00566">tools.cpp:566</a></div></div>
 </div><!-- fragment --><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> 这是这个函数的调用关系图:</div>
+  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="a00130_a1f23cd8327ee4b8814ad8574b6a35e82_icgraph.jpg" border="0" usemap="#aa00130_a1f23cd8327ee4b8814ad8574b6a35e82_icgraph" alt=""/></div>
+<div class="center"><img src="a00130_a1f23cd8327ee4b8814ad8574b6a35e82_cgraph.png" border="0" usemap="#aa00130_a1f23cd8327ee4b8814ad8574b6a35e82_cgraph" alt=""/></div>
+<map name="aa00130_a1f23cd8327ee4b8814ad8574b6a35e82_cgraph" id="aa00130_a1f23cd8327ee4b8814ad8574b6a35e82_cgraph">
+<area shape="rect" title="取图片Mirai码" alt="" coords="5,5,140,32"/>
+<area shape="rect" href="a00058.html#abea12070fc52348e5c9a426c116f5629" title="转义miraicode格式" alt="" coords="188,5,363,32"/>
+<area shape="rect" href="a00058.html#a73a5bbcbdd583d014bf3f8e5db3a89eb" title="替换全部在一个字符串中." alt="" coords="411,5,513,32"/>
+</map>
+</div>
+<div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="closed.png" alt="+"/> 这是这个函数的调用关系图:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="a00130_a1f23cd8327ee4b8814ad8574b6a35e82_icgraph.png" border="0" usemap="#aa00130_a1f23cd8327ee4b8814ad8574b6a35e82_icgraph" alt=""/></div>
 <map name="aa00130_a1f23cd8327ee4b8814ad8574b6a35e82_icgraph" id="aa00130_a1f23cd8327ee4b8814ad8574b6a35e82_icgraph">
 <area shape="rect" title="取图片Mirai码" alt="" coords="356,20,491,47"/>
 <area shape="rect" href="a00017.html#af6b40412027c7beb9eb51bbfed51aff6" title=" " alt="" coords="232,20,308,47"/>
@@ -392,7 +406,7 @@ Public 属性</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l00715">715</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l00678">678</a> 行定义.</p>
 
 </div>
 </div>

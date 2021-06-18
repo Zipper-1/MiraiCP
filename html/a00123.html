@@ -94,18 +94,24 @@ $(document).ready(function(){initNavTree('a00126.html',''); initResizable(); });
 
 <div class="header">
   <div class="headertitle">
-<div class="title">LightApp 成员列表</div>  </div>
+<div class="title">MessageSource 成员列表</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>成员的完整列表，这些成员属于 <a class="el" href="a00126.html">LightApp</a>,包括所有继承而来的类成员</p>
+<p>成员的完整列表，这些成员属于 <a class="el" href="a00126.html">MessageSource</a>,包括所有继承而来的类成员</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a00126.html#a4bce6da412b7c2773e880ec9458ef4cd">content</a></td><td class="entry"><a class="el" href="a00126.html">LightApp</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a00126.html#aef71a2710e3d7994bc896da6b4e5d6db">LightApp</a>(std::string content)</td><td class="entry"><a class="el" href="a00126.html">LightApp</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00126.html#ab7d78a40ed7aefa1ebf0316ede0b6ed9">LightApp</a>(LightAppStyle1 c)</td><td class="entry"><a class="el" href="a00126.html">LightApp</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a00126.html#a51553e434d66d1a8df735898a926c03c">LightApp</a>(LightAppStyle2 c)</td><td class="entry"><a class="el" href="a00126.html">LightApp</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00126.html#a84c1b7b6b028d0465a95661dc25c0df5">LightApp</a>(LightAppStyle3 c)</td><td class="entry"><a class="el" href="a00126.html">LightApp</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a00126.html#a2f294b6092bdac3a0602ca19fb937fcc">toMiraiCode</a>()</td><td class="entry"><a class="el" href="a00126.html">LightApp</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00126.html#a593939fc75a52d99f210da0482a85443">deserializeFromString</a>(const std::string &amp;source)</td><td class="entry"><a class="el" href="a00126.html">MessageSource</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00126.html#a6ca741546591aa2b1f0fe25e63378a52">ids</a></td><td class="entry"><a class="el" href="a00126.html">MessageSource</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00126.html#aa8ded0b60806204dfa188c269f0f8cc7">internalids</a></td><td class="entry"><a class="el" href="a00126.html">MessageSource</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00126.html#a19d28a14e61cc59cf8c4ff874d9cf6de">MessageSource</a>()</td><td class="entry"><a class="el" href="a00126.html">MessageSource</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00126.html#ae638bd34f881f998e231358b6032515c">MessageSource</a>(std::string ids, std::string internalids, const std::string &amp;source)</td><td class="entry"><a class="el" href="a00126.html">MessageSource</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00126.html#a16d0ad039dd11b00fae58bede8ba0ab5">quoteAndSendMiraiCode</a>(MiraiCodeable *msg, unsigned long long groupid=0, JNIEnv *env=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00126.html">MessageSource</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00126.html#a158264e0d0eb4c6ef516b67eb89b6269">quoteAndSendMiraiCode</a>(MiraiCode msg, unsigned long long groupid=0, JNIEnv *env=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00126.html">MessageSource</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00126.html#a7bfc2a0e364807256a86990bfa37c645">quoteAndSendMiraiCode</a>(const std::string &amp;c, unsigned long long groupid=0, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00126.html">MessageSource</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00126.html#a71860160942a031d1326188d6bb2a84f">quoteAndSendMsg</a>(const std::string &amp;c, unsigned long long groupid=0, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00126.html">MessageSource</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00126.html#af13eac13eab97b11985f25f6534c3fef">recall</a>(JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00126.html">MessageSource</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00126.html#a4989eaf784cda998f2a3f46bcf9426d9">serializeToString</a>()</td><td class="entry"><a class="el" href="a00126.html">MessageSource</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00126.html#ad20429a51dd52cb069e8b48cfd696486">source</a></td><td class="entry"><a class="el" href="a00126.html">MessageSource</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

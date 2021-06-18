@@ -13,6 +13,5 @@ var a00182 =
     [ "refreshInfo", "a00182.html#a96745dba8b6f78c2f8dd04fbd241cef2", null ],
     [ "sendFile", "a00182.html#a5c6be84a0330257d8c30f69aa91ef41f", null ],
     [ "updateSetting", "a00182.html#a5201b9f4030729d9384b0e01603c0513", null ],
-    [ "uploadImg", "a00182.html#a5d5ee1411e024a25c3576daf019f99f5", null ],
     [ "setting", "a00182.html#a0bac0da7d8f7a8172b7397c86c026384", null ]
 ];
