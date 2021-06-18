@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -33,7 +34,7 @@
    <div id="projectname">MiraiCP
    &#160;<span id="projectnumber">v2.6.4</span>
    </div>
-   <div id="projectbrief">MiraiCP API文档</div>
+   <div id="projectbrief">MiraiCP api document</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -113,7 +114,7 @@ $(document).ready(function(){initNavTree('a00182.html',''); initResizable(); });
   <tr class="even"><td class="entry"><a class="el" href="a00134.html#aafc428cdb4c1920864bf747ad7dce9f2">deserializationFromJson</a>(nlohmann::json root)</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr><td class="entry"><a class="el" href="a00134.html#a1ae828255543de1ff394bc79e9262cc7">deserializationFromString</a>(const std::string &amp;source)</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="a00182.html#a4eadbc1ff13345e65c326bc31ab51a30">getFile</a>(const std::string &amp;path, const std::string &amp;id=&quot;&quot;, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a00182.html#a0a6a2139b33f4a67d0ec1da7a8c50960">getFileList</a>(const std::string &amp;path, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00182.html#aed855786800370a40cc6eb1c6ebf45a5">getFileList</a>(const std::string &amp;path, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="a00182.html#a46cd7c2b83738574ceb528de83817b54">getFileListString</a>(const std::string &amp;path, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="a00182.html#a6972381c59872d120d149bbffa8caaf3">getMemberList</a>(JNIEnv *env=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="a00182.html#add1e65680741fd67e842bd55d619f871">getOwner</a>(JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"></td></tr>
@@ -123,20 +124,21 @@ $(document).ready(function(){initNavTree('a00182.html',''); initResizable(); });
   <tr class="even"><td class="entry"><a class="el" href="a00134.html#a220e55b907d54958cd2afb95e65da5a1">id</a>()</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="a00182.html#ac89491904da04e7ac2958d8a1ff05e5d">MemberListToString</a>()</td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="a00134.html#a3f78c5f66d0b71ad06267c6a3b492066">nickOrNameCard</a>()</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a00182.html#a96745dba8b6f78c2f8dd04fbd241cef2">refreshInfo</a>(JNIEnv *env=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00182.html#a5c6be84a0330257d8c30f69aa91ef41f">sendFile</a>(const std::string &amp;path, const std::string &amp;filepath, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a00134.html#a7f3578533d424fcaada52bc32225d5d9">sendMiraiCode</a>(MiraiCodeable *msg)</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00134.html#abd2cdd5e1aa11add1f75ef4dd6454293">sendMiraiCode</a>(MiraiCode msg)</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a00134.html#a46348753dfc0d1ecaf658d93511bd721">sendMiraiCode</a>(std::string msg, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00134.html#ac8e7ac7c9330803c5e1862bff68096cd">sendMsg</a>(std::string msg, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a00134.html#a93a378bd7b596f11bc709b0268aa4627">sendMsg</a>(MiraiCode msg)</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00134.html#afeb2b3da5b221e8120cc532371f946cc">sendVoice</a>(const std::string &amp;path, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a00134.html#a6739337b623df49bc51e2fc997bfd6e8">serialization</a>()</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00134.html#a190dd1c2ecfccf67edc3d2b1cff87835">serializationToString</a>()</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a00182.html#a0bac0da7d8f7a8172b7397c86c026384">setting</a></td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00134.html#a182b686fa824fe5c9a3a5181f873e2a1">type</a>()</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a00182.html#a5201b9f4030729d9384b0e01603c0513">updateSetting</a>(JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a00134.html#a3c3699a0d797da44bd30e12153a140f3">uploadImg</a>(const std::string &amp;filename, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00182.html#ab46c414e9840977df20500fccc5e5352">quit</a>(JNIEnv *env=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00182.html#a96745dba8b6f78c2f8dd04fbd241cef2">refreshInfo</a>(JNIEnv *env=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00182.html#a5c6be84a0330257d8c30f69aa91ef41f">sendFile</a>(const std::string &amp;path, const std::string &amp;filepath, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00134.html#a7f3578533d424fcaada52bc32225d5d9">sendMiraiCode</a>(MiraiCodeable *msg)</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00134.html#abd2cdd5e1aa11add1f75ef4dd6454293">sendMiraiCode</a>(MiraiCode msg)</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00134.html#a46348753dfc0d1ecaf658d93511bd721">sendMiraiCode</a>(std::string msg, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00134.html#ac8e7ac7c9330803c5e1862bff68096cd">sendMsg</a>(std::string msg, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00134.html#a93a378bd7b596f11bc709b0268aa4627">sendMsg</a>(MiraiCode msg)</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00134.html#afeb2b3da5b221e8120cc532371f946cc">sendVoice</a>(const std::string &amp;path, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00134.html#a6739337b623df49bc51e2fc997bfd6e8">serialization</a>()</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a00134.html#a190dd1c2ecfccf67edc3d2b1cff87835">serializationToString</a>()</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00182.html#a0bac0da7d8f7a8172b7397c86c026384">setting</a></td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00134.html#a182b686fa824fe5c9a3a5181f873e2a1">type</a>()</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a00182.html#a5201b9f4030729d9384b0e01603c0513">updateSetting</a>(JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00182.html">Group</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a00134.html#a3c3699a0d797da44bd30e12153a140f3">uploadImg</a>(const std::string &amp;filename, JNIEnv *=manager-&gt;getEnv())</td><td class="entry"><a class="el" href="a00134.html">Contact</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

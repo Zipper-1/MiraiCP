@@ -57,7 +57,7 @@ var NAVTREEINDEX =
 [
 "a00002.html",
 "a00134.html#a10cf00a3c2dfef0bdc29c3f89e508293",
-"functions_a.html"
+"functions.html"
 ];
 
 var SYNCONMSG = '点击 关闭 面板同步';

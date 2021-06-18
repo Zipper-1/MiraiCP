@@ -3,7 +3,7 @@ var searchData=
   ['p_5fadminister_196',['P_Administer',['../a00032.html#ga4e7cc6164db98f6fcd00d74014428bf2',1,'constants.h']]],
   ['p_5fmember_197',['P_Member',['../a00032.html#ga27fda84685f4e6dd9b53d9440e651405',1,'constants.h']]],
   ['p_5fowner_198',['P_Owner',['../a00032.html#ga790e9ff410f83ef1e12aba24088b623f',1,'constants.h']]],
-  ['path_199',['path',['../a00150.html#aed6d46f89c5cb0d83236b4b7e1b5c873',1,'RemoteFile::path()'],['../a00190.html#a337a911c02f70270b64d12d41a654b7d',1,'Group::short_info::path()']]],
+  ['path_199',['path',['../a00150.html#aed6d46f89c5cb0d83236b4b7e1b5c873',1,'RemoteFile::path()'],['../a00190.html#a5053afe909adeb19ec972314d4562a4a',1,'Group::file_short_info::path()']]],
   ['pch_2ecpp_200',['pch.cpp',['../a00011.html',1,'']]],
   ['pch_2eh_201',['pch.h',['../a00014.html',1,'']]],
   ['permission_202',['permission',['../a00178.html#a34070a5524ede3ecb35c6ea7dba21f9f',1,'Member']]],

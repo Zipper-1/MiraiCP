@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['manager_140',['manager',['../a00026.html#a4b4a306a9aed3f0d9ac6f2009f941c9f',1,'manager():&#160;pch.cpp'],['../a00011.html#a4b4a306a9aed3f0d9ac6f2009f941c9f',1,'manager():&#160;pch.cpp']]],
-  ['md5_141',['md5',['../a00142.html#af7b7245d4b94bb72cae65c5cf0b40a9f',1,'dinfo']]],
-  ['member_142',['Member',['../a00178.html',1,'']]],
-  ['member_143',['member',['../a00214.html#ada3229d4de20a619e6c641f9c97c505b',1,'MemberJoinEvent']]],
-  ['member_144',['Member',['../a00178.html#a1313aa1274273237f2dbfaa053a9d23e',1,'Member::Member(unsigned long long qqid, unsigned long long groupid, unsigned long long botid, JNIEnv *=manager-&gt;getEnv())'],['../a00178.html#a51e0e2424f6662912d44fbdb6b18c83a',1,'Member::Member(Contact c)']]],
+  ['manager_141',['manager',['../a00026.html#a4b4a306a9aed3f0d9ac6f2009f941c9f',1,'manager():&#160;pch.cpp'],['../a00011.html#a4b4a306a9aed3f0d9ac6f2009f941c9f',1,'manager():&#160;pch.cpp']]],
+  ['md5_142',['md5',['../a00142.html#af7b7245d4b94bb72cae65c5cf0b40a9f',1,'dinfo']]],
+  ['member_143',['Member',['../a00178.html',1,'Member'],['../a00178.html#a1313aa1274273237f2dbfaa053a9d23e',1,'Member::Member(unsigned long long qqid, unsigned long long groupid, unsigned long long botid, JNIEnv *=manager-&gt;getEnv())'],['../a00178.html#a51e0e2424f6662912d44fbdb6b18c83a',1,'Member::Member(Contact c)']]],
+  ['member_144',['member',['../a00214.html#ada3229d4de20a619e6c641f9c97c505b',1,'MemberJoinEvent']]],
   ['memberexception_145',['MemberException',['../a00102.html',1,'MemberException'],['../a00102.html#ae3cc6e7ffd32c9e608862a65b52baa32',1,'MemberException::MemberException()']]],
   ['memberid_146',['memberid',['../a00218.html#a8dbb981f7e9b4ecaf618a443999385ce',1,'MemberLeaveEvent']]],
   ['memberjoinevent_147',['MemberJoinEvent',['../a00214.html',1,'MemberJoinEvent'],['../a00214.html#ad536c8db11e375d702476aa113a19cc1',1,'MemberJoinEvent::MemberJoinEvent()']]],

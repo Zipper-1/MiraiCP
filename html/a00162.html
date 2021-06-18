@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -33,7 +34,7 @@
    <div id="projectname">MiraiCP
    &#160;<span id="projectnumber">v2.6.4</span>
    </div>
-   <div id="projectbrief">MiraiCP API文档</div>
+   <div id="projectbrief">MiraiCP api document</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -147,7 +148,7 @@ Public 属性</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>聊天记录里每个消息 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01133">1133</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01135">1135</a> 行定义.</p>
 </div><h2 class="groupheader">构造及析构函数说明</h2>
 <a id="a6c668b871edbc04ecf9a09ab51f2d2f0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6c668b871edbc04ecf9a09ab51f2d2f0">&#9670;&nbsp;</a></span>ForwardNode() <span class="overload">[1/2]</span></h2>
@@ -198,20 +199,20 @@ Public 属性</h2></td></tr>
 <p>聊天记录里的每条信息 </p>
 <dl class="params"><dt>参数</dt><dd>
   <table class="params">
-    <tr><td class="paramname">i</td><td>- 发送者id </td></tr>
-    <tr><td class="paramname">n</td><td>- 发送者昵称 </td></tr>
-    <tr><td class="paramname">m</td><td>- 发送的信息 </td></tr>
-    <tr><td class="paramname">t</td><td>- 发送时间，以时间戳记 </td></tr>
+    <tr><td class="paramname">id</td><td>- 发送者id </td></tr>
+    <tr><td class="paramname">name</td><td>- 发送者昵称 </td></tr>
+    <tr><td class="paramname">message</td><td>- 发送的信息 </td></tr>
+    <tr><td class="paramname">time</td><td>- 发送时间，以时间戳记 </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01149">1149</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;        : <a class="code" href="a00162.html#a62b34a92a68a6383171a38797491a084">id</a>(<span class="keywordtype">id</span>), <a class="code" href="a00162.html#ae41172edb72a9170e333df82c4e26057">name</a>(<a class="code" href="a00162.html#ae41172edb72a9170e333df82c4e26057">name</a>), <a class="code" href="a00162.html#a163afb3054e6bd7841ff622f4909b686">message</a>(<a class="code" href="a00162.html#a163afb3054e6bd7841ff622f4909b686">message</a>), <a class="code" href="a00162.html#a0b0920001d3c5f8371d1321e804bda1e">time</a>(<a class="code" href="a00162.html#a0b0920001d3c5f8371d1321e804bda1e">time</a>) {}</div>
-<div class="ttc" id="aa00162_html_a0b0920001d3c5f8371d1321e804bda1e"><div class="ttname"><a href="a00162.html#a0b0920001d3c5f8371d1321e804bda1e">ForwardNode::time</a></div><div class="ttdeci">const int time</div><div class="ttdoc">发送时间</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01142">tools.h:1142</a></div></div>
-<div class="ttc" id="aa00162_html_a163afb3054e6bd7841ff622f4909b686"><div class="ttname"><a href="a00162.html#a163afb3054e6bd7841ff622f4909b686">ForwardNode::message</a></div><div class="ttdeci">const std::string message</div><div class="ttdoc">发送信息</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01140">tools.h:1140</a></div></div>
-<div class="ttc" id="aa00162_html_a62b34a92a68a6383171a38797491a084"><div class="ttname"><a href="a00162.html#a62b34a92a68a6383171a38797491a084">ForwardNode::id</a></div><div class="ttdeci">const unsigned long long id</div><div class="ttdoc">发送者id</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01136">tools.h:1136</a></div></div>
-<div class="ttc" id="aa00162_html_ae41172edb72a9170e333df82c4e26057"><div class="ttname"><a href="a00162.html#ae41172edb72a9170e333df82c4e26057">ForwardNode::name</a></div><div class="ttdeci">const std::string name</div><div class="ttdoc">发送者昵称</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01138">tools.h:1138</a></div></div>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01151">1151</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;        : <a class="code" href="a00162.html#a62b34a92a68a6383171a38797491a084">id</a>(<span class="keywordtype">id</span>), <a class="code" href="a00162.html#ae41172edb72a9170e333df82c4e26057">name</a>(<a class="code" href="a00162.html#ae41172edb72a9170e333df82c4e26057">name</a>), <a class="code" href="a00162.html#a163afb3054e6bd7841ff622f4909b686">message</a>(<a class="code" href="a00162.html#a163afb3054e6bd7841ff622f4909b686">message</a>), <a class="code" href="a00162.html#a0b0920001d3c5f8371d1321e804bda1e">time</a>(<a class="code" href="a00162.html#a0b0920001d3c5f8371d1321e804bda1e">time</a>) {}</div>
+<div class="ttc" id="aa00162_html_a0b0920001d3c5f8371d1321e804bda1e"><div class="ttname"><a href="a00162.html#a0b0920001d3c5f8371d1321e804bda1e">ForwardNode::time</a></div><div class="ttdeci">const int time</div><div class="ttdoc">发送时间</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01144">tools.h:1144</a></div></div>
+<div class="ttc" id="aa00162_html_a163afb3054e6bd7841ff622f4909b686"><div class="ttname"><a href="a00162.html#a163afb3054e6bd7841ff622f4909b686">ForwardNode::message</a></div><div class="ttdeci">const std::string message</div><div class="ttdoc">发送信息</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01142">tools.h:1142</a></div></div>
+<div class="ttc" id="aa00162_html_a62b34a92a68a6383171a38797491a084"><div class="ttname"><a href="a00162.html#a62b34a92a68a6383171a38797491a084">ForwardNode::id</a></div><div class="ttdeci">const unsigned long long id</div><div class="ttdoc">发送者id</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01138">tools.h:1138</a></div></div>
+<div class="ttc" id="aa00162_html_ae41172edb72a9170e333df82c4e26057"><div class="ttname"><a href="a00162.html#ae41172edb72a9170e333df82c4e26057">ForwardNode::name</a></div><div class="ttdeci">const std::string name</div><div class="ttdoc">发送者昵称</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01140">tools.h:1140</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -265,9 +266,9 @@ Public 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01156">1156</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01156"></a><span class="lineno"> 1156</span>&#160;                                                       : <a class="code" href="a00162.html#a62b34a92a68a6383171a38797491a084">id</a>(c-&gt;<a class="code" href="a00134.html#a220e55b907d54958cd2afb95e65da5a1">id</a>()), <a class="code" href="a00162.html#ae41172edb72a9170e333df82c4e26057">name</a>(c-&gt;<a class="code" href="a00134.html#a3f78c5f66d0b71ad06267c6a3b492066">nickOrNameCard</a>()), <a class="code" href="a00162.html#a163afb3054e6bd7841ff622f4909b686">message</a>(<a class="code" href="a00162.html#a163afb3054e6bd7841ff622f4909b686">message</a>),</div>
-<div class="line"><a name="l01157"></a><span class="lineno"> 1157</span>&#160;        <a class="code" href="a00162.html#a0b0920001d3c5f8371d1321e804bda1e">time</a>(t) {}</div>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01158">1158</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;                                                       : <a class="code" href="a00162.html#a62b34a92a68a6383171a38797491a084">id</a>(c-&gt;<a class="code" href="a00134.html#a220e55b907d54958cd2afb95e65da5a1">id</a>()), <a class="code" href="a00162.html#ae41172edb72a9170e333df82c4e26057">name</a>(c-&gt;<a class="code" href="a00134.html#a3f78c5f66d0b71ad06267c6a3b492066">nickOrNameCard</a>()), <a class="code" href="a00162.html#a163afb3054e6bd7841ff622f4909b686">message</a>(<a class="code" href="a00162.html#a163afb3054e6bd7841ff622f4909b686">message</a>),</div>
+<div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160;        <a class="code" href="a00162.html#a0b0920001d3c5f8371d1321e804bda1e">time</a>(t) {}</div>
 <div class="ttc" id="aa00134_html_a220e55b907d54958cd2afb95e65da5a1"><div class="ttname"><a href="a00134.html#a220e55b907d54958cd2afb95e65da5a1">Contact::id</a></div><div class="ttdeci">unsigned long long id()</div><div class="ttdoc">id在全部情况存在</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00771">tools.h:771</a></div></div>
 <div class="ttc" id="aa00134_html_a3f78c5f66d0b71ad06267c6a3b492066"><div class="ttname"><a href="a00134.html#a3f78c5f66d0b71ad06267c6a3b492066">Contact::nickOrNameCard</a></div><div class="ttdeci">std::string nickOrNameCard()</div><div class="ttdoc">群名称，群成员群名片，或好友昵称</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00781">tools.h:781</a></div></div>
 </div><!-- fragment -->
@@ -288,7 +289,7 @@ Public 属性</h2></td></tr>
 
 <p>发送者id </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01136">1136</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01138">1138</a> 行定义.</p>
 
 </div>
 </div>
@@ -306,7 +307,7 @@ Public 属性</h2></td></tr>
 
 <p>发送信息 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01140">1140</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01142">1142</a> 行定义.</p>
 
 </div>
 </div>
@@ -324,7 +325,7 @@ Public 属性</h2></td></tr>
 
 <p>发送者昵称 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01138">1138</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01140">1140</a> 行定义.</p>
 
 </div>
 </div>
@@ -342,7 +343,7 @@ Public 属性</h2></td></tr>
 
 <p>发送时间 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01142">1142</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01144">1144</a> 行定义.</p>
 
 </div>
 </div>

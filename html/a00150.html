@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -33,7 +34,7 @@
    <div id="projectname">MiraiCP
    &#160;<span id="projectnumber">v2.6.4</span>
    </div>
-   <div id="projectbrief">MiraiCP API文档</div>
+   <div id="projectbrief">MiraiCP api document</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -179,7 +180,7 @@ Public 属性</h2></td></tr>
 <dl class="section examples"><dt>示例</dt><dd><a class="el" href="a00276.html#_a3">上传并发送远程</a>.</dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01011">1011</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01013">1013</a> 行定义.</p>
 </div><h2 class="groupheader">构造及析构函数说明</h2>
 <a id="a2a606d3e0fddf6251ded708a089dfdb5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2a606d3e0fddf6251ded708a089dfdb5">&#9670;&nbsp;</a></span>RemoteFile()</h2>
@@ -259,22 +260,22 @@ Public 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01044">1044</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01044"></a><span class="lineno"> 1044</span>&#160;                                                                                                                                         : <a class="code" href="a00150.html#a28376539b0566ae41036143dad94fad0">id</a>(i),</div>
-<div class="line"><a name="l01045"></a><span class="lineno"> 1045</span>&#160;        <a class="code" href="a00150.html#a95f6a801ddb786ce006542e028d6d337">internalid</a>(</div>
-<div class="line"><a name="l01046"></a><span class="lineno"> 1046</span>&#160;            ii),</div>
-<div class="line"><a name="l01047"></a><span class="lineno"> 1047</span>&#160;        <a class="code" href="a00150.html#aaeef98e2d5caaa1521950a5a4446efe7">name</a>(n),</div>
-<div class="line"><a name="l01048"></a><span class="lineno"> 1048</span>&#160;        <a class="code" href="a00150.html#a4669b902794a33fbc60fa99c809a22e5">size</a>(s),</div>
-<div class="line"><a name="l01049"></a><span class="lineno"> 1049</span>&#160;        <a class="code" href="a00150.html#aed6d46f89c5cb0d83236b4b7e1b5c873">path</a>(p),</div>
-<div class="line"><a name="l01050"></a><span class="lineno"> 1050</span>&#160;        <a class="code" href="a00150.html#a2a819afb5208ce0d816a073b6d2dbb98">dinfo</a>(d),</div>
-<div class="line"><a name="l01051"></a><span class="lineno"> 1051</span>&#160;        <a class="code" href="a00150.html#a5c04bb6347e3783a9b6c083e7ee5586d">finfo</a>(f) {};</div>
-<div class="ttc" id="aa00150_html_a28376539b0566ae41036143dad94fad0"><div class="ttname"><a href="a00150.html#a28376539b0566ae41036143dad94fad0">RemoteFile::id</a></div><div class="ttdeci">const std::string id</div><div class="ttdoc">文件唯一id, 用于识别</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01014">tools.h:1014</a></div></div>
-<div class="ttc" id="aa00150_html_a2a819afb5208ce0d816a073b6d2dbb98"><div class="ttname"><a href="a00150.html#a2a819afb5208ce0d816a073b6d2dbb98">RemoteFile::dinfo</a></div><div class="ttdeci">const dinfo dinfo</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01025">tools.h:1025</a></div></div>
-<div class="ttc" id="aa00150_html_a4669b902794a33fbc60fa99c809a22e5"><div class="ttname"><a href="a00150.html#a4669b902794a33fbc60fa99c809a22e5">RemoteFile::size</a></div><div class="ttdeci">const long long size</div><div class="ttdoc">文件大小</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01020">tools.h:1020</a></div></div>
-<div class="ttc" id="aa00150_html_a5c04bb6347e3783a9b6c083e7ee5586d"><div class="ttname"><a href="a00150.html#a5c04bb6347e3783a9b6c083e7ee5586d">RemoteFile::finfo</a></div><div class="ttdeci">const finfo finfo</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01028">tools.h:1028</a></div></div>
-<div class="ttc" id="aa00150_html_a95f6a801ddb786ce006542e028d6d337"><div class="ttname"><a href="a00150.html#a95f6a801ddb786ce006542e028d6d337">RemoteFile::internalid</a></div><div class="ttdeci">const unsigned int internalid</div><div class="ttdoc">文件内部id, 用于构造miraiCode发送</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01016">tools.h:1016</a></div></div>
-<div class="ttc" id="aa00150_html_aaeef98e2d5caaa1521950a5a4446efe7"><div class="ttname"><a href="a00150.html#aaeef98e2d5caaa1521950a5a4446efe7">RemoteFile::name</a></div><div class="ttdeci">const std::string name</div><div class="ttdoc">文件名</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01018">tools.h:1018</a></div></div>
-<div class="ttc" id="aa00150_html_aed6d46f89c5cb0d83236b4b7e1b5c873"><div class="ttname"><a href="a00150.html#aed6d46f89c5cb0d83236b4b7e1b5c873">RemoteFile::path</a></div><div class="ttdeci">const std::string path</div><div class="ttdoc">文件在群文件的路径</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01022">tools.h:1022</a></div></div>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01046">1046</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01046"></a><span class="lineno"> 1046</span>&#160;                                                                                                                                         : <a class="code" href="a00150.html#a28376539b0566ae41036143dad94fad0">id</a>(i),</div>
+<div class="line"><a name="l01047"></a><span class="lineno"> 1047</span>&#160;        <a class="code" href="a00150.html#a95f6a801ddb786ce006542e028d6d337">internalid</a>(</div>
+<div class="line"><a name="l01048"></a><span class="lineno"> 1048</span>&#160;            ii),</div>
+<div class="line"><a name="l01049"></a><span class="lineno"> 1049</span>&#160;        <a class="code" href="a00150.html#aaeef98e2d5caaa1521950a5a4446efe7">name</a>(n),</div>
+<div class="line"><a name="l01050"></a><span class="lineno"> 1050</span>&#160;        <a class="code" href="a00150.html#a4669b902794a33fbc60fa99c809a22e5">size</a>(s),</div>
+<div class="line"><a name="l01051"></a><span class="lineno"> 1051</span>&#160;        <a class="code" href="a00150.html#aed6d46f89c5cb0d83236b4b7e1b5c873">path</a>(p),</div>
+<div class="line"><a name="l01052"></a><span class="lineno"> 1052</span>&#160;        <a class="code" href="a00150.html#a2a819afb5208ce0d816a073b6d2dbb98">dinfo</a>(d),</div>
+<div class="line"><a name="l01053"></a><span class="lineno"> 1053</span>&#160;        <a class="code" href="a00150.html#a5c04bb6347e3783a9b6c083e7ee5586d">finfo</a>(f) {};</div>
+<div class="ttc" id="aa00150_html_a28376539b0566ae41036143dad94fad0"><div class="ttname"><a href="a00150.html#a28376539b0566ae41036143dad94fad0">RemoteFile::id</a></div><div class="ttdeci">const std::string id</div><div class="ttdoc">文件唯一id, 用于识别</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01016">tools.h:1016</a></div></div>
+<div class="ttc" id="aa00150_html_a2a819afb5208ce0d816a073b6d2dbb98"><div class="ttname"><a href="a00150.html#a2a819afb5208ce0d816a073b6d2dbb98">RemoteFile::dinfo</a></div><div class="ttdeci">const dinfo dinfo</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01027">tools.h:1027</a></div></div>
+<div class="ttc" id="aa00150_html_a4669b902794a33fbc60fa99c809a22e5"><div class="ttname"><a href="a00150.html#a4669b902794a33fbc60fa99c809a22e5">RemoteFile::size</a></div><div class="ttdeci">const long long size</div><div class="ttdoc">文件大小</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01022">tools.h:1022</a></div></div>
+<div class="ttc" id="aa00150_html_a5c04bb6347e3783a9b6c083e7ee5586d"><div class="ttname"><a href="a00150.html#a5c04bb6347e3783a9b6c083e7ee5586d">RemoteFile::finfo</a></div><div class="ttdeci">const finfo finfo</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01030">tools.h:1030</a></div></div>
+<div class="ttc" id="aa00150_html_a95f6a801ddb786ce006542e028d6d337"><div class="ttname"><a href="a00150.html#a95f6a801ddb786ce006542e028d6d337">RemoteFile::internalid</a></div><div class="ttdeci">const unsigned int internalid</div><div class="ttdoc">文件内部id, 用于构造miraiCode发送</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01018">tools.h:1018</a></div></div>
+<div class="ttc" id="aa00150_html_aaeef98e2d5caaa1521950a5a4446efe7"><div class="ttname"><a href="a00150.html#aaeef98e2d5caaa1521950a5a4446efe7">RemoteFile::name</a></div><div class="ttdeci">const std::string name</div><div class="ttdoc">文件名</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01020">tools.h:1020</a></div></div>
+<div class="ttc" id="aa00150_html_aed6d46f89c5cb0d83236b4b7e1b5c873"><div class="ttname"><a href="a00150.html#aed6d46f89c5cb0d83236b4b7e1b5c873">RemoteFile::path</a></div><div class="ttdeci">const std::string path</div><div class="ttdoc">文件在群文件的路径</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01024">tools.h:1024</a></div></div>
 </div><!-- fragment --><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> 这是这个函数的调用关系图:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -353,9 +354,9 @@ Public 属性</h2></td></tr>
 <div class="ttc" id="aa00011_html_a0009c186c3629201f6c24eded36605f4"><div class="ttname"><a href="a00011.html#a0009c186c3629201f6c24eded36605f4">logger</a></div><div class="ttdeci">Logger * logger</div><div class="ttdoc">全局日志指针</div><div class="ttdef"><b>Definition:</b> <a href="a00011_source.html#l00010">pch.cpp:10</a></div></div>
 <div class="ttc" id="aa00011_html_ab701e3ac61a85b337ec5c1abaad6742d"><div class="ttname"><a href="a00011.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition:</b> <a href="a00011_source.html#l00002">pch.cpp:2</a></div></div>
 <div class="ttc" id="aa00074_html_abb690146dbd2c6fb7e603caf123096dd"><div class="ttname"><a href="a00074.html#abb690146dbd2c6fb7e603caf123096dd">Logger::Error</a></div><div class="ttdeci">void Error(const std::string &amp;, JNIEnv *=manager-&gt;getEnv())</div><div class="ttdoc">发送错误(error级日志)</div><div class="ttdef"><b>Definition:</b> <a href="a00023_source.html#l00096">tools.cpp:96</a></div></div>
-<div class="ttc" id="aa00142_html"><div class="ttname"><a href="a00142.html">dinfo</a></div><div class="ttdoc">下载信息</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00988">tools.h:988</a></div></div>
-<div class="ttc" id="aa00146_html"><div class="ttname"><a href="a00146.html">finfo</a></div><div class="ttdoc">文件信息</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00997">tools.h:997</a></div></div>
-<div class="ttc" id="aa00150_html_a2a606d3e0fddf6251ded708a089dfdb5"><div class="ttname"><a href="a00150.html#a2a606d3e0fddf6251ded708a089dfdb5">RemoteFile::RemoteFile</a></div><div class="ttdeci">RemoteFile(const std::string &amp;i, unsigned int ii, const std::string &amp;n, long long s, const std::string &amp;p, struct dinfo d, struct finfo f)</div><div class="ttdoc">构造远程(群)文件</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01044">tools.h:1044</a></div></div>
+<div class="ttc" id="aa00142_html"><div class="ttname"><a href="a00142.html">dinfo</a></div><div class="ttdoc">下载信息</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00989">tools.h:989</a></div></div>
+<div class="ttc" id="aa00146_html"><div class="ttname"><a href="a00146.html">finfo</a></div><div class="ttdoc">文件信息</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00999">tools.h:999</a></div></div>
+<div class="ttc" id="aa00150_html_a2a606d3e0fddf6251ded708a089dfdb5"><div class="ttname"><a href="a00150.html#a2a606d3e0fddf6251ded708a089dfdb5">RemoteFile::RemoteFile</a></div><div class="ttdeci">RemoteFile(const std::string &amp;i, unsigned int ii, const std::string &amp;n, long long s, const std::string &amp;p, struct dinfo d, struct finfo f)</div><div class="ttdoc">构造远程(群)文件</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01046">tools.h:1046</a></div></div>
 </div><!-- fragment --><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -417,14 +418,14 @@ Public 属性</h2></td></tr>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    j[<span class="stringliteral">&quot;size&quot;</span>] = this-&gt;<a class="code" href="a00150.html#a4669b902794a33fbc60fa99c809a22e5">size</a>;</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;}</div>
-<div class="ttc" id="aa00142_html_a27f1fe72da17504a88993b1895bff874"><div class="ttname"><a href="a00142.html#a27f1fe72da17504a88993b1895bff874">dinfo::url</a></div><div class="ttdeci">std::string url</div><div class="ttdoc">下载地址</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00990">tools.h:990</a></div></div>
-<div class="ttc" id="aa00142_html_aa13ebef9ac586704f4913eeb7dae1a7c"><div class="ttname"><a href="a00142.html#aa13ebef9ac586704f4913eeb7dae1a7c">dinfo::sha1</a></div><div class="ttdeci">std::string sha1</div><div class="ttdoc">sha1 可用于校验</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00994">tools.h:994</a></div></div>
-<div class="ttc" id="aa00142_html_af7b7245d4b94bb72cae65c5cf0b40a9f"><div class="ttname"><a href="a00142.html#af7b7245d4b94bb72cae65c5cf0b40a9f">dinfo::md5</a></div><div class="ttdeci">std::string md5</div><div class="ttdoc">md5 可用于校验</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00992">tools.h:992</a></div></div>
-<div class="ttc" id="aa00146_html_a2bd8a352da0950f3b549dbd754585dd6"><div class="ttname"><a href="a00146.html#a2bd8a352da0950f3b549dbd754585dd6">finfo::uploaderid</a></div><div class="ttdeci">unsigned long long uploaderid</div><div class="ttdoc">上传者id</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01001">tools.h:1001</a></div></div>
-<div class="ttc" id="aa00146_html_a6257f5202f67d71af216e8328d6ee28f"><div class="ttname"><a href="a00146.html#a6257f5202f67d71af216e8328d6ee28f">finfo::downloadtime</a></div><div class="ttdeci">unsigned int downloadtime</div><div class="ttdoc">下载次数</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01003">tools.h:1003</a></div></div>
-<div class="ttc" id="aa00146_html_a7b36d35ddbf52b18572e2dce56faf362"><div class="ttname"><a href="a00146.html#a7b36d35ddbf52b18572e2dce56faf362">finfo::uploadtime</a></div><div class="ttdeci">unsigned long long uploadtime</div><div class="ttdoc">上传时间, 时间戳格式</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01005">tools.h:1005</a></div></div>
-<div class="ttc" id="aa00146_html_a94de667500b2c0dba038f7e654ba90f2"><div class="ttname"><a href="a00146.html#a94de667500b2c0dba038f7e654ba90f2">finfo::size</a></div><div class="ttdeci">unsigned long long size</div><div class="ttdoc">文件大小</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00999">tools.h:999</a></div></div>
-<div class="ttc" id="aa00146_html_ab073417dd65e95533b012011aa74a8b0"><div class="ttname"><a href="a00146.html#ab073417dd65e95533b012011aa74a8b0">finfo::lastmodifytime</a></div><div class="ttdeci">unsigned long long lastmodifytime</div><div class="ttdoc">上次更改时间, 时间戳格式</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01007">tools.h:1007</a></div></div>
+<div class="ttc" id="aa00142_html_a27f1fe72da17504a88993b1895bff874"><div class="ttname"><a href="a00142.html#a27f1fe72da17504a88993b1895bff874">dinfo::url</a></div><div class="ttdeci">std::string url</div><div class="ttdoc">下载地址</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00991">tools.h:991</a></div></div>
+<div class="ttc" id="aa00142_html_aa13ebef9ac586704f4913eeb7dae1a7c"><div class="ttname"><a href="a00142.html#aa13ebef9ac586704f4913eeb7dae1a7c">dinfo::sha1</a></div><div class="ttdeci">std::string sha1</div><div class="ttdoc">sha1 可用于校验</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00995">tools.h:995</a></div></div>
+<div class="ttc" id="aa00142_html_af7b7245d4b94bb72cae65c5cf0b40a9f"><div class="ttname"><a href="a00142.html#af7b7245d4b94bb72cae65c5cf0b40a9f">dinfo::md5</a></div><div class="ttdeci">std::string md5</div><div class="ttdoc">md5 可用于校验</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00993">tools.h:993</a></div></div>
+<div class="ttc" id="aa00146_html_a2bd8a352da0950f3b549dbd754585dd6"><div class="ttname"><a href="a00146.html#a2bd8a352da0950f3b549dbd754585dd6">finfo::uploaderid</a></div><div class="ttdeci">unsigned long long uploaderid</div><div class="ttdoc">上传者id</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01003">tools.h:1003</a></div></div>
+<div class="ttc" id="aa00146_html_a6257f5202f67d71af216e8328d6ee28f"><div class="ttname"><a href="a00146.html#a6257f5202f67d71af216e8328d6ee28f">finfo::downloadtime</a></div><div class="ttdeci">unsigned int downloadtime</div><div class="ttdoc">下载次数</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01005">tools.h:1005</a></div></div>
+<div class="ttc" id="aa00146_html_a7b36d35ddbf52b18572e2dce56faf362"><div class="ttname"><a href="a00146.html#a7b36d35ddbf52b18572e2dce56faf362">finfo::uploadtime</a></div><div class="ttdeci">unsigned long long uploadtime</div><div class="ttdoc">上传时间, 时间戳格式</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01007">tools.h:1007</a></div></div>
+<div class="ttc" id="aa00146_html_a94de667500b2c0dba038f7e654ba90f2"><div class="ttname"><a href="a00146.html#a94de667500b2c0dba038f7e654ba90f2">finfo::size</a></div><div class="ttdeci">unsigned long long size</div><div class="ttdoc">文件大小</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01001">tools.h:1001</a></div></div>
+<div class="ttc" id="aa00146_html_ab073417dd65e95533b012011aa74a8b0"><div class="ttname"><a href="a00146.html#ab073417dd65e95533b012011aa74a8b0">finfo::lastmodifytime</a></div><div class="ttdeci">unsigned long long lastmodifytime</div><div class="ttdoc">上次更改时间, 时间戳格式</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01009">tools.h:1009</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -455,15 +456,15 @@ Public 属性</h2></td></tr>
 
 <p>实现了 <a class="el" href="a00066.html#a5067f9067fd47eb8413c28881084d044">MiraiCodeable</a>.</p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01054">1054</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01054"></a><span class="lineno"> 1054</span>&#160;                            {</div>
-<div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="a00150.html#a95f6a801ddb786ce006542e028d6d337">internalid</a> == 0) {</div>
-<div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160;            <span class="comment">// 重新上传</span></div>
-<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;            <span class="keywordflow">throw</span> <a class="code" href="a00118.html">RemoteAssetException</a>(<span class="stringliteral">&quot;toMiraiCode error: internalid错误，重新上传&quot;</span>);</div>
-<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;        }</div>
-<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;[mirai:file:&quot;</span> + <span class="keywordtype">id</span> + <span class="stringliteral">&quot;,&quot;</span> + std::to_string(<a class="code" href="a00150.html#a95f6a801ddb786ce006542e028d6d337">internalid</a>) + <span class="stringliteral">&quot;,&quot;</span> + <a class="code" href="a00058.html#abea12070fc52348e5c9a426c116f5629">Tools::escapeToMiraiCode</a>(<a class="code" href="a00150.html#aaeef98e2d5caaa1521950a5a4446efe7">name</a>) + <span class="stringliteral">&quot;,&quot;</span> + std::to_string(<a class="code" href="a00150.html#a4669b902794a33fbc60fa99c809a22e5">size</a>) + <span class="stringliteral">&quot;]&quot;</span>;</div>
-<div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;    }</div>
-<div class="ttc" id="aa00058_html_abea12070fc52348e5c9a426c116f5629"><div class="ttname"><a href="a00058.html#abea12070fc52348e5c9a426c116f5629">Tools::escapeToMiraiCode</a></div><div class="ttdeci">static std::string escapeToMiraiCode(const std::string &amp;s)</div><div class="ttdoc">转义miraicode格式</div><div class="ttdef"><b>Definition:</b> <a href="a00023_source.html#l00566">tools.cpp:566</a></div></div>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01056">1056</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160;                            {</div>
+<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="a00150.html#a95f6a801ddb786ce006542e028d6d337">internalid</a> == 0) {</div>
+<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;            <span class="comment">// 重新上传</span></div>
+<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;            <span class="keywordflow">throw</span> <a class="code" href="a00118.html">RemoteAssetException</a>(<span class="stringliteral">&quot;toMiraiCode error: internalid错误，重新上传&quot;</span>);</div>
+<div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;        }</div>
+<div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;[mirai:file:&quot;</span> + <span class="keywordtype">id</span> + <span class="stringliteral">&quot;,&quot;</span> + std::to_string(<a class="code" href="a00150.html#a95f6a801ddb786ce006542e028d6d337">internalid</a>) + <span class="stringliteral">&quot;,&quot;</span> + <a class="code" href="a00058.html#abea12070fc52348e5c9a426c116f5629">Tools::escapeToMiraiCode</a>(<a class="code" href="a00150.html#aaeef98e2d5caaa1521950a5a4446efe7">name</a>) + <span class="stringliteral">&quot;,&quot;</span> + std::to_string(<a class="code" href="a00150.html#a4669b902794a33fbc60fa99c809a22e5">size</a>) + <span class="stringliteral">&quot;]&quot;</span>;</div>
+<div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;    }</div>
+<div class="ttc" id="aa00058_html_abea12070fc52348e5c9a426c116f5629"><div class="ttname"><a href="a00058.html#abea12070fc52348e5c9a426c116f5629">Tools::escapeToMiraiCode</a></div><div class="ttdeci">static std::string escapeToMiraiCode(const std::string &amp;s)</div><div class="ttdoc">转义miraicode格式</div><div class="ttdef"><b>Definition:</b> <a href="a00023_source.html#l00562">tools.cpp:562</a></div></div>
 <div class="ttc" id="aa00118_html"><div class="ttname"><a href="a00118.html">RemoteAssetException</a></div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l00547">tools.h:547</a></div></div>
 </div><!-- fragment --><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
@@ -494,7 +495,7 @@ Public 属性</h2></td></tr>
 </div><div class="memdoc">
 <p>文件下载信息 </p><dl class="section see"><dt>参见</dt><dd><a class="el" href="a00142.html" title="下载信息">dinfo</a> </dd></dl>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01025">1025</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01027">1027</a> 行定义.</p>
 
 </div>
 </div>
@@ -511,7 +512,7 @@ Public 属性</h2></td></tr>
 </div><div class="memdoc">
 <p>文件信息 </p><dl class="section see"><dt>参见</dt><dd><a class="el" href="a00146.html" title="文件信息">finfo</a> </dd></dl>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01028">1028</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01030">1030</a> 行定义.</p>
 
 </div>
 </div>
@@ -529,7 +530,7 @@ Public 属性</h2></td></tr>
 
 <p>文件唯一id, 用于识别 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01014">1014</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01016">1016</a> 行定义.</p>
 
 </div>
 </div>
@@ -547,7 +548,7 @@ Public 属性</h2></td></tr>
 
 <p>文件内部id, 用于构造miraiCode发送 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01016">1016</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01018">1018</a> 行定义.</p>
 
 </div>
 </div>
@@ -567,7 +568,7 @@ Public 属性</h2></td></tr>
 <dl class="section examples"><dt>示例</dt><dd><a class="el" href="a00278.html#a5">取群文件信息</a>.</dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01018">1018</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01020">1020</a> 行定义.</p>
 
 </div>
 </div>
@@ -585,7 +586,7 @@ Public 属性</h2></td></tr>
 
 <p>文件在群文件的路径 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01022">1022</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01024">1024</a> 行定义.</p>
 
 </div>
 </div>
@@ -603,7 +604,7 @@ Public 属性</h2></td></tr>
 
 <p>文件大小 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01020">1020</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01022">1022</a> 行定义.</p>
 
 </div>
 </div>

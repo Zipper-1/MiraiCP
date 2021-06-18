@@ -34,6 +34,7 @@ var hierarchy =
         [ "UploadException", "a00086.html", null ]
       ] ]
     ] ],
+    [ "Group::file_short_info", "a00190.html", null ],
     [ "finfo", "a00146.html", null ],
     [ "ForwardMessage", "a00166.html", null ],
     [ "ForwardNode", "a00162.html", null ],
@@ -65,7 +66,6 @@ var hierarchy =
       [ "Event::Node< T >", "a00242.html", null ]
     ] ],
     [ "Event::NodeHandle", "a00246.html", null ],
-    [ "Group::short_info", "a00190.html", null ],
     [ "threadManager::t", "a00054.html", null ],
     [ "threadManager", "a00050.html", null ],
     [ "Tools", "a00058.html", null ]

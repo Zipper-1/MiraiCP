@@ -35,7 +35,7 @@ var a00026 =
     [ "Member", "a00178.html", "a00178" ],
     [ "Group", "a00182.html", "a00182" ],
     [ "GroupSetting", "a00186.html", "a00186" ],
-    [ "short_info", "a00190.html", "a00190" ],
+    [ "file_short_info", "a00190.html", "a00190" ],
     [ "BotEvent", "a00194.html", "a00194" ],
     [ "GroupMessageEvent", "a00198.html", "a00198" ],
     [ "PrivateMessageEvent", "a00202.html", "a00202" ],

@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -33,7 +34,7 @@
    <div id="projectname">MiraiCP
    &#160;<span id="projectnumber">v2.6.4</span>
    </div>
-   <div id="projectbrief">MiraiCP API文档</div>
+   <div id="projectbrief">MiraiCP api document</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -124,8 +125,8 @@ $(document).ready(function(){initNavTree('a00218.html',''); initResizable(); });
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="a00216.png" border="0" usemap="#a_member_leave_event_coll__map" alt="Collaboration graph"/></div>
 <map name="a_member_leave_event_coll__map" id="a_member_leave_event_coll__map">
-<area shape="rect" title="群成员离开" alt="" coords="320,1525,564,1661"/>
-<area shape="rect" href="a00194.html" title="所以事件处理timeoutevent都是机器人事件，指都有机器人实例" alt="" coords="211,1158,353,1250"/>
+<area shape="rect" title="群成员离开" alt="" coords="320,1555,564,1691"/>
+<area shape="rect" href="a00194.html" title="所以事件处理timeoutevent都是机器人事件，指都有机器人实例" alt="" coords="211,1173,353,1265"/>
 <area shape="rect" href="a00170.html" title="当前bot账号信息" alt="" coords="159,380,373,677"/>
 <area shape="rect" title=" " alt="" coords="5,5,172,83"/>
 <area shape="rect" title=" " alt="" coords="508,5,563,83"/>
@@ -133,7 +134,7 @@ $(document).ready(function(){initNavTree('a00218.html',''); initResizable(); });
 <area shape="rect" href="a00186.html" title="群设置" alt="" coords="442,490,583,567"/>
 <area shape="rect" title=" " alt="" coords="205,5,252,83"/>
 <area shape="rect" title=" " alt="" coords="971,5,1009,83"/>
-<area shape="rect" href="a00182.html" title="群聊类声明" alt="" coords="404,945,621,1463"/>
+<area shape="rect" href="a00182.html" title="群聊类声明" alt="" coords="404,945,621,1492"/>
 <area shape="rect" title=" " alt="" coords="794,5,925,83"/>
 </map>
 </div>
@@ -168,7 +169,7 @@ Public 属性</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>群成员离开 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01731">1731</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01750">1750</a> 行定义.</p>
 </div><h2 class="groupheader">构造及析构函数说明</h2>
 <a id="ac714a3add4ac210728a26acd8bdf6f00"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac714a3add4ac210728a26acd8bdf6f00">&#9670;&nbsp;</a></span>MemberLeaveEvent()</h2>
@@ -234,15 +235,15 @@ Public 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01754">1754</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01756"></a><span class="lineno"> 1756</span>&#160;                                              : <a class="code" href="a00194.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent</a>(botid), <a class="code" href="a00218.html#a222486c46fa7a56db8a06906b145f42b">type</a>(<a class="code" href="a00218.html#a222486c46fa7a56db8a06906b145f42b">type</a>), <a class="code" href="a00218.html#a8dbb981f7e9b4ecaf618a443999385ce">memberid</a>(<a class="code" href="a00218.html#a8dbb981f7e9b4ecaf618a443999385ce">memberid</a>),</div>
-<div class="line"><a name="l01757"></a><span class="lineno"> 1757</span>&#160;        <a class="code" href="a00218.html#a9be3eefd061ba47025d683779f6ed008">group</a>(<a class="code" href="a00218.html#a9be3eefd061ba47025d683779f6ed008">group</a>),</div>
-<div class="line"><a name="l01758"></a><span class="lineno"> 1758</span>&#160;        <a class="code" href="a00218.html#afe223b1e1d8a2591c013995eb4466184">operaterid</a>(<a class="code" href="a00218.html#afe223b1e1d8a2591c013995eb4466184">operaterid</a>) {}</div>
-<div class="ttc" id="aa00194_html_ac26c3d59fa5a3546f269549ccbe994a4"><div class="ttname"><a href="a00194.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent::BotEvent</a></div><div class="ttdeci">BotEvent(unsigned long long botid)</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01521">tools.h:1521</a></div></div>
-<div class="ttc" id="aa00218_html_a222486c46fa7a56db8a06906b145f42b"><div class="ttname"><a href="a00218.html#a222486c46fa7a56db8a06906b145f42b">MemberLeaveEvent::type</a></div><div class="ttdeci">const int type</div><div class="ttdoc">事件类型 1 - 被踢出 2 - 主动退出</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01738">tools.h:1738</a></div></div>
-<div class="ttc" id="aa00218_html_a8dbb981f7e9b4ecaf618a443999385ce"><div class="ttname"><a href="a00218.html#a8dbb981f7e9b4ecaf618a443999385ce">MemberLeaveEvent::memberid</a></div><div class="ttdeci">const unsigned long long memberid</div><div class="ttdoc">退出的成员q号</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01740">tools.h:1740</a></div></div>
-<div class="ttc" id="aa00218_html_a9be3eefd061ba47025d683779f6ed008"><div class="ttname"><a href="a00218.html#a9be3eefd061ba47025d683779f6ed008">MemberLeaveEvent::group</a></div><div class="ttdeci">Group group</div><div class="ttdoc">目标群</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01742">tools.h:1742</a></div></div>
-<div class="ttc" id="aa00218_html_afe223b1e1d8a2591c013995eb4466184"><div class="ttname"><a href="a00218.html#afe223b1e1d8a2591c013995eb4466184">MemberLeaveEvent::operaterid</a></div><div class="ttdeci">const unsigned long long operaterid</div><div class="ttdoc">操作人, 主动退出时与member相同，该成员可能是当前bot，名称为operater以与系统operator区分</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01744">tools.h:1744</a></div></div>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01773">1773</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01775"></a><span class="lineno"> 1775</span>&#160;                                              : <a class="code" href="a00194.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent</a>(botid), <a class="code" href="a00218.html#a222486c46fa7a56db8a06906b145f42b">type</a>(<a class="code" href="a00218.html#a222486c46fa7a56db8a06906b145f42b">type</a>), <a class="code" href="a00218.html#a8dbb981f7e9b4ecaf618a443999385ce">memberid</a>(<a class="code" href="a00218.html#a8dbb981f7e9b4ecaf618a443999385ce">memberid</a>),</div>
+<div class="line"><a name="l01776"></a><span class="lineno"> 1776</span>&#160;        <a class="code" href="a00218.html#a9be3eefd061ba47025d683779f6ed008">group</a>(<a class="code" href="a00218.html#a9be3eefd061ba47025d683779f6ed008">group</a>),</div>
+<div class="line"><a name="l01777"></a><span class="lineno"> 1777</span>&#160;        <a class="code" href="a00218.html#afe223b1e1d8a2591c013995eb4466184">operaterid</a>(<a class="code" href="a00218.html#afe223b1e1d8a2591c013995eb4466184">operaterid</a>) {}</div>
+<div class="ttc" id="aa00194_html_ac26c3d59fa5a3546f269549ccbe994a4"><div class="ttname"><a href="a00194.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent::BotEvent</a></div><div class="ttdeci">BotEvent(unsigned long long botid)</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01540">tools.h:1540</a></div></div>
+<div class="ttc" id="aa00218_html_a222486c46fa7a56db8a06906b145f42b"><div class="ttname"><a href="a00218.html#a222486c46fa7a56db8a06906b145f42b">MemberLeaveEvent::type</a></div><div class="ttdeci">const int type</div><div class="ttdoc">事件类型 1 - 被踢出 2 - 主动退出</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01757">tools.h:1757</a></div></div>
+<div class="ttc" id="aa00218_html_a8dbb981f7e9b4ecaf618a443999385ce"><div class="ttname"><a href="a00218.html#a8dbb981f7e9b4ecaf618a443999385ce">MemberLeaveEvent::memberid</a></div><div class="ttdeci">const unsigned long long memberid</div><div class="ttdoc">退出的成员q号</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01759">tools.h:1759</a></div></div>
+<div class="ttc" id="aa00218_html_a9be3eefd061ba47025d683779f6ed008"><div class="ttname"><a href="a00218.html#a9be3eefd061ba47025d683779f6ed008">MemberLeaveEvent::group</a></div><div class="ttdeci">Group group</div><div class="ttdoc">目标群</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01761">tools.h:1761</a></div></div>
+<div class="ttc" id="aa00218_html_afe223b1e1d8a2591c013995eb4466184"><div class="ttname"><a href="a00218.html#afe223b1e1d8a2591c013995eb4466184">MemberLeaveEvent::operaterid</a></div><div class="ttdeci">const unsigned long long operaterid</div><div class="ttdoc">操作人, 主动退出时与member相同，该成员可能是当前bot，名称为operater以与系统operator区分</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01763">tools.h:1763</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -261,7 +262,7 @@ Public 属性</h2></td></tr>
 
 <p>目标群 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01742">1742</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01761">1761</a> 行定义.</p>
 
 </div>
 </div>
@@ -279,7 +280,7 @@ Public 属性</h2></td></tr>
 
 <p>退出的成员q号 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01740">1740</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01759">1759</a> 行定义.</p>
 
 </div>
 </div>
@@ -297,7 +298,7 @@ Public 属性</h2></td></tr>
 
 <p>操作人, 主动退出时与member相同，该成员可能是当前bot，名称为operater以与系统operator区分 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01744">1744</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01763">1763</a> 行定义.</p>
 
 </div>
 </div>
@@ -315,7 +316,7 @@ Public 属性</h2></td></tr>
 
 <p>事件类型 1 - 被踢出 2 - 主动退出 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01738">1738</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01757">1757</a> 行定义.</p>
 
 </div>
 </div>

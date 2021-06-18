@@ -1,7 +1,7 @@
 var indexSectionsWithContent =
 {
   0: "_abcdefghijklmnopqrstuvw~新群需",
-  1: "abcdefghilmnprstu",
+  1: "abcdefghilmnprtu",
   2: "cdfpt",
   3: "abcdefghijklmnopqrstuvw~",
   4: "_abcdefgijklmnoprstu",

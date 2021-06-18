@@ -1,6 +1,6 @@
 <map id="MemberLeaveEvent" name="MemberLeaveEvent">
-<area shape="rect" id="node1" title="群成员离开" alt="" coords="320,1525,564,1661"/>
-<area shape="rect" id="node2" href="$a00194.html" title="所以事件处理timeoutevent都是机器人事件，指都有机器人实例" alt="" coords="211,1158,353,1250"/>
+<area shape="rect" id="node1" title="群成员离开" alt="" coords="320,1555,564,1691"/>
+<area shape="rect" id="node2" href="$a00194.html" title="所以事件处理timeoutevent都是机器人事件，指都有机器人实例" alt="" coords="211,1173,353,1265"/>
 <area shape="rect" id="node3" href="$a00170.html" title="当前bot账号信息" alt="" coords="159,380,373,677"/>
 <area shape="rect" id="node4" title=" " alt="" coords="5,5,172,83"/>
 <area shape="rect" id="node5" title=" " alt="" coords="508,5,563,83"/>
@@ -8,6 +8,6 @@
 <area shape="rect" id="node11" href="$a00186.html" title="群设置" alt="" coords="442,490,583,567"/>
 <area shape="rect" id="node6" title=" " alt="" coords="205,5,252,83"/>
 <area shape="rect" id="node7" title=" " alt="" coords="971,5,1009,83"/>
-<area shape="rect" id="node8" href="$a00182.html" title="群聊类声明" alt="" coords="404,945,621,1463"/>
+<area shape="rect" id="node8" href="$a00182.html" title="群聊类声明" alt="" coords="404,945,621,1492"/>
 <area shape="rect" id="node10" title=" " alt="" coords="794,5,925,83"/>
 </map>

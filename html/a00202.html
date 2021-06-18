@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -33,7 +34,7 @@
    <div id="projectname">MiraiCP
    &#160;<span id="projectnumber">v2.6.4</span>
    </div>
-   <div id="projectbrief">MiraiCP API文档</div>
+   <div id="projectbrief">MiraiCP api document</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -124,8 +125,8 @@ $(document).ready(function(){initNavTree('a00202.html',''); initResizable(); });
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="a00200.png" border="0" usemap="#a_private_message_event_coll__map" alt="Collaboration graph"/></div>
 <map name="a_private_message_event_coll__map" id="a_private_message_event_coll__map">
-<area shape="rect" title="私聊消息事件类声明" alt="" coords="307,1603,574,1739"/>
-<area shape="rect" href="a00194.html" title="所以事件处理timeoutevent都是机器人事件，指都有机器人实例" alt="" coords="155,1411,297,1503"/>
+<area shape="rect" title="私聊消息事件类声明" alt="" coords="307,1632,574,1768"/>
+<area shape="rect" href="a00194.html" title="所以事件处理timeoutevent都是机器人事件，指都有机器人实例" alt="" coords="155,1426,297,1518"/>
 <area shape="rect" href="a00170.html" title="当前bot账号信息" alt="" coords="112,365,327,663"/>
 <area shape="rect" title=" " alt="" coords="5,5,172,83"/>
 <area shape="rect" title=" " alt="" coords="421,5,476,83"/>
@@ -133,7 +134,7 @@ $(document).ready(function(){initNavTree('a00202.html',''); initResizable(); });
 <area shape="rect" href="a00134.html" title="group, friend, member的父类" alt="" coords="618,175,837,853"/>
 <area shape="rect" href="a00070.html" title="miraicode字符串" alt="" coords="482,943,709,1285"/>
 <area shape="rect" title=" " alt="" coords="196,5,243,83"/>
-<area shape="rect" href="a00174.html" title="好友类声明" alt="" coords="638,1375,809,1540"/>
+<area shape="rect" href="a00174.html" title="好友类声明" alt="" coords="636,1375,811,1569"/>
 <area shape="rect" title=" " alt="" coords="771,5,902,83"/>
 <area shape="rect" title=" " alt="" coords="708,5,747,83"/>
 </map>
@@ -166,7 +167,7 @@ Public 属性</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>私聊消息事件类声明 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01545">1545</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01564">1564</a> 行定义.</p>
 </div><h2 class="groupheader">构造及析构函数说明</h2>
 <a id="a935deafbe1f8ecb73e08c6386b2b8410"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a935deafbe1f8ecb73e08c6386b2b8410">&#9670;&nbsp;</a></span>PrivateMessageEvent()</h2>
@@ -225,13 +226,13 @@ Public 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01561">1561</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01562"></a><span class="lineno"> 1562</span>&#160;                                            : <a class="code" href="a00194.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent</a>(botid), <a class="code" href="a00202.html#a62b26ff1072eb68c418b12a87a26cd31">sender</a>(<a class="code" href="a00202.html#a62b26ff1072eb68c418b12a87a26cd31">sender</a>), <a class="code" href="a00202.html#a15942d9ce307936e02c7e3ff1cbaab08">message</a>(<a class="code" href="a00202.html#a15942d9ce307936e02c7e3ff1cbaab08">message</a>),</div>
-<div class="line"><a name="l01563"></a><span class="lineno"> 1563</span>&#160;        <a class="code" href="a00202.html#a73df3e24b11ec35b21edab614a5d89c2">messageSource</a>(<a class="code" href="a00202.html#a73df3e24b11ec35b21edab614a5d89c2">messageSource</a>) {}</div>
-<div class="ttc" id="aa00194_html_ac26c3d59fa5a3546f269549ccbe994a4"><div class="ttname"><a href="a00194.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent::BotEvent</a></div><div class="ttdeci">BotEvent(unsigned long long botid)</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01521">tools.h:1521</a></div></div>
-<div class="ttc" id="aa00202_html_a15942d9ce307936e02c7e3ff1cbaab08"><div class="ttname"><a href="a00202.html#a15942d9ce307936e02c7e3ff1cbaab08">PrivateMessageEvent::message</a></div><div class="ttdeci">const MiraiCode message</div><div class="ttdoc">附带消息</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01550">tools.h:1550</a></div></div>
-<div class="ttc" id="aa00202_html_a62b26ff1072eb68c418b12a87a26cd31"><div class="ttname"><a href="a00202.html#a62b26ff1072eb68c418b12a87a26cd31">PrivateMessageEvent::sender</a></div><div class="ttdeci">Friend sender</div><div class="ttdoc">发起人</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01548">tools.h:1548</a></div></div>
-<div class="ttc" id="aa00202_html_a73df3e24b11ec35b21edab614a5d89c2"><div class="ttname"><a href="a00202.html#a73df3e24b11ec35b21edab614a5d89c2">PrivateMessageEvent::messageSource</a></div><div class="ttdeci">MessageSource messageSource</div><div class="ttdoc">信息源</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01552">tools.h:1552</a></div></div>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01580">1580</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01581"></a><span class="lineno"> 1581</span>&#160;                                            : <a class="code" href="a00194.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent</a>(botid), <a class="code" href="a00202.html#a62b26ff1072eb68c418b12a87a26cd31">sender</a>(<a class="code" href="a00202.html#a62b26ff1072eb68c418b12a87a26cd31">sender</a>), <a class="code" href="a00202.html#a15942d9ce307936e02c7e3ff1cbaab08">message</a>(<a class="code" href="a00202.html#a15942d9ce307936e02c7e3ff1cbaab08">message</a>),</div>
+<div class="line"><a name="l01582"></a><span class="lineno"> 1582</span>&#160;        <a class="code" href="a00202.html#a73df3e24b11ec35b21edab614a5d89c2">messageSource</a>(<a class="code" href="a00202.html#a73df3e24b11ec35b21edab614a5d89c2">messageSource</a>) {}</div>
+<div class="ttc" id="aa00194_html_ac26c3d59fa5a3546f269549ccbe994a4"><div class="ttname"><a href="a00194.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent::BotEvent</a></div><div class="ttdeci">BotEvent(unsigned long long botid)</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01540">tools.h:1540</a></div></div>
+<div class="ttc" id="aa00202_html_a15942d9ce307936e02c7e3ff1cbaab08"><div class="ttname"><a href="a00202.html#a15942d9ce307936e02c7e3ff1cbaab08">PrivateMessageEvent::message</a></div><div class="ttdeci">const MiraiCode message</div><div class="ttdoc">附带消息</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01569">tools.h:1569</a></div></div>
+<div class="ttc" id="aa00202_html_a62b26ff1072eb68c418b12a87a26cd31"><div class="ttname"><a href="a00202.html#a62b26ff1072eb68c418b12a87a26cd31">PrivateMessageEvent::sender</a></div><div class="ttdeci">Friend sender</div><div class="ttdoc">发起人</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01567">tools.h:1567</a></div></div>
+<div class="ttc" id="aa00202_html_a73df3e24b11ec35b21edab614a5d89c2"><div class="ttname"><a href="a00202.html#a73df3e24b11ec35b21edab614a5d89c2">PrivateMessageEvent::messageSource</a></div><div class="ttdeci">MessageSource messageSource</div><div class="ttdoc">信息源</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01571">tools.h:1571</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -250,7 +251,7 @@ Public 属性</h2></td></tr>
 
 <p>附带消息 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01550">1550</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01569">1569</a> 行定义.</p>
 
 </div>
 </div>
@@ -268,7 +269,7 @@ Public 属性</h2></td></tr>
 
 <p>信息源 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01552">1552</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01571">1571</a> 行定义.</p>
 
 </div>
 </div>
@@ -286,7 +287,7 @@ Public 属性</h2></td></tr>
 
 <p>发起人 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01548">1548</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01567">1567</a> 行定义.</p>
 
 </div>
 </div>

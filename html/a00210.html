@@ -22,6 +22,7 @@
 /* @license-end */
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -33,7 +34,7 @@
    <div id="projectname">MiraiCP
    &#160;<span id="projectnumber">v2.6.4</span>
    </div>
-   <div id="projectbrief">MiraiCP API文档</div>
+   <div id="projectbrief">MiraiCP api document</div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -181,7 +182,7 @@ Public 属性</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>好友申请事件声明 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01634">1634</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01653">1653</a> 行定义.</p>
 </div><h2 class="groupheader">构造及析构函数说明</h2>
 <a id="a476e7a5b53d9fe96435354cc8f59c361"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a476e7a5b53d9fe96435354cc8f59c361">&#9670;&nbsp;</a></span>NewFriendRequestEvent()</h2>
@@ -254,14 +255,14 @@ Public 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01695">1695</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01697"></a><span class="lineno"> 1697</span>&#160;        : <a class="code" href="a00194.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent</a>(botid), <a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>(<a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>), <a class="code" href="a00210.html#a8c83cea29dbc653489d83dbd7ac15121">fromid</a>(<a class="code" href="a00210.html#a8c83cea29dbc653489d83dbd7ac15121">fromid</a>), <a class="code" href="a00210.html#a2bd7b65f87cdb5f132db8e16d0b34ebc">fromgroupid</a>(<a class="code" href="a00210.html#a2bd7b65f87cdb5f132db8e16d0b34ebc">fromgroupid</a>), <a class="code" href="a00210.html#a41d9f54c00030a6467697865ae5bfeaf">nick</a>(<a class="code" href="a00210.html#a41d9f54c00030a6467697865ae5bfeaf">nick</a>), <a class="code" href="a00210.html#a7e2c2b251034d8986e18eae5d6c100b9">message</a>(<a class="code" href="a00210.html#a7e2c2b251034d8986e18eae5d6c100b9">message</a>) {}</div>
-<div class="ttc" id="aa00194_html_ac26c3d59fa5a3546f269549ccbe994a4"><div class="ttname"><a href="a00194.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent::BotEvent</a></div><div class="ttdeci">BotEvent(unsigned long long botid)</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01521">tools.h:1521</a></div></div>
-<div class="ttc" id="aa00210_html_a2bd7b65f87cdb5f132db8e16d0b34ebc"><div class="ttname"><a href="a00210.html#a2bd7b65f87cdb5f132db8e16d0b34ebc">NewFriendRequestEvent::fromgroupid</a></div><div class="ttdeci">const unsigned long long fromgroupid</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01640">tools.h:1640</a></div></div>
-<div class="ttc" id="aa00210_html_a41d9f54c00030a6467697865ae5bfeaf"><div class="ttname"><a href="a00210.html#a41d9f54c00030a6467697865ae5bfeaf">NewFriendRequestEvent::nick</a></div><div class="ttdeci">const std::string nick</div><div class="ttdoc">对方昵称</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01642">tools.h:1642</a></div></div>
-<div class="ttc" id="aa00210_html_a7e2c2b251034d8986e18eae5d6c100b9"><div class="ttname"><a href="a00210.html#a7e2c2b251034d8986e18eae5d6c100b9">NewFriendRequestEvent::message</a></div><div class="ttdeci">const std::string message</div><div class="ttdoc">申请理由</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01644">tools.h:1644</a></div></div>
-<div class="ttc" id="aa00210_html_a8c83cea29dbc653489d83dbd7ac15121"><div class="ttname"><a href="a00210.html#a8c83cea29dbc653489d83dbd7ac15121">NewFriendRequestEvent::fromid</a></div><div class="ttdeci">const unsigned long long fromid</div><div class="ttdoc">对方id</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01639">tools.h:1639</a></div></div>
-<div class="ttc" id="aa00210_html_afa0c9b11cedce50f30e5cdec6b527168"><div class="ttname"><a href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">NewFriendRequestEvent::source</a></div><div class="ttdeci">const std::string source</div><div class="ttdoc">序列化的事件信息</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01637">tools.h:1637</a></div></div>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01714">1714</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01716"></a><span class="lineno"> 1716</span>&#160;        : <a class="code" href="a00194.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent</a>(botid), <a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>(<a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>), <a class="code" href="a00210.html#a8c83cea29dbc653489d83dbd7ac15121">fromid</a>(<a class="code" href="a00210.html#a8c83cea29dbc653489d83dbd7ac15121">fromid</a>), <a class="code" href="a00210.html#a2bd7b65f87cdb5f132db8e16d0b34ebc">fromgroupid</a>(<a class="code" href="a00210.html#a2bd7b65f87cdb5f132db8e16d0b34ebc">fromgroupid</a>), <a class="code" href="a00210.html#a41d9f54c00030a6467697865ae5bfeaf">nick</a>(<a class="code" href="a00210.html#a41d9f54c00030a6467697865ae5bfeaf">nick</a>), <a class="code" href="a00210.html#a7e2c2b251034d8986e18eae5d6c100b9">message</a>(<a class="code" href="a00210.html#a7e2c2b251034d8986e18eae5d6c100b9">message</a>) {}</div>
+<div class="ttc" id="aa00194_html_ac26c3d59fa5a3546f269549ccbe994a4"><div class="ttname"><a href="a00194.html#ac26c3d59fa5a3546f269549ccbe994a4">BotEvent::BotEvent</a></div><div class="ttdeci">BotEvent(unsigned long long botid)</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01540">tools.h:1540</a></div></div>
+<div class="ttc" id="aa00210_html_a2bd7b65f87cdb5f132db8e16d0b34ebc"><div class="ttname"><a href="a00210.html#a2bd7b65f87cdb5f132db8e16d0b34ebc">NewFriendRequestEvent::fromgroupid</a></div><div class="ttdeci">const unsigned long long fromgroupid</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01659">tools.h:1659</a></div></div>
+<div class="ttc" id="aa00210_html_a41d9f54c00030a6467697865ae5bfeaf"><div class="ttname"><a href="a00210.html#a41d9f54c00030a6467697865ae5bfeaf">NewFriendRequestEvent::nick</a></div><div class="ttdeci">const std::string nick</div><div class="ttdoc">对方昵称</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01661">tools.h:1661</a></div></div>
+<div class="ttc" id="aa00210_html_a7e2c2b251034d8986e18eae5d6c100b9"><div class="ttname"><a href="a00210.html#a7e2c2b251034d8986e18eae5d6c100b9">NewFriendRequestEvent::message</a></div><div class="ttdeci">const std::string message</div><div class="ttdoc">申请理由</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01663">tools.h:1663</a></div></div>
+<div class="ttc" id="aa00210_html_a8c83cea29dbc653489d83dbd7ac15121"><div class="ttname"><a href="a00210.html#a8c83cea29dbc653489d83dbd7ac15121">NewFriendRequestEvent::fromid</a></div><div class="ttdeci">const unsigned long long fromid</div><div class="ttdoc">对方id</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01658">tools.h:1658</a></div></div>
+<div class="ttc" id="aa00210_html_afa0c9b11cedce50f30e5cdec6b527168"><div class="ttname"><a href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">NewFriendRequestEvent::source</a></div><div class="ttdeci">const std::string source</div><div class="ttdoc">序列化的事件信息</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01656">tools.h:1656</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -291,11 +292,11 @@ Public 属性</h2></td></tr>
 
 <p>接受申请 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01682">1682</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01682"></a><span class="lineno"> 1682</span>&#160;                  {</div>
-<div class="line"><a name="l01683"></a><span class="lineno"> 1683</span>&#160;        this-&gt;<a class="code" href="a00210.html#ac1c8d0828f1b98d9eeb6d95c20406eb7">accept</a>(this-&gt;<a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>);</div>
-<div class="line"><a name="l01684"></a><span class="lineno"> 1684</span>&#160;    }</div>
-<div class="ttc" id="aa00210_html_ac1c8d0828f1b98d9eeb6d95c20406eb7"><div class="ttname"><a href="a00210.html#ac1c8d0828f1b98d9eeb6d95c20406eb7">NewFriendRequestEvent::accept</a></div><div class="ttdeci">void accept()</div><div class="ttdoc">接受申请</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01682">tools.h:1682</a></div></div>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01701">1701</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01701"></a><span class="lineno"> 1701</span>&#160;                  {</div>
+<div class="line"><a name="l01702"></a><span class="lineno"> 1702</span>&#160;        this-&gt;<a class="code" href="a00210.html#ac1c8d0828f1b98d9eeb6d95c20406eb7">accept</a>(this-&gt;<a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>);</div>
+<div class="line"><a name="l01703"></a><span class="lineno"> 1703</span>&#160;    }</div>
+<div class="ttc" id="aa00210_html_ac1c8d0828f1b98d9eeb6d95c20406eb7"><div class="ttname"><a href="a00210.html#ac1c8d0828f1b98d9eeb6d95c20406eb7">NewFriendRequestEvent::accept</a></div><div class="ttdeci">void accept()</div><div class="ttdoc">接受申请</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01701">tools.h:1701</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -341,19 +342,19 @@ Public 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01668">1668</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01668"></a><span class="lineno"> 1668</span>&#160;                                                                          {</div>
-<div class="line"><a name="l01669"></a><span class="lineno"> 1669</span>&#160;        <a class="code" href="a00011.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> j;</div>
-<div class="line"><a name="l01670"></a><span class="lineno"> 1670</span>&#160;        j[<span class="stringliteral">&quot;text&quot;</span>] = <a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>;</div>
-<div class="line"><a name="l01671"></a><span class="lineno"> 1671</span>&#160;        j[<span class="stringliteral">&quot;sign&quot;</span>] = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01672"></a><span class="lineno"> 1672</span>&#160;        <a class="code" href="a00011.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> re = <a class="code" href="a00026.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="a00062.html#afb8424eb037cadc329d3c47df377748a">koperation</a>(<a class="code" href="a00026.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="a00062.html#a61d90b56109900c1008e143a5918c254a3f9c017fc4470c44c29990f64da63186">Nfroperation</a>, j, env);</div>
-<div class="line"><a name="l01673"></a><span class="lineno"> 1673</span>&#160;<span class="comment">//              Tools::jstring2str(</span></div>
-<div class="line"><a name="l01674"></a><span class="lineno"> 1674</span>&#160;<span class="comment">//          (jstring)manager-&gt;getEnv()-&gt;CallStaticObjectMethod(config-&gt;CPP_lib, config-&gt;KNfroperation,</span></div>
-<div class="line"><a name="l01675"></a><span class="lineno"> 1675</span>&#160;<span class="comment">//              Tools::str2jstring(source.c_str()),</span></div>
-<div class="line"><a name="l01676"></a><span class="lineno"> 1676</span>&#160;<span class="comment">//              (jboolean)true));</span></div>
-<div class="line"><a name="l01677"></a><span class="lineno"> 1677</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;Y&quot;</span>) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l01678"></a><span class="lineno"> 1678</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;E&quot;</span>)<a class="code" href="a00026.html#a0009c186c3629201f6c24eded36605f4">logger</a>-&gt;<a class="code" href="a00074.html#abb690146dbd2c6fb7e603caf123096dd">Error</a>(<span class="stringliteral">&quot;好友申请事件同意失败(可能因为重复处理),id:&quot;</span> + <a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>);</div>
-<div class="line"><a name="l01679"></a><span class="lineno"> 1679</span>&#160;    }</div>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01687">1687</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01687"></a><span class="lineno"> 1687</span>&#160;                                                                          {</div>
+<div class="line"><a name="l01688"></a><span class="lineno"> 1688</span>&#160;        <a class="code" href="a00011.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> j;</div>
+<div class="line"><a name="l01689"></a><span class="lineno"> 1689</span>&#160;        j[<span class="stringliteral">&quot;text&quot;</span>] = <a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>;</div>
+<div class="line"><a name="l01690"></a><span class="lineno"> 1690</span>&#160;        j[<span class="stringliteral">&quot;sign&quot;</span>] = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01691"></a><span class="lineno"> 1691</span>&#160;        <a class="code" href="a00011.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> re = <a class="code" href="a00026.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="a00062.html#afb8424eb037cadc329d3c47df377748a">koperation</a>(<a class="code" href="a00026.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="a00062.html#a61d90b56109900c1008e143a5918c254a3f9c017fc4470c44c29990f64da63186">Nfroperation</a>, j, env);</div>
+<div class="line"><a name="l01692"></a><span class="lineno"> 1692</span>&#160;<span class="comment">//              Tools::jstring2str(</span></div>
+<div class="line"><a name="l01693"></a><span class="lineno"> 1693</span>&#160;<span class="comment">//          (jstring)manager-&gt;getEnv()-&gt;CallStaticObjectMethod(config-&gt;CPP_lib, config-&gt;KNfroperation,</span></div>
+<div class="line"><a name="l01694"></a><span class="lineno"> 1694</span>&#160;<span class="comment">//              Tools::str2jstring(source.c_str()),</span></div>
+<div class="line"><a name="l01695"></a><span class="lineno"> 1695</span>&#160;<span class="comment">//              (jboolean)true));</span></div>
+<div class="line"><a name="l01696"></a><span class="lineno"> 1696</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;Y&quot;</span>) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l01697"></a><span class="lineno"> 1697</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;E&quot;</span>)<a class="code" href="a00026.html#a0009c186c3629201f6c24eded36605f4">logger</a>-&gt;<a class="code" href="a00074.html#abb690146dbd2c6fb7e603caf123096dd">Error</a>(<span class="stringliteral">&quot;好友申请事件同意失败(可能因为重复处理),id:&quot;</span> + <a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>);</div>
+<div class="line"><a name="l01698"></a><span class="lineno"> 1698</span>&#160;    }</div>
 <div class="ttc" id="aa00011_html_ab701e3ac61a85b337ec5c1abaad6742d"><div class="ttname"><a href="a00011.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a></div><div class="ttdeci">nlohmann::json json</div><div class="ttdef"><b>Definition:</b> <a href="a00011_source.html#l00002">pch.cpp:2</a></div></div>
 <div class="ttc" id="aa00011_html_aca454f84dd198a937af6499dd758aa3d"><div class="ttname"><a href="a00011.html#aca454f84dd198a937af6499dd758aa3d">string</a></div><div class="ttdeci">std::string string</div><div class="ttdef"><b>Definition:</b> <a href="a00011_source.html#l00003">pch.cpp:3</a></div></div>
 <div class="ttc" id="aa00026_html_a0009c186c3629201f6c24eded36605f4"><div class="ttname"><a href="a00026.html#a0009c186c3629201f6c24eded36605f4">logger</a></div><div class="ttdeci">Logger * logger</div><div class="ttdoc">声明全局日志对象</div><div class="ttdef"><b>Definition:</b> <a href="a00011_source.html#l00010">pch.cpp:10</a></div></div>
@@ -404,11 +405,11 @@ Public 属性</h2></td></tr>
 
 <p>拒绝好友申请 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01662">1662</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01662"></a><span class="lineno"> 1662</span>&#160;                  {</div>
-<div class="line"><a name="l01663"></a><span class="lineno"> 1663</span>&#160;        this-&gt;<a class="code" href="a00210.html#a30ef44b5b9eccb9fc93bd1c40a16ca4b">reject</a>(this-&gt;<a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>);</div>
-<div class="line"><a name="l01664"></a><span class="lineno"> 1664</span>&#160;    }</div>
-<div class="ttc" id="aa00210_html_a30ef44b5b9eccb9fc93bd1c40a16ca4b"><div class="ttname"><a href="a00210.html#a30ef44b5b9eccb9fc93bd1c40a16ca4b">NewFriendRequestEvent::reject</a></div><div class="ttdeci">void reject()</div><div class="ttdoc">拒绝好友申请</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01662">tools.h:1662</a></div></div>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01681">1681</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01681"></a><span class="lineno"> 1681</span>&#160;                  {</div>
+<div class="line"><a name="l01682"></a><span class="lineno"> 1682</span>&#160;        this-&gt;<a class="code" href="a00210.html#a30ef44b5b9eccb9fc93bd1c40a16ca4b">reject</a>(this-&gt;<a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>);</div>
+<div class="line"><a name="l01683"></a><span class="lineno"> 1683</span>&#160;    }</div>
+<div class="ttc" id="aa00210_html_a30ef44b5b9eccb9fc93bd1c40a16ca4b"><div class="ttname"><a href="a00210.html#a30ef44b5b9eccb9fc93bd1c40a16ca4b">NewFriendRequestEvent::reject</a></div><div class="ttdeci">void reject()</div><div class="ttdoc">拒绝好友申请</div><div class="ttdef"><b>Definition:</b> <a href="a00026_source.html#l01681">tools.h:1681</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -454,19 +455,19 @@ Public 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01648">1648</a> 行定义.</p>
-<div class="fragment"><div class="line"><a name="l01648"></a><span class="lineno"> 1648</span>&#160;                                                                          {</div>
-<div class="line"><a name="l01649"></a><span class="lineno"> 1649</span>&#160;        <a class="code" href="a00011.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> j;</div>
-<div class="line"><a name="l01650"></a><span class="lineno"> 1650</span>&#160;        j[<span class="stringliteral">&quot;text&quot;</span>] = <a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>;</div>
-<div class="line"><a name="l01651"></a><span class="lineno"> 1651</span>&#160;        j[<span class="stringliteral">&quot;sign&quot;</span>] = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01652"></a><span class="lineno"> 1652</span>&#160;        <a class="code" href="a00011.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> re = <a class="code" href="a00026.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="a00062.html#afb8424eb037cadc329d3c47df377748a">koperation</a>(<a class="code" href="a00026.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="a00062.html#a61d90b56109900c1008e143a5918c254a3f9c017fc4470c44c29990f64da63186">Nfroperation</a>, j, env);</div>
-<div class="line"><a name="l01653"></a><span class="lineno"> 1653</span>&#160;<span class="comment">//              Tools::jstring2str(</span></div>
-<div class="line"><a name="l01654"></a><span class="lineno"> 1654</span>&#160;<span class="comment">//          (jstring)manager-&gt;getEnv()-&gt;CallStaticObjectMethod(config-&gt;CPP_lib, config-&gt;KNfroperation,</span></div>
-<div class="line"><a name="l01655"></a><span class="lineno"> 1655</span>&#160;<span class="comment">//              Tools::str2jstring(source.c_str()),</span></div>
-<div class="line"><a name="l01656"></a><span class="lineno"> 1656</span>&#160;<span class="comment">//              (jboolean)true));</span></div>
-<div class="line"><a name="l01657"></a><span class="lineno"> 1657</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;Y&quot;</span>) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l01658"></a><span class="lineno"> 1658</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;E&quot;</span>)<a class="code" href="a00026.html#a0009c186c3629201f6c24eded36605f4">logger</a>-&gt;<a class="code" href="a00074.html#abb690146dbd2c6fb7e603caf123096dd">Error</a>(<span class="stringliteral">&quot;好友申请事件拒绝失败(可能因为重复处理),id:&quot;</span> + <a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>);</div>
-<div class="line"><a name="l01659"></a><span class="lineno"> 1659</span>&#160;    }</div>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01667">1667</a> 行定义.</p>
+<div class="fragment"><div class="line"><a name="l01667"></a><span class="lineno"> 1667</span>&#160;                                                                          {</div>
+<div class="line"><a name="l01668"></a><span class="lineno"> 1668</span>&#160;        <a class="code" href="a00011.html#ab701e3ac61a85b337ec5c1abaad6742d">nlohmann::json</a> j;</div>
+<div class="line"><a name="l01669"></a><span class="lineno"> 1669</span>&#160;        j[<span class="stringliteral">&quot;text&quot;</span>] = <a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>;</div>
+<div class="line"><a name="l01670"></a><span class="lineno"> 1670</span>&#160;        j[<span class="stringliteral">&quot;sign&quot;</span>] = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01671"></a><span class="lineno"> 1671</span>&#160;        <a class="code" href="a00011.html#aca454f84dd198a937af6499dd758aa3d">std::string</a> re = <a class="code" href="a00026.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="a00062.html#afb8424eb037cadc329d3c47df377748a">koperation</a>(<a class="code" href="a00026.html#a6a44a77efe9d36d03240f900d00dad80">config</a>-&gt;<a class="code" href="a00062.html#a61d90b56109900c1008e143a5918c254a3f9c017fc4470c44c29990f64da63186">Nfroperation</a>, j, env);</div>
+<div class="line"><a name="l01672"></a><span class="lineno"> 1672</span>&#160;<span class="comment">//              Tools::jstring2str(</span></div>
+<div class="line"><a name="l01673"></a><span class="lineno"> 1673</span>&#160;<span class="comment">//          (jstring)manager-&gt;getEnv()-&gt;CallStaticObjectMethod(config-&gt;CPP_lib, config-&gt;KNfroperation,</span></div>
+<div class="line"><a name="l01674"></a><span class="lineno"> 1674</span>&#160;<span class="comment">//              Tools::str2jstring(source.c_str()),</span></div>
+<div class="line"><a name="l01675"></a><span class="lineno"> 1675</span>&#160;<span class="comment">//              (jboolean)true));</span></div>
+<div class="line"><a name="l01676"></a><span class="lineno"> 1676</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;Y&quot;</span>) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l01677"></a><span class="lineno"> 1677</span>&#160;        <span class="keywordflow">if</span> (re == <span class="stringliteral">&quot;E&quot;</span>)<a class="code" href="a00026.html#a0009c186c3629201f6c24eded36605f4">logger</a>-&gt;<a class="code" href="a00074.html#abb690146dbd2c6fb7e603caf123096dd">Error</a>(<span class="stringliteral">&quot;好友申请事件拒绝失败(可能因为重复处理),id:&quot;</span> + <a class="code" href="a00210.html#afa0c9b11cedce50f30e5cdec6b527168">source</a>);</div>
+<div class="line"><a name="l01678"></a><span class="lineno"> 1678</span>&#160;    }</div>
 </div><!-- fragment --><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> 函数调用图:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
@@ -498,7 +499,7 @@ Public 属性</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01640">1640</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01659">1659</a> 行定义.</p>
 
 </div>
 </div>
@@ -516,7 +517,7 @@ Public 属性</h2></td></tr>
 
 <p>对方id </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01639">1639</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01658">1658</a> 行定义.</p>
 
 </div>
 </div>
@@ -534,7 +535,7 @@ Public 属性</h2></td></tr>
 
 <p>申请理由 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01644">1644</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01663">1663</a> 行定义.</p>
 
 </div>
 </div>
@@ -552,7 +553,7 @@ Public 属性</h2></td></tr>
 
 <p>对方昵称 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01642">1642</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01661">1661</a> 行定义.</p>
 
 </div>
 </div>
@@ -570,7 +571,7 @@ Public 属性</h2></td></tr>
 
 <p>序列化的事件信息 </p>
 
-<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01637">1637</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="a00026_source.html">tools.h</a> 第 <a class="el" href="a00026_source.html#l01656">1656</a> 行定义.</p>
 
 </div>
 </div>
