@@ -424,7 +424,6 @@ a, a.el:visited, a.el:hover, a.el:focus, a.el:active {
     box-shadow: none;
     display: block;
     margin-top: 0;
-	margin-left: 2vw;
 }
 
 .left #MSearchSelect {
